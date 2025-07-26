@@ -4,30 +4,23 @@ from pathlib import Path
 import json
 from app.config import Settings
 
-
 DATA_DIR = Settings.DATA_DIR
 
-def rgb_to_lab(image_path):
-    img = cv2.imread(str(image_path))
-    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    img_lab = cv2.cvtColor(img_rgb, cv2.COLOR_RGB2LAB)
-    return img_lab
-
-def average_lab(image_lab):
-    # Flatten and average across pixels
-    h, w, c = image_lab.shape
-    lab_pixels = image_lab.reshape(h * w, c)
-    avg = np.mean(lab_pixels, axis=0)
-    return avg
+def average_rgb(image_path):
+    img = cv2.imread(str(image_path))  # BGR format
+    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)  # Convert to RGB
+    h, w, c = img_rgb.shape
+    rgb_pixels = img_rgb.reshape(h * w, c)
+    avg_rgb = np.mean(rgb_pixels, axis=0)
+    return np.round(avg_rgb).astype(int)  # Convert to integers
 
 def process_shade_folder(shade_path):
-    labs = []
+    rgbs = []
     for img_file in shade_path.glob("*.jpg"):
-        lab_img = rgb_to_lab(img_file)
-        avg_lab = average_lab(lab_img)
-        labs.append(avg_lab)
-    if labs:
-        return np.mean(labs, axis=0)
+        avg_rgb = average_rgb(img_file)
+        rgbs.append(avg_rgb)
+    if rgbs:
+        return np.mean(rgbs, axis=0).round().astype(int)
     return None
 
 def main():
@@ -39,8 +32,7 @@ def main():
                 shade_signatures[shade_folder.name] = signature.tolist()
                 print(f"Processed shade: {shade_folder.name} -> {signature}")
     
-    # Save to JSON
-    with open("shade_lab_signatures.json", "w") as f:
+    with open("shade_rgb_signatures.json", "w") as f:
         json.dump(shade_signatures, f, indent=2)
 
 if __name__ == "__main__":

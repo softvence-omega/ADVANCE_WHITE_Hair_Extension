@@ -1,6 +1,8 @@
 import json
 import numpy as np
-from app.config import SHADE_PATH
+from app.config import Settings
+
+SHADE_PATH = Settings.SHADE_PATH
 
 def load_shades(SHADE_PATH):
     with open(SHADE_PATH) as f:

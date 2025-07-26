@@ -3,15 +3,21 @@ from colormath.color_objects import sRGBColor, LabColor
 from colormath.color_conversions import convert_color
 from colormath.color_diff import delta_e_cie2000
 import numpy as np
+from pathlib import Path
 
 if not hasattr(np, "asscalar"):
     np.asscalar = lambda x: x.item()
     
 def load_shades_rgb(path):
-    with open(path, "r") as f:
+    path = Path(path)
+    if not path.exists():
+        raise FileNotFoundError(f"Shade data file not found at: {path}")
+        
+    with path.open("r") as f:
         return json.load(f)
 
 def rgb_to_lab(rgb):
+    
     rgb_scaled = [x / 255.0 for x in rgb]  # Normalize RGB to 0-1
     srgb = sRGBColor(*rgb_scaled)
     lab = convert_color(srgb, LabColor)

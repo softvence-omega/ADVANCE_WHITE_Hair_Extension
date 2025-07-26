@@ -1,28 +1,33 @@
-from fastapi import APIRouter, UploadFile, File
+from fastapi import APIRouter, UploadFile, File,HTTPException
 from PIL import Image
 import numpy as np
 import json
 from app.utils.color_matcher import match_shade_rgb, load_shades_rgb
-from app.config import SHADE_PATH
-
+from app.config import Settings
+from app.services.hair_color_detector import detect_hair_color
+import os
+import shutil
+SHADE_PATH = Settings.SHADE_PATH
 router = APIRouter()
 
-@router.post("/match-hair-color/")
+@router.post("/match-hair-color")
 async def match_hair_color(file: UploadFile = File(...)):
-    # Step 1: Load the image
-    image = Image.open(file.file).convert("RGB")
-    image_np = np.array(image)
+    try:
+        Settings.ensure_directories()  # Ensure all directories exist
+        temp_path = f"temp_{file.filename}"
+        with open(temp_path, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+        user_rgb = detect_hair_color(input_path=temp_path)
+       
 
-    # Step 2: Compute average hair color (simplified version)
-    avg_rgb = image_np.reshape(-1, 3).mean(axis=0).tolist()
-
-    # Step 3: Load shade data & match
-    shade_data = load_shades_rgb(SHADE_PATH)
-    matched_name, matched_rgb, delta = match_shade_rgb(avg_rgb, shade_data)
-
-    return {
-        "user_rgb": avg_rgb,
-        "matched_shade": matched_name,
-        "shade_rgb": matched_rgb,
-        "delta_e": delta
-    }
+        # Step 3: Load shade data & match
+        shade_data = load_shades_rgb(Settings.SHADE_PATH)
+        matched_name, matched_rgb, delta = match_shade_rgb(user_rgb, shade_data)
+        return {
+            "user_rgb": user_rgb,
+            "matched_shade": matched_name,
+            "shade_rgb": matched_rgb,
+            "delta_e": delta
+        }
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=500, detail=str(e))

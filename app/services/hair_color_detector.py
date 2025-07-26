@@ -96,7 +96,14 @@ def evaluate(cp='model/model.pth', input_path=''):
         parsing = out.squeeze(0).cpu().numpy().argmax(0)
         vis_parsing_maps(image, origin, parsing, stride=1)
 
+
+def detect_hair_color(input_path='files/1.JPG'):
+    evaluate(input_path=input_path)
+    with open("hair_rgb.json", "r") as f:
+        hair_rgb = json.load(f)
+    return hair_rgb["average_hair_rgb"]
+
+
 if __name__ == "__main__":
-    evaluate(input_path='files/1.JPG')
-    with open("app/shade/hair_rgb.json", "r") as f:
-        print(json.dumps(json.load(f)))
+    hair_rgb = detect_hair_color(input_path='files/1.JPG')
+    print(json.dumps(hair_rgb))
