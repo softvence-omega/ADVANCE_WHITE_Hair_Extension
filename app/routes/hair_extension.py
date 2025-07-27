@@ -18,11 +18,14 @@ async def match_hair_color(file: UploadFile = File(...)):
         with open(temp_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
         user_rgb = detect_hair_color(input_path=temp_path)
-       
+        print("user_rgb-------------", user_rgb)
+        os.remove(temp_path)  # Clean up the temporary file
 
         # Step 3: Load shade data & match
         shade_data = load_shades_rgb(Settings.SHADE_PATH)
+        print("shade_data-------------", shade_data)
         matched_name, matched_rgb, delta = match_shade_rgb(user_rgb, shade_data)
+
         return {
             "user_rgb": user_rgb,
             "matched_shade": matched_name,

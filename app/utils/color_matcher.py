@@ -35,9 +35,10 @@ def match_shade_rgb(user_rgb, shade_data):
 
     for name, rgb in shade_data.items():
         delta = delta_e_cie(user_rgb, rgb)
+        print(f"Matching {name}: Delta E = {delta}")
         if delta < min_delta:
             min_delta = delta
             best_match = name
             best_rgb = rgb
-
+    print(f"Best match: {best_match} with Delta E = {min_delta}")
     return best_match, best_rgb, min_delta

@@ -96,11 +96,12 @@ def evaluate(cp='model/model.pth', input_path=''):
         parsing = out.squeeze(0).cpu().numpy().argmax(0)
         vis_parsing_maps(image, origin, parsing, stride=1)
 
-
+import os
 def detect_hair_color(input_path='files/1.JPG'):
     evaluate(input_path=input_path)
     with open("hair_rgb.json", "r") as f:
         hair_rgb = json.load(f)
+    os.remove("hair_rgb.json")  # Clean up the temporary file
     return hair_rgb["average_hair_rgb"]
 
 
