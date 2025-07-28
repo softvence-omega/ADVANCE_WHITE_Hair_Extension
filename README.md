@@ -1,4 +1,3 @@
-
 # 💇‍♀️ Hair Color Matching Tool
 
 A lightweight and intelligent system that allows users to upload a hair image and receive the closest matching product shade based on RGB analysis and Delta E distance metrics. Perfect for enhancing product recommendations in hair care and beauty platforms.
@@ -7,60 +6,136 @@ A lightweight and intelligent system that allows users to upload a hair image an
 
 ## 🚀 Features
 
-- Upload user hair photo
-- Manual or AI-based hair region selection
-- Extracts average RGB from selected hair section
-- Matches against a pre-processed shade RGB dataset
-- Calculates Delta E (CIE76) for best match
-- Returns match info: User RGB, Shade Name, Shade RGB, Delta E
-- Customizable matching threshold
-- Render-hosted and API-ready
+-   Upload user hair photo
+-   AI-powered hair segmentation to isolate hair from the background.
+-   Extracts the average RGB color from the detected hair region.
+-   Matches the user's hair color against a pre-processed dataset of product shades.
+-   Calculates the Delta E (CIEDE2000) distance for perceptually accurate color comparison.
+-   Returns detailed matching information: User's RGB, matched shade name, shade's RGB, and the Delta E value.
+-   Customizable matching threshold to fine-tune results.
+-   Ready for deployment and accessible via a REST API.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Backend:** FastAPI  
-- **Image Processing:** OpenCV, Pillow  
-- **Color Matching:** LAB color space, Delta E (CIE76)  
-- **Data Handling:** JSON-based shade storage  
-- **Deployment:** Render
+-   **Backend:** FastAPI
+-   **AI/ML:** PyTorch
+-   **Image Processing:** OpenCV, Pillow
+-   **Color Science:** colormath for accurate color difference calculations.
+-   **Data Handling:** JSON
+-   **Deployment:** Render
 
 ---
 
-## 🧪 How It Works (Step-by-Step)
+## 📖 Getting Started
 
-1. User uploads a hair image.
-2. Hair region is manually selected (automation with segmentation coming soon).
-3. Average RGB is extracted from that region.
-4. Each product shade's RGB (pre-averaged from 3 lighting images) is compared.
-5. Delta E is calculated between user RGB and shade RGB.
-6. The closest matching shade (Delta E < 12) is returned.
+### Prerequisites
+
+-   Python 3.8+
+-   Git
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/Hair_Extension.git
+    cd Hair_Extension
+    ```
+
+2.  **Create and activate a virtual environment:**
+    ```bash
+    # For Windows
+    python -m venv venv
+    venv\Scripts\activate
+
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3.  **Install the required dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Running the Application
+
+To start the FastAPI server, run the following command from the project root directory:
+
+```bash
+uvicorn app.main:app --reload
+```
+
+The application will be available at `http://127.0.0.1:8000`.
 
 ---
 
-## 📦 Shade Data Format
+## 🧪 How It Works
 
-```json
-[
-  {
-    "shade_name": "Chocolate Brown",
-    "rgb": [107, 89, 79]
-  }
-]
-````
+1.  A user uploads an image containing their hair.
+2.  The **BiSeNet** deep learning model performs semantic segmentation to create a precise mask of the hair region.
+3.  The average RGB color of the pixels within the hair mask is calculated.
+4.  This average RGB value is converted to the LAB color space for a more perceptually uniform comparison.
+5.  The system iterates through a pre-defined list of product shades, each with its own reference RGB value.
+6.  The **Delta E (CIEDE2000)** is calculated between the user's hair color and each product shade.
+7.  The shade with the lowest Delta E value is selected as the best match.
+8.  The match details are returned to the user via the API.
 
-Each shade is built from an average of 3 photos under different lighting conditions.
+---
+## 📁 Project Structure
+```
+app/
+├── routes/
+│   └── hair_extension.py   # API endpoint logic
+├── services/
+│   ├── hair_color_detector.py # Hair segmentation and color extraction
+│   ├── LabCoolor.py        # Utility for processing shade images
+│   └── shade_matcher.py    # Core matching logic
+├── utils/
+│   └── color_matcher.py    # Color conversion and Delta E calculation
+├── shade/
+│   └── shade_rgb_signatures.json # Pre-processed shade data
+├── config.py               # Application settings
+├── main.py                 # FastAPI app entry point
+├── model.py                # BiSeNet model definition
+└── resnet.py               # ResNet backbone for BiSeNet
+
+model/
+└── model.pth               # Pre-trained BiSeNet model weights
+
+data/                       # Raw images of hair extension shades
+...
+
+requirements.txt            # Project dependencies
+```
+---
+## 🧠 The Model
+
+This project uses a **BiSeNet (Bilateral Segmentation Network)** model for hair segmentation. The pre-trained weights are stored in `model/model.pth`. BiSeNet is efficient and accurate, making it ideal for distinguishing hair from complex backgrounds in user-submitted photos.
+
+## 🎨 Shade Data
+
+The `data/` directory contains the raw images used to create the shade reference file. Each subdirectory is named after a specific hair color shade and contains multiple images of that shade under different lighting conditions (e.g., natural light, indoor light, close-up).
+
+The `app/services/LabCoolor.py` script processes these images to calculate an average RGB value for each shade, which is then stored in `app/shade/shade_rgb_signatures.json`.
 
 ---
 
 ## 📥 API Endpoint
 
-**Endpoint:** `POST /match-hair-color`
+**Endpoint:** `POST /hair/match-hair-color`
 
-**Request:**
+**Request:** `multipart/form-data`
 
-* `multipart/form-data`: UploadFile (image)
+-   **key**: `file`
+-   **value**: The image file to be analyzed.
+
+**Example with `curl`:**
+
+```bash
+curl -X POST "http://127.0.0.1:8000/hair/match-hair-color" -F "file=@/path/to/your/hair_image.jpg"
+```
 
 **Sample Response:**
 
@@ -75,90 +150,39 @@ Each shade is built from an average of 3 photos under different lighting conditi
 
 ---
 
-## 📈 Matching Threshold
-
-* Default: `Delta E < 12`
-* Fully configurable for tighter or looser matching
-
----
-
-## 🔮 Future Improvements
-
-* Automatic hair segmentation (U^2-Net / SAM / Mediapipe)
-* AR-based live preview of shades
-* Admin dashboard to upload/edit shade sets
-* User-facing UI for live image testing
-
----
-
-## 📁 Project Structure
-
-```
-app/
-├── routes/
-│   └── hair_extension.py
-├── services/
-│   ├── hair_color_detector.py
-│   ├── labcolor.py
-│   └── shade_matcher.py
-├── utils/
-│   └── color_matcher.py
-├── shade/
-│   └── shade_rgb_signatures.json
-├── config.py
-├── main.py
-├── model.py
-
-model/
-└── model.pth
-
-upload_image/
-result_image/
-data/
-.env
-.gitignore
-requirements.txt
-```
-
----
-
 ## 🌐 Deployment
 
 The project is live and testable via the following Render-hosted link:
 
 👉 **[https://hair-extension-dhfs.onrender.com/docs](https://hair-extension-dhfs.onrender.com/docs)**
 
-Use Swagger UI to test the `/match-hair-color` endpoint directly from the browser.
+Use the Swagger UI to test the `/hair/match-hair-color` endpoint directly from your browser.
 
----
+<!-- ---
+
+## 🔮 Future Improvements
+
+-   **Automatic Hair Segmentation:** Integrate more advanced models like SAM (Segment Anything Model) for even more robust performance.
+-   **AR Try-On:** Develop an augmented reality feature to let users preview hair extension shades live on their video feed.
+-   **Admin Dashboard:** Create a simple web interface for uploading and managing hair shade data.
+-   **Frontend Interface:** Build a user-friendly frontend for easier interaction.
+
+--- -->
 
 ## 👩‍💻 Maintainers
 
 **PromptNest Team**
 Built with 💡 by:
 
-* [Roksana18cse04](https://github.com/Roksana18cse04)
-* [marziasu](https://github.com/marziasu)
-* [Hasib303](https://github.com/Hasib303)
+-   [Roksana18cse04](https://github.com/Roksana18cse04)
+-   [marziasu](https://github.com/marziasu)
+-   [Hasib303](https://github.com/Hasib303)
 
-Expertise: Data Science, AI Engineering, Computer Vision, Full Stack Deployment
-
----
-
-## 📌 Notes
-
-* For Docker, frontend integration, or batch testing utilities, please reach out or check future branches.
-* Pull requests and contributions are welcome!
+*Expertise: Data Science, AI Engineering, Computer Vision, Full Stack Deployment*
 
 ---
 
-```
+<!-- ## 📌 Notes
 
-Let me know if you want:
-
-- Bengali README section
-- Add CI/CD info
-- Instructions for uploading shade data
-
-I can also generate a video walkthrough script from this `README.md` if you need. ✅
-```
+-   Pull requests and contributions are welcome!
+-   For Docker support, frontend integration, or batch testing utilities, please check future branches or reach out to the maintainers. -->
