@@ -84,7 +84,7 @@ Each shade is built from an average of 3 photos under different lighting conditi
 
 ## 🔮 Future Improvements
 
-* Automatic hair segmentation (U^2-Net / SAM / Mediapipe)
+* image previe option
 * AR-based live preview of shades
 * Admin dashboard to upload/edit shade sets
 * User-facing UI for live image testing
@@ -111,11 +111,7 @@ app/
 
 model/
 └── model.pth
-
-upload_image/
-result_image/
 data/
-.env
 .gitignore
 requirements.txt
 ```
@@ -152,13 +148,3 @@ Expertise: Data Science, AI Engineering, Computer Vision, Full Stack Deployment
 
 ---
 
-```
-
-Let me know if you want:
-
-- Bengali README section
-- Add CI/CD info
-- Instructions for uploading shade data
-
-I can also generate a video walkthrough script from this `README.md` if you need. ✅
-```

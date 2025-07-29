@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hair Colour Match Tool</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #222;
+    }
+    h1, .subheading, .highlight {
+      font-family: 'Harmonia Sans', sans-serif;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 15px;
+      text-align: center;
+    }
+    .heading {
+      font-size: 1.6em;
+      font-weight: 600;
+      margin: 0;
+    }
+    .subheading {
+      font-size: 1em;
+      margin: 6px 0 8px;
+      font-weight: 600;
+    }
+    .example {
+      width: 100%;
+      max-width: 240px;
+      height: auto;
+      margin: 8px auto;
+      display: block;
+    }
+    label.upload-btn {
+      display: inline-block;
+      margin: 16px auto 10px;
+      padding: 16px 24px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      background: #E5D1C0;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      width: 100%;
+      max-width: 380px;
+      text-align: center;
+    }
+    label.upload-btn:hover {
+      background: #d3bfae;
+    }
+    input[type="file"] {
+      display: none;
+    }
+    .tips {
+      text-align: left;
+      font-size: 0.9em;
+      margin-top: 16px;
+      padding: 0 10px;
+    }
+    .highlight {
+      font-weight: bold;
+      margin-bottom: 6px;
+      display: block;
+    }
+    .privacy {
+      font-size: 0.8em;
+      color: #777;
+      margin-top: 16px;
+    }
+    .result {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .loading {
+      font-size: 1.6rem;
+      padding: 40px 0;
+      font-weight: bold;
+      margin-top: 20px;
+      color: #444;
+    }
+    .buttons {
+      margin-top: 16px;
+    }
+    .buttons button {
+      font-size: 1rem;
+      padding: 14px 22px;
+      display: block;
+      margin: 8px auto;
+      border: none;
+      background: #E5D1C0;
+      color: #000;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      max-width: 300px;
+      width: 100%;
+    }
+    .buttons button:hover {
+      background: #d3bfae;
+    }
+    .support {
+      margin-top: 8px;
+      font-size: 0.9em;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="content">
+    <h1 class="heading">Upload Your Hair Photo</h1>
+    <div class="subheading">This is how your hair should look</div>
+    <img src="https://naturylextensions.com/cdn/shop/files/example-photo.jpg" alt="Example photo" class="example" />
+
+    <label for="imageUpload" class="upload-btn">UPLOAD PHOTO</label>
+    <input type="file" id="imageUpload" accept="image/*" />
+
+    <div class="tips">
+      <span class="highlight">FOR YOUR BEST MATCH:</span>
+      ✅ Use natural, indirect sunlight near a window.<br>
+      ✅ If possible, wear your hair straight.<br>
+      ✅ Your hair should be visible from root to tip.<br>
+      ✅ For best results, wear a top that contrasts with your hair.<br>
+      ❌ No edited or filtered pics.<br>
+      ❌ No warm or artificial lights like lamps.<br>
+      ❌ No animals or extra people in the snap please :)
+    </div>
+
+    <p class="privacy">🔒 Your privacy matters: Images are used only for instant analysis and are never stored or shared.</p>
+
+    <div id="loading" class="loading" style="display: none;">Colour match loading… ⚙️</div>
+    <div id="result" class="result"></div>
+    <div id="nextSteps" class="buttons" style="display: none;">
+      <div class="highlight">Now choose your product 👇</div>
+      <button onclick="window.location.href='https://naturylextensions.com/collections/frontpage'">Shop Invisible Wire Extensions</button>
+      <button onclick="window.location.href='https://naturylextensions.com/collections/face-framing-layers/products/face-framing-layers-human-hair-clip-in-extensions-14-inches'">Shop Face Framers</button>
+      <button onclick="window.location.href='https://naturylextensions.com/collections/ponytail-human-hair-extensions'">Shop Ponytails</button>
+      <button onclick="location.reload()">Try Another Photo</button>
+    </div>
+    <div class="support" id="supportMessage" style="display: none;">If you're unsure on your recommendation please hit the chat icon below and speak to our team.</div>
+  </div>
+
+  <script>
+
+  const imageUpload = document.getElementById('imageUpload');
+  const loadingEl = document.getElementById('loading');
+  const resultEl = document.getElementById('result');
+  const nextStepsEl = document.getElementById('nextSteps');
+  const supportMsgEl = document.getElementById('supportMessage');
+
+  imageUpload.addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    // Show loading
+    loadingEl.style.display = 'block';
+    resultEl.innerHTML = '';
+    nextStepsEl.style.display = 'none';
+    supportMsgEl.style.display = 'none';
+
+    try {
+      // Prepare form data for API upload
+      const formData = new FormData();
+      formData.append('image', file);
+
+      // Call your API - replace YOUR_API_ENDPOINT with real endpoint
+      const response = await fetch('https://your-hair-api.example.com/match', {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) throw new Error('API error');
+
+      const data = await response.json();
+
+      // Extract matched shade
+      const shade = data.matched_shade;
+
+      // Show matched shade name
+      resultEl.innerHTML = `Matched Shade: <strong>${shade}</strong>`;
+
+      // Show shade preview image from your data folder (adjust path if needed)
+      const previewImgUrl = `data/${shade}/closeupp.jpg`;
+      const imgPreview = document.createElement('img');
+      imgPreview.src = previewImgUrl;
+      imgPreview.alt = `${shade} hair shade preview`;
+      imgPreview.style.maxWidth = '240px';
+      imgPreview.style.margin = '10px auto';
+      imgPreview.style.display = 'block';
+
+      // Clear previous images and add new preview
+      // Remove any existing preview inside resultEl except the text
+      const oldImgs = resultEl.querySelectorAll('img');
+      oldImgs.forEach(img => img.remove());
+
+      resultEl.appendChild(imgPreview);
+
+      // Show next steps buttons
+      nextStepsEl.style.display = 'block';
+      supportMsgEl.style.display = 'block';
+
+    } catch (error) {
+      resultEl.textContent = 'Sorry, something went wrong. Please try again.';
+      nextStepsEl.style.display = 'none';
+      supportMsgEl.style.display = 'none';
+      console.error(error);
+    } finally {
+      loadingEl.style.display = 'none';
+    }
+  });
+</script>
+</body>
+</html>

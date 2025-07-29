@@ -27,9 +27,9 @@ async def match_hair_color(file: UploadFile = File(...)):
         matched_name, matched_rgb, delta = match_shade_rgb(user_rgb, shade_data)
 
         return {
-            "user_rgb": user_rgb,
+            "user_hair_rgb": user_rgb,
             "matched_shade": matched_name,
-            "shade_rgb": matched_rgb,
+            "product_shade_rgb": matched_rgb,
             "delta_e": delta
         }
     except FileNotFoundError as e:

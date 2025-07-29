@@ -86,7 +86,7 @@ def evaluate(cp='model/model.pth', input_path=''):
         transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
     ])
     with torch.no_grad():
-        img = Image.open(input_path)
+        img = Image.open(input_path).convert("RGB")
         origin = cv2.imread(input_path, cv2.IMREAD_UNCHANGED)
         image = img.resize((512,512))
         img = to_tensor(image)
