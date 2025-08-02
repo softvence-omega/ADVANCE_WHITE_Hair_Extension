@@ -6,8 +6,8 @@ class Settings:
     DATA_DIR = BASE_DIR / "data"
     MODEL_DIR = BASE_DIR / "model"
     MODEL_PATH = MODEL_DIR / "model.pth"
-    SHADE_PATH = BASE_DIR / "app" / "shade" / "shade_rgb_signatures.json"
-    print(f"SHADE_PATH: {SHADE_PATH}")
+    SHADE_PATH = BASE_DIR / "app" / "shade" / "reference_shades.json"
+    # print(f"SHADE_PATH: {SHADE_PATH}")
     UPLOAD_DIR = BASE_DIR / "uploaded_images"
     RESULT_DIR = BASE_DIR / "result_images"
 
