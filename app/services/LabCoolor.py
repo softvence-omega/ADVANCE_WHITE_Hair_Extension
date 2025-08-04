@@ -26,6 +26,7 @@ def process_shade_folder(shade_path):
 
 import os
 def build_reference_shades(data_dir):
+    
     shade_info = {data_dir.name: {}}
     for image_file in os.listdir(data_dir):
         img_path = os.path.join(data_dir, image_file)
@@ -54,10 +55,13 @@ def main():
         if shade_folder.is_dir():
             shades_data = build_reference_shades(shade_folder)
             shade_signatures.update(shades_data)  # dict merge
-            
-
-    with open("reference_shades.json", "w") as f:
+           
+    # ✅ Save output
+    os.makedirs("app/shade", exist_ok=True)
+    with open("app/shade/reference_shades.json", "w") as f:
         json.dump(shade_signatures, f, indent=2)
+    
+
 
 if __name__ == "__main__":
     main()

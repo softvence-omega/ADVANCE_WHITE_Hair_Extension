@@ -1,0 +1,82 @@
+{
+  "Autumn": {
+    "closeup": [
+      {
+        "color": [
+          113,
+          74,
+          38
+        ],
+        "percentage": 28.07
+      },
+      {
+        "color": [
+          203,
+          161,
+          124
+        ],
+        "percentage": 30.17
+      },
+      {
+        "color": [
+          159,
+          118,
+          81
+        ],
+        "percentage": 41.76
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          151,
+          111,
+          67
+        ],
+        "percentage": 40.93
+      },
+      {
+        "color": [
+          100,
+          61,
+          23
+        ],
+        "percentage": 33.11
+      },
+      {
+        "color": [
+          202,
+          161,
+          117
+        ],
+        "percentage": 25.97
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          113,
+          76,
+          41
+        ],
+        "percentage": 29.58
+      },
+      {
+        "color": [
+          200,
+          162,
+          126
+        ],
+        "percentage": 28.58
+      },
+      {
+        "color": [
+          156,
+          118,
+          83
+        ],
+        "percentage": 41.84
+      }
+    ]
+  }
+}
