@@ -1,0 +1,1778 @@
+{
+  "Autumn": {
+    "closeup": [
+      {
+        "color": [
+          113,
+          74,
+          38
+        ],
+        "percentage": 28.07
+      },
+      {
+        "color": [
+          203,
+          161,
+          124
+        ],
+        "percentage": 30.17
+      },
+      {
+        "color": [
+          159,
+          118,
+          81
+        ],
+        "percentage": 41.76
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          151,
+          111,
+          67
+        ],
+        "percentage": 40.93
+      },
+      {
+        "color": [
+          100,
+          61,
+          23
+        ],
+        "percentage": 33.11
+      },
+      {
+        "color": [
+          202,
+          161,
+          117
+        ],
+        "percentage": 25.97
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          113,
+          76,
+          41
+        ],
+        "percentage": 29.58
+      },
+      {
+        "color": [
+          200,
+          162,
+          126
+        ],
+        "percentage": 28.58
+      },
+      {
+        "color": [
+          156,
+          118,
+          83
+        ],
+        "percentage": 41.84
+      }
+    ]
+  },
+  "Brown Soft Blended": {
+    "closeup": [
+      {
+        "color": [
+          217,
+          195,
+          176
+        ],
+        "percentage": 27.38
+      },
+      {
+        "color": [
+          96,
+          73,
+          60
+        ],
+        "percentage": 32.89
+      },
+      {
+        "color": [
+          154,
+          131,
+          115
+        ],
+        "percentage": 39.72
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          217,
+          195,
+          177
+        ],
+        "percentage": 29.8
+      },
+      {
+        "color": [
+          161,
+          137,
+          120
+        ],
+        "percentage": 39.12
+      },
+      {
+        "color": [
+          103,
+          81,
+          66
+        ],
+        "percentage": 31.09
+      }
+    ]
+  },
+  "Champagne Blonde": {
+    "closeup": [
+      {
+        "color": [
+          190,
+          197,
+          192
+        ],
+        "percentage": 29.01
+      },
+      {
+        "color": [
+          69,
+          69,
+          68
+        ],
+        "percentage": 42.77
+      },
+      {
+        "color": [
+          137,
+          140,
+          137
+        ],
+        "percentage": 28.23
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          142,
+          140,
+          133
+        ],
+        "percentage": 43.14
+      },
+      {
+        "color": [
+          180,
+          180,
+          172
+        ],
+        "percentage": 42.27
+      },
+      {
+        "color": [
+          82,
+          81,
+          78
+        ],
+        "percentage": 14.59
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          147,
+          146,
+          141
+        ],
+        "percentage": 46.52
+      },
+      {
+        "color": [
+          194,
+          194,
+          190
+        ],
+        "percentage": 37.34
+      },
+      {
+        "color": [
+          74,
+          74,
+          73
+        ],
+        "percentage": 16.14
+      }
+    ]
+  },
+  "Coffee Biscuit": {
+    "closeup": [
+      {
+        "color": [
+          197,
+          161,
+          139
+        ],
+        "percentage": 26.44
+      },
+      {
+        "color": [
+          70,
+          39,
+          24
+        ],
+        "percentage": 32.97
+      },
+      {
+        "color": [
+          133,
+          99,
+          78
+        ],
+        "percentage": 40.59
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          119,
+          98,
+          75
+        ],
+        "percentage": 43.23
+      },
+      {
+        "color": [
+          173,
+          151,
+          125
+        ],
+        "percentage": 25.54
+      },
+      {
+        "color": [
+          67,
+          48,
+          29
+        ],
+        "percentage": 31.23
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          69,
+          43,
+          29
+        ],
+        "percentage": 33.65
+      },
+      {
+        "color": [
+          180,
+          148,
+          128
+        ],
+        "percentage": 23.89
+      },
+      {
+        "color": [
+          122,
+          93,
+          75
+        ],
+        "percentage": 42.45
+      }
+    ]
+  },
+  "Cool Brown": {
+    "closeup": [
+      {
+        "color": [
+          55,
+          33,
+          25
+        ],
+        "percentage": 33.63
+      },
+      {
+        "color": [
+          171,
+          143,
+          130
+        ],
+        "percentage": 24.21
+      },
+      {
+        "color": [
+          113,
+          87,
+          76
+        ],
+        "percentage": 42.16
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          155,
+          139,
+          125
+        ],
+        "percentage": 22.27
+      },
+      {
+        "color": [
+          55,
+          40,
+          30
+        ],
+        "percentage": 35.73
+      },
+      {
+        "color": [
+          103,
+          87,
+          74
+        ],
+        "percentage": 42.01
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          164,
+          140,
+          129
+        ],
+        "percentage": 22.33
+      },
+      {
+        "color": [
+          57,
+          38,
+          31
+        ],
+        "percentage": 33.44
+      },
+      {
+        "color": [
+          108,
+          87,
+          77
+        ],
+        "percentage": 44.22
+      }
+    ]
+  },
+  "Copper": {
+    "closeup": [
+      {
+        "color": [
+          120,
+          44,
+          9
+        ],
+        "percentage": 33.61
+      },
+      {
+        "color": [
+          235,
+          156,
+          99
+        ],
+        "percentage": 27.54
+      },
+      {
+        "color": [
+          179,
+          98,
+          47
+        ],
+        "percentage": 38.86
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          167,
+          109,
+          63
+        ],
+        "percentage": 42.8
+      },
+      {
+        "color": [
+          123,
+          67,
+          25
+        ],
+        "percentage": 29.26
+      },
+      {
+        "color": [
+          210,
+          151,
+          102
+        ],
+        "percentage": 27.94
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          226,
+          148,
+          96
+        ],
+        "percentage": 21.61
+      },
+      {
+        "color": [
+          170,
+          92,
+          46
+        ],
+        "percentage": 40.37
+      },
+      {
+        "color": [
+          118,
+          45,
+          11
+        ],
+        "percentage": 38.02
+      }
+    ]
+  },
+  "Dark Brown": {
+    "closeup": [
+      {
+        "color": [
+          98,
+          75,
+          69
+        ],
+        "percentage": 42.01
+      },
+      {
+        "color": [
+          151,
+          125,
+          117
+        ],
+        "percentage": 25.56
+      },
+      {
+        "color": [
+          46,
+          28,
+          24
+        ],
+        "percentage": 32.43
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          142,
+          125,
+          118
+        ],
+        "percentage": 20.78
+      },
+      {
+        "color": [
+          50,
+          36,
+          30
+        ],
+        "percentage": 35.41
+      },
+      {
+        "color": [
+          93,
+          76,
+          70
+        ],
+        "percentage": 43.81
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          150,
+          132,
+          127
+        ],
+        "percentage": 24.63
+      },
+      {
+        "color": [
+          49,
+          36,
+          33
+        ],
+        "percentage": 31.65
+      },
+      {
+        "color": [
+          98,
+          82,
+          77
+        ],
+        "percentage": 43.72
+      }
+    ]
+  },
+  "Dark Caramel Balayage": {
+    "closeup": [
+      {
+        "color": [
+          213,
+          177,
+          142
+        ],
+        "percentage": 19.91
+      },
+      {
+        "color": [
+          124,
+          99,
+          81
+        ],
+        "percentage": 37.16
+      },
+      {
+        "color": [
+          58,
+          42,
+          36
+        ],
+        "percentage": 42.93
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          192,
+          173,
+          128
+        ],
+        "percentage": 21.74
+      },
+      {
+        "color": [
+          52,
+          44,
+          30
+        ],
+        "percentage": 41.05
+      },
+      {
+        "color": [
+          115,
+          102,
+          74
+        ],
+        "percentage": 37.21
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          60,
+          43,
+          35
+        ],
+        "percentage": 45.11
+      },
+      {
+        "color": [
+          119,
+          95,
+          80
+        ],
+        "percentage": 38.32
+      },
+      {
+        "color": [
+          204,
+          171,
+          140
+        ],
+        "percentage": 16.57
+      }
+    ]
+  },
+  "Honey Blonde": {
+    "closeup": [
+      {
+        "color": [
+          233,
+          220,
+          190
+        ],
+        "percentage": 42.9
+      },
+      {
+        "color": [
+          130,
+          103,
+          70
+        ],
+        "percentage": 18.66
+      },
+      {
+        "color": [
+          191,
+          169,
+          134
+        ],
+        "percentage": 38.45
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          219,
+          206,
+          175
+        ],
+        "percentage": 40.64
+      },
+      {
+        "color": [
+          135,
+          106,
+          68
+        ],
+        "percentage": 21.13
+      },
+      {
+        "color": [
+          183,
+          158,
+          121
+        ],
+        "percentage": 38.23
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          123,
+          103,
+          75
+        ],
+        "percentage": 18.66
+      },
+      {
+        "color": [
+          227,
+          221,
+          196
+        ],
+        "percentage": 45.0
+      },
+      {
+        "color": [
+          184,
+          169,
+          139
+        ],
+        "percentage": 36.35
+      }
+    ]
+  },
+  "Hot toffee": {
+    "closeup": [
+      {
+        "color": [
+          221,
+          203,
+          181
+        ],
+        "percentage": 35.4
+      },
+      {
+        "color": [
+          73,
+          61,
+          53
+        ],
+        "percentage": 33.14
+      },
+      {
+        "color": [
+          144,
+          127,
+          113
+        ],
+        "percentage": 31.46
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          82,
+          72,
+          65
+        ],
+        "percentage": 28.43
+      },
+      {
+        "color": [
+          218,
+          207,
+          190
+        ],
+        "percentage": 38.1
+      },
+      {
+        "color": [
+          152,
+          140,
+          128
+        ],
+        "percentage": 33.47
+      }
+    ]
+  },
+  "Ivory": {
+    "closeup": [
+      {
+        "color": [
+          151,
+          149,
+          149
+        ],
+        "percentage": 43.14
+      },
+      {
+        "color": [
+          92,
+          90,
+          91
+        ],
+        "percentage": 19.6
+      },
+      {
+        "color": [
+          191,
+          191,
+          190
+        ],
+        "percentage": 37.26
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          200,
+          198,
+          190
+        ],
+        "percentage": 34.95
+      },
+      {
+        "color": [
+          135,
+          132,
+          127
+        ],
+        "percentage": 19.77
+      },
+      {
+        "color": [
+          171,
+          168,
+          161
+        ],
+        "percentage": 45.28
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          142,
+          142,
+          138
+        ],
+        "percentage": 43.28
+      },
+      {
+        "color": [
+          87,
+          87,
+          86
+        ],
+        "percentage": 26.04
+      },
+      {
+        "color": [
+          190,
+          190,
+          186
+        ],
+        "percentage": 30.68
+      }
+    ]
+  },
+  "Luscious Blonde": {
+    "closeup": [
+      {
+        "color": [
+          180,
+          172,
+          148
+        ],
+        "percentage": 39.89
+      },
+      {
+        "color": [
+          221,
+          219,
+          196
+        ],
+        "percentage": 38.01
+      },
+      {
+        "color": [
+          133,
+          119,
+          95
+        ],
+        "percentage": 22.1
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          179,
+          175,
+          155
+        ],
+        "percentage": 40.04
+      },
+      {
+        "color": [
+          219,
+          219,
+          200
+        ],
+        "percentage": 38.74
+      },
+      {
+        "color": [
+          132,
+          123,
+          103
+        ],
+        "percentage": 21.22
+      }
+    ]
+  },
+  "Medium Brown Balayage": {
+    "closeup": [
+      {
+        "color": [
+          223,
+          191,
+          162
+        ],
+        "percentage": 28.43
+      },
+      {
+        "color": [
+          66,
+          39,
+          28
+        ],
+        "percentage": 42.24
+      },
+      {
+        "color": [
+          142,
+          109,
+          89
+        ],
+        "percentage": 29.34
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          61,
+          41,
+          31
+        ],
+        "percentage": 42.6
+      },
+      {
+        "color": [
+          208,
+          185,
+          161
+        ],
+        "percentage": 24.02
+      },
+      {
+        "color": [
+          125,
+          102,
+          86
+        ],
+        "percentage": 33.38
+      }
+    ]
+  },
+  "Mixed Blonde": {
+    "closeup": [
+      {
+        "color": [
+          169,
+          160,
+          142
+        ],
+        "percentage": 37.43
+      },
+      {
+        "color": [
+          109,
+          97,
+          81
+        ],
+        "percentage": 24.43
+      },
+      {
+        "color": [
+          222,
+          219,
+          201
+        ],
+        "percentage": 38.14
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          209,
+          199,
+          173
+        ],
+        "percentage": 40.16
+      },
+      {
+        "color": [
+          99,
+          81,
+          59
+        ],
+        "percentage": 25.08
+      },
+      {
+        "color": [
+          158,
+          143,
+          119
+        ],
+        "percentage": 34.76
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          104,
+          97,
+          86
+        ],
+        "percentage": 24.58
+      },
+      {
+        "color": [
+          216,
+          217,
+          202
+        ],
+        "percentage": 37.81
+      },
+      {
+        "color": [
+          163,
+          159,
+          145
+        ],
+        "percentage": 37.6
+      }
+    ]
+  },
+  "Natural Black": {
+    "closeup": [
+      {
+        "color": [
+          40,
+          31,
+          29
+        ],
+        "percentage": 33.76
+      },
+      {
+        "color": [
+          150,
+          139,
+          135
+        ],
+        "percentage": 21.87
+      },
+      {
+        "color": [
+          91,
+          82,
+          79
+        ],
+        "percentage": 44.36
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          97,
+          90,
+          86
+        ],
+        "percentage": 41.34
+      },
+      {
+        "color": [
+          49,
+          43,
+          39
+        ],
+        "percentage": 40.2
+      },
+      {
+        "color": [
+          154,
+          148,
+          145
+        ],
+        "percentage": 18.47
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          83,
+          77,
+          75
+        ],
+        "percentage": 43.9
+      },
+      {
+        "color": [
+          39,
+          34,
+          33
+        ],
+        "percentage": 35.07
+      },
+      {
+        "color": [
+          133,
+          126,
+          124
+        ],
+        "percentage": 21.02
+      }
+    ]
+  },
+  "Natural Caramel": {
+    "closeup": [
+      {
+        "color": [
+          54,
+          40,
+          34
+        ],
+        "percentage": 42.91
+      },
+      {
+        "color": [
+          180,
+          157,
+          138
+        ],
+        "percentage": 14.12
+      },
+      {
+        "color": [
+          105,
+          87,
+          77
+        ],
+        "percentage": 42.97
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          117,
+          101,
+          82
+        ],
+        "percentage": 37.75
+      },
+      {
+        "color": [
+          198,
+          176,
+          145
+        ],
+        "percentage": 19.16
+      },
+      {
+        "color": [
+          55,
+          43,
+          31
+        ],
+        "percentage": 43.1
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          109,
+          93,
+          81
+        ],
+        "percentage": 41.23
+      },
+      {
+        "color": [
+          192,
+          170,
+          148
+        ],
+        "percentage": 15.43
+      },
+      {
+        "color": [
+          53,
+          40,
+          33
+        ],
+        "percentage": 43.35
+      }
+    ]
+  },
+  "Old Money Blonde": {
+    "closeup": [
+      {
+        "color": [
+          229,
+          193,
+          163
+        ],
+        "percentage": 31.18
+      },
+      {
+        "color": [
+          109,
+          74,
+          47
+        ],
+        "percentage": 28.55
+      },
+      {
+        "color": [
+          171,
+          133,
+          103
+        ],
+        "percentage": 40.27
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          219,
+          201,
+          178
+        ],
+        "percentage": 31.92
+      },
+      {
+        "color": [
+          161,
+          142,
+          118
+        ],
+        "percentage": 36.26
+      },
+      {
+        "color": [
+          108,
+          88,
+          64
+        ],
+        "percentage": 31.83
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          230,
+          197,
+          167
+        ],
+        "percentage": 30.03
+      },
+      {
+        "color": [
+          107,
+          74,
+          49
+        ],
+        "percentage": 29.59
+      },
+      {
+        "color": [
+          169,
+          134,
+          105
+        ],
+        "percentage": 40.39
+      }
+    ]
+  },
+  "Platinum Blonde Balayage": {
+    "closeup": [
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "percentage": 100.0
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          192,
+          194,
+          169
+        ],
+        "percentage": 39.88
+      },
+      {
+        "color": [
+          224,
+          228,
+          202
+        ],
+        "percentage": 43.54
+      },
+      {
+        "color": [
+          149,
+          149,
+          128
+        ],
+        "percentage": 16.59
+      }
+    ]
+  },
+  "Rooted Golden Brown": {
+    "closeup": [
+      {
+        "color": [
+          171,
+          145,
+          125
+        ],
+        "percentage": 27.48
+      },
+      {
+        "color": [
+          69,
+          51,
+          43
+        ],
+        "percentage": 28.16
+      },
+      {
+        "color": [
+          227,
+          204,
+          185
+        ],
+        "percentage": 44.36
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          215,
+          200,
+          176
+        ],
+        "percentage": 47.42
+      },
+      {
+        "color": [
+          159,
+          143,
+          122
+        ],
+        "percentage": 23.1
+      },
+      {
+        "color": [
+          59,
+          51,
+          46
+        ],
+        "percentage": 29.48
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          218,
+          200,
+          182
+        ],
+        "percentage": 44.65
+      },
+      {
+        "color": [
+          54,
+          43,
+          39
+        ],
+        "percentage": 26.83
+      },
+      {
+        "color": [
+          162,
+          144,
+          125
+        ],
+        "percentage": 28.52
+      }
+    ]
+  },
+  "Sandy Chocolate": {
+    "closeup": [
+      {
+        "color": [
+          64,
+          49,
+          40
+        ],
+        "percentage": 34.04
+      },
+      {
+        "color": [
+          230,
+          209,
+          186
+        ],
+        "percentage": 37.5
+      },
+      {
+        "color": [
+          153,
+          132,
+          115
+        ],
+        "percentage": 28.46
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          128,
+          117,
+          100
+        ],
+        "percentage": 28.39
+      },
+      {
+        "color": [
+          209,
+          193,
+          167
+        ],
+        "percentage": 34.78
+      },
+      {
+        "color": [
+          54,
+          48,
+          39
+        ],
+        "percentage": 36.83
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          215,
+          200,
+          182
+        ],
+        "percentage": 27.61
+      },
+      {
+        "color": [
+          125,
+          112,
+          100
+        ],
+        "percentage": 28.87
+      },
+      {
+        "color": [
+          54,
+          44,
+          37
+        ],
+        "percentage": 43.53
+      }
+    ]
+  },
+  "Scandinavian Blonde": {
+    "closeup": [
+      {
+        "color": [
+          155,
+          141,
+          119
+        ],
+        "percentage": 34.92
+      },
+      {
+        "color": [
+          219,
+          208,
+          183
+        ],
+        "percentage": 35.65
+      },
+      {
+        "color": [
+          76,
+          64,
+          52
+        ],
+        "percentage": 29.44
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          158,
+          149,
+          130
+        ],
+        "percentage": 37.54
+      },
+      {
+        "color": [
+          213,
+          207,
+          186
+        ],
+        "percentage": 42.08
+      },
+      {
+        "color": [
+          71,
+          63,
+          54
+        ],
+        "percentage": 20.38
+      }
+    ]
+  },
+  "Silver Blonde": {
+    "closeup": [
+      {
+        "color": [
+          164,
+          157,
+          130
+        ],
+        "percentage": 28.66
+      },
+      {
+        "color": [
+          195,
+          188,
+          158
+        ],
+        "percentage": 44.28
+      },
+      {
+        "color": [
+          224,
+          218,
+          189
+        ],
+        "percentage": 27.05
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          222,
+          223,
+          200
+        ],
+        "percentage": 38.6
+      },
+      {
+        "color": [
+          152,
+          149,
+          127
+        ],
+        "percentage": 17.87
+      },
+      {
+        "color": [
+          191,
+          190,
+          167
+        ],
+        "percentage": 43.53
+      }
+    ]
+  },
+  "Summer Blonde": {
+    "closeup": [
+      {
+        "color": [
+          197,
+          182,
+          137
+        ],
+        "percentage": 41.1
+      },
+      {
+        "color": [
+          153,
+          135,
+          90
+        ],
+        "percentage": 19.9
+      },
+      {
+        "color": [
+          231,
+          221,
+          177
+        ],
+        "percentage": 38.99
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          226,
+          219,
+          181
+        ],
+        "percentage": 38.11
+      },
+      {
+        "color": [
+          189,
+          179,
+          140
+        ],
+        "percentage": 41.65
+      },
+      {
+        "color": [
+          145,
+          132,
+          96
+        ],
+        "percentage": 20.23
+      }
+    ]
+  },
+  "Sunkissed Brown": {
+    "closeup": [
+      {
+        "color": [
+          126,
+          85,
+          61
+        ],
+        "percentage": 42.34
+      },
+      {
+        "color": [
+          184,
+          137,
+          105
+        ],
+        "percentage": 22.61
+      },
+      {
+        "color": [
+          74,
+          39,
+          23
+        ],
+        "percentage": 35.04
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          118,
+          94,
+          69
+        ],
+        "percentage": 40.45
+      },
+      {
+        "color": [
+          59,
+          42,
+          27
+        ],
+        "percentage": 37.35
+      },
+      {
+        "color": [
+          181,
+          152,
+          119
+        ],
+        "percentage": 22.2
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          119,
+          87,
+          67
+        ],
+        "percentage": 42.32
+      },
+      {
+        "color": [
+          63,
+          38,
+          25
+        ],
+        "percentage": 37.42
+      },
+      {
+        "color": [
+          183,
+          145,
+          118
+        ],
+        "percentage": 20.26
+      }
+    ]
+  },
+  "Teddy Bear Blonde": {
+    "closeup": [
+      {
+        "color": [
+          165,
+          129,
+          94
+        ],
+        "percentage": 42.83
+      },
+      {
+        "color": [
+          108,
+          74,
+          44
+        ],
+        "percentage": 27.79
+      },
+      {
+        "color": [
+          221,
+          185,
+          147
+        ],
+        "percentage": 29.38
+      }
+    ],
+    "indoor_light": [
+      {
+        "color": [
+          113,
+          88,
+          52
+        ],
+        "percentage": 29.06
+      },
+      {
+        "color": [
+          165,
+          138,
+          101
+        ],
+        "percentage": 42.25
+      },
+      {
+        "color": [
+          216,
+          189,
+          150
+        ],
+        "percentage": 28.69
+      }
+    ],
+    "natural_light": [
+      {
+        "color": [
+          168,
+          136,
+          101
+        ],
+        "percentage": 40.71
+      },
+      {
+        "color": [
+          223,
+          191,
+          153
+        ],
+        "percentage": 32.43
+      },
+      {
+        "color": [
+          108,
+          80,
+          51
+        ],
+        "percentage": 26.87
+      }
+    ]
+  }
+}
