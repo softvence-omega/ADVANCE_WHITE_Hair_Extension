@@ -41,6 +41,7 @@ def build_reference_shades(data_dir):
         elif "NaturalLight" in image_file:
             key = "natural_light"
         else:
+            print("filename not found")
             continue
 
         # shade_info[data_dir.name][key] = detect_hair_color(img_path)

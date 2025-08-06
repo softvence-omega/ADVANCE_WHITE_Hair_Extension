@@ -91,6 +91,7 @@ def get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3):
     actual_clusters = min(len(unique_colors), n_clusters)
 
     if actual_clusters == 0:
+        print("there is no cluster [{color: [0, 0, 0], percentage: 100.0}]")
         return [{"color": [0, 0, 0], "percentage": 100.0}]
 
     try:
@@ -113,6 +114,7 @@ def get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3):
         # Ensure at least one color is returned
         if not dominant_colors:
             avg_color = data.mean(axis=0).astype(int).tolist()
+            print("there is no dominant color: [{color: [0, 0, 0], percentage: 100.0}]" )
             return [{"color": avg_color, "percentage": 100.0}]
 
         return dominant_colors
@@ -216,6 +218,7 @@ def detect_shade_color(input_path):
 
     # Convert each pixel's each channel to np.uint8 explicitly (redundant but for safety)
     pixels= [[np.uint8(ch) for ch in pixel] for pixel in pixels_array]
+   
     print(len(pixels))
 
     dominant_colors = get_dominant_colors_from_hair(pixels, n_clusters=3, min_percentage=3)
@@ -239,6 +242,6 @@ def detect_hair_color(input_path='files/1.JPG'):
 
 
 if __name__ == "__main__":
-    hair_rgb = detect_hair_color(input_path='img2.png')
-    # hair_rgb = detect_shade_color(input_path='img2.png')
+    hair_rgb = detect_hair_color(input_path='image.png')
+    # hair_rgb = detect_shade_color(input_path='image.png')
     print(json.dumps(hair_rgb))
