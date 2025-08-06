@@ -3,79 +3,79 @@
     "closeup": [
       {
         "color": [
-          113,
-          74,
-          38
+          206,
+          165,
+          128
         ],
-        "percentage": 28.07
+        "percentage": 29.46
       },
       {
         "color": [
-          203,
+          115,
+          76,
+          41
+        ],
+        "percentage": 28.85
+      },
+      {
+        "color": [
           161,
-          124
+          121,
+          85
         ],
-        "percentage": 30.17
-      },
-      {
-        "color": [
-          159,
-          118,
-          81
-        ],
-        "percentage": 41.76
+        "percentage": 41.69
       }
     ],
     "indoor_light": [
       {
         "color": [
-          151,
-          111,
-          67
-        ],
-        "percentage": 40.93
-      },
-      {
-        "color": [
-          100,
-          61,
+          99,
+          60,
           23
         ],
-        "percentage": 33.11
+        "percentage": 32.49
       },
       {
         "color": [
-          202,
-          161,
+          150,
+          110,
+          66
+        ],
+        "percentage": 41.15
+      },
+      {
+        "color": [
+          201,
+          160,
           117
         ],
-        "percentage": 25.97
+        "percentage": 26.36
       }
     ],
     "natural_light": [
       {
         "color": [
-          113,
-          76,
-          41
+          114,
+          77,
+          42
         ],
-        "percentage": 29.58
+        "percentage": 30.51
       },
       {
         "color": [
-          200,
-          162,
-          126
+          157,
+          120,
+          85
         ],
-        "percentage": 28.58
+        "percentage": 41.92
       },
       {
         "color": [
-          156,
-          118,
-          83
+          202,
+          164,
+          128
         ],
-        "percentage": 41.84
+        "percentage": 27.57
       }
     ]
   },
@@ -83,27 +83,27 @@
     "closeup": [
       {
         "color": [
-          217,
-          195,
-          176
+          155,
+          132,
+          116
         ],
-        "percentage": 27.38
+        "percentage": 39.48
       },
       {
         "color": [
-          96,
-          73,
-          60
+          97,
+          74,
+          61
         ],
-        "percentage": 32.89
+        "percentage": 33.8
       },
       {
         "color": [
-          154,
-          131,
-          115
+          218,
+          196,
+          177
         ],
-        "percentage": 39.72
+        "percentage": 26.72
       }
     ],
     "natural_light": [
@@ -113,7 +113,7 @@
           195,
           177
         ],
-        "percentage": 29.8
+        "percentage": 29.66
       },
       {
         "color": [
@@ -121,7 +121,7 @@
           137,
           120
         ],
-        "percentage": 39.12
+        "percentage": 39.07
       },
       {
         "color": [
@@ -129,7 +129,7 @@
           81,
           66
         ],
-        "percentage": 31.09
+        "percentage": 31.26
       }
     ]
   },
@@ -137,79 +137,79 @@
     "closeup": [
       {
         "color": [
-          190,
-          197,
-          192
+          143,
+          141,
+          132
         ],
-        "percentage": 29.01
+        "percentage": 40.89
       },
       {
         "color": [
-          69,
-          69,
-          68
+          87,
+          85,
+          80
         ],
-        "percentage": 42.77
+        "percentage": 19.35
       },
       {
         "color": [
-          137,
-          140,
-          137
+          181,
+          181,
+          173
         ],
-        "percentage": 28.23
+        "percentage": 39.76
       }
     ],
     "indoor_light": [
       {
         "color": [
           142,
-          140,
-          133
+          139,
+          132
         ],
-        "percentage": 43.14
+        "percentage": 46.22
       },
       {
         "color": [
-          180,
-          180,
-          172
+          178,
+          177,
+          169
         ],
-        "percentage": 42.27
+        "percentage": 41.78
       },
       {
         "color": [
-          82,
-          81,
-          78
+          86,
+          85,
+          81
         ],
-        "percentage": 14.59
+        "percentage": 12.0
       }
     ],
     "natural_light": [
       {
         "color": [
+          148,
           147,
-          146,
-          141
+          142
         ],
-        "percentage": 46.52
+        "percentage": 47.36
       },
       {
         "color": [
-          194,
-          194,
-          190
+          195,
+          195,
+          191
         ],
-        "percentage": 37.34
+        "percentage": 36.16
       },
       {
         "color": [
-          74,
-          74,
-          73
+          75,
+          75,
+          74
         ],
-        "percentage": 16.14
+        "percentage": 16.48
       }
     ]
   },
@@ -217,27 +217,27 @@
     "closeup": [
       {
         "color": [
-          197,
-          161,
-          139
+          190,
+          157,
+          135
         ],
         "percentage": 26.44
       },
       {
         "color": [
-          70,
-          39,
-          24
+          68,
+          40,
+          25
         ],
-        "percentage": 32.97
+        "percentage": 33.29
       },
       {
         "color": [
-          133,
-          99,
-          78
+          128,
+          96,
+          76
         ],
-        "percentage": 40.59
+        "percentage": 40.27
       }
     ],
     "indoor_light": [
@@ -269,27 +269,27 @@
     "natural_light": [
       {
         "color": [
-          69,
-          43,
+          70,
+          44,
           29
         ],
-        "percentage": 33.65
+        "percentage": 34.08
+      },
+      {
+        "color": [
+          123,
+          94,
+          76
+        ],
+        "percentage": 42.39
       },
       {
         "color": [
           180,
-          148,
-          128
+          149,
+          129
         ],
-        "percentage": 23.89
-      },
-      {
-        "color": [
-          122,
-          93,
-          75
-        ],
-        "percentage": 42.45
+        "percentage": 23.53
       }
     ]
   },
@@ -297,53 +297,53 @@
     "closeup": [
       {
         "color": [
-          55,
-          33,
-          25
+          53,
+          32,
+          24
         ],
-        "percentage": 33.63
+        "percentage": 34.43
       },
       {
         "color": [
-          171,
-          143,
-          130
+          175,
+          149,
+          136
         ],
-        "percentage": 24.21
+        "percentage": 24.23
       },
       {
         "color": [
           113,
-          87,
-          76
+          88,
+          77
         ],
-        "percentage": 42.16
+        "percentage": 41.34
       }
     ],
     "indoor_light": [
       {
         "color": [
-          155,
-          139,
-          125
+          52,
+          38,
+          28
         ],
-        "percentage": 22.27
+        "percentage": 34.94
       },
       {
         "color": [
-          55,
-          40,
-          30
+          154,
+          138,
+          124
         ],
-        "percentage": 35.73
+        "percentage": 22.91
       },
       {
         "color": [
-          103,
-          87,
-          74
+          101,
+          85,
+          72
         ],
-        "percentage": 42.01
+        "percentage": 42.15
       }
     ],
     "natural_light": [
@@ -377,71 +377,63 @@
     "closeup": [
       {
         "color": [
-          120,
-          44,
-          9
+          234,
+          157,
+          101
         ],
-        "percentage": 33.61
+        "percentage": 26.2
       },
       {
         "color": [
-          235,
-          156,
-          99
+          121,
+          45,
+          10
         ],
-        "percentage": 27.54
+        "percentage": 34.08
       },
       {
         "color": [
-          179,
-          98,
-          47
+          178,
+          99,
+          48
         ],
-        "percentage": 38.86
+        "percentage": 39.72
       }
     ],
     "indoor_light": [
       {
         "color": [
-          167,
+          210,
+          151,
+          101
+        ],
+        "percentage": 29.52
+      },
+      {
+        "color": [
+          124,
+          68,
+          25
+        ],
+        "percentage": 27.39
+      },
+      {
+        "color": [
+          168,
           109,
           63
         ],
-        "percentage": 42.8
-      },
-      {
-        "color": [
-          123,
-          67,
-          25
-        ],
-        "percentage": 29.26
-      },
-      {
-        "color": [
-          210,
-          151,
-          102
-        ],
-        "percentage": 27.94
+        "percentage": 43.09
       }
     ],
     "natural_light": [
-      {
-        "color": [
-          226,
-          148,
-          96
-        ],
-        "percentage": 21.61
-      },
       {
         "color": [
           170,
           92,
           46
         ],
-        "percentage": 40.37
+        "percentage": 40.36
       },
       {
         "color": [
@@ -449,7 +441,15 @@
           45,
           11
         ],
-        "percentage": 38.02
+        "percentage": 38.06
+      },
+      {
+        "color": [
+          226,
+          148,
+          96
+        ],
+        "percentage": 21.58
       }
     ]
   },
@@ -457,79 +457,79 @@
     "closeup": [
       {
         "color": [
-          98,
-          75,
-          69
-        ],
-        "percentage": 42.01
-      },
-      {
-        "color": [
-          151,
-          125,
-          117
-        ],
-        "percentage": 25.56
-      },
-      {
-        "color": [
-          46,
-          28,
+          49,
+          29,
           24
         ],
-        "percentage": 32.43
+        "percentage": 34.43
+      },
+      {
+        "color": [
+          106,
+          81,
+          75
+        ],
+        "percentage": 41.37
+      },
+      {
+        "color": [
+          165,
+          137,
+          130
+        ],
+        "percentage": 24.21
       }
     ],
     "indoor_light": [
       {
         "color": [
-          142,
-          125,
-          118
+          94,
+          78,
+          71
         ],
-        "percentage": 20.78
+        "percentage": 43.4
       },
       {
         "color": [
-          50,
+          51,
           36,
-          30
+          31
         ],
-        "percentage": 35.41
+        "percentage": 36.74
       },
       {
         "color": [
-          93,
-          76,
-          70
+          144,
+          127,
+          121
         ],
-        "percentage": 43.81
+        "percentage": 19.85
       }
     ],
     "natural_light": [
       {
         "color": [
-          150,
-          132,
-          127
-        ],
-        "percentage": 24.63
-      },
-      {
-        "color": [
-          49,
-          36,
+          50,
+          37,
           33
         ],
-        "percentage": 31.65
+        "percentage": 32.66
       },
       {
         "color": [
-          98,
-          82,
-          77
+          151,
+          133,
+          128
         ],
-        "percentage": 43.72
+        "percentage": 23.8
+      },
+      {
+        "color": [
+          99,
+          83,
+          78
+        ],
+        "percentage": 43.54
       }
     ]
   },
@@ -537,53 +537,53 @@
     "closeup": [
       {
         "color": [
-          213,
-          177,
-          142
-        ],
-        "percentage": 19.91
-      },
-      {
-        "color": [
-          124,
-          99,
-          81
-        ],
-        "percentage": 37.16
-      },
-      {
-        "color": [
-          58,
-          42,
+          57,
+          41,
           36
         ],
-        "percentage": 42.93
+        "percentage": 45.72
+      },
+      {
+        "color": [
+          210,
+          175,
+          140
+        ],
+        "percentage": 17.54
+      },
+      {
+        "color": [
+          120,
+          96,
+          81
+        ],
+        "percentage": 36.74
       }
     ],
     "indoor_light": [
       {
         "color": [
-          192,
-          173,
-          128
+          117,
+          104,
+          75
         ],
-        "percentage": 21.74
+        "percentage": 37.01
       },
       {
         "color": [
-          52,
-          44,
+          193,
+          174,
+          129
+        ],
+        "percentage": 21.21
+      },
+      {
+        "color": [
+          53,
+          45,
           30
         ],
-        "percentage": 41.05
-      },
-      {
-        "color": [
-          115,
-          102,
-          74
-        ],
-        "percentage": 37.21
+        "percentage": 41.78
       }
     ],
     "natural_light": [
@@ -621,7 +621,7 @@
           220,
           190
         ],
-        "percentage": 42.9
+        "percentage": 42.95
       },
       {
         "color": [
@@ -629,7 +629,7 @@
           103,
           70
         ],
-        "percentage": 18.66
+        "percentage": 18.59
       },
       {
         "color": [
@@ -637,7 +637,7 @@
           169,
           134
         ],
-        "percentage": 38.45
+        "percentage": 38.46
       }
     ],
     "indoor_light": [
@@ -647,7 +647,15 @@
           206,
           175
         ],
-        "percentage": 40.64
+        "percentage": 40.71
+      },
+      {
+        "color": [
+          183,
+          158,
+          120
+        ],
+        "percentage": 38.22
       },
       {
         "color": [
@@ -655,41 +663,33 @@
           106,
           68
         ],
-        "percentage": 21.13
-      },
-      {
-        "color": [
-          183,
-          158,
-          121
-        ],
-        "percentage": 38.23
+        "percentage": 21.07
       }
     ],
     "natural_light": [
       {
         "color": [
-          123,
-          103,
-          75
-        ],
-        "percentage": 18.66
-      },
-      {
-        "color": [
-          227,
+          228,
           221,
           196
         ],
-        "percentage": 45.0
+        "percentage": 44.57
       },
       {
         "color": [
-          184,
-          169,
-          139
+          124,
+          104,
+          75
         ],
-        "percentage": 36.35
+        "percentage": 18.83
+      },
+      {
+        "color": [
+          185,
+          169,
+          140
+        ],
+        "percentage": 36.61
       }
     ]
   },
@@ -697,53 +697,53 @@
     "closeup": [
       {
         "color": [
-          221,
-          203,
-          181
+          220,
+          202,
+          180
         ],
-        "percentage": 35.4
+        "percentage": 34.02
       },
       {
         "color": [
-          73,
-          61,
-          53
+          72,
+          60,
+          52
         ],
-        "percentage": 33.14
+        "percentage": 34.1
       },
       {
         "color": [
-          144,
-          127,
-          113
+          141,
+          125,
+          111
         ],
-        "percentage": 31.46
+        "percentage": 31.88
       }
     ],
     "natural_light": [
       {
         "color": [
-          82,
-          72,
-          65
+          154,
+          142,
+          129
         ],
-        "percentage": 28.43
+        "percentage": 33.51
       },
       {
         "color": [
-          218,
-          207,
-          190
+          83,
+          73,
+          66
         ],
-        "percentage": 38.1
+        "percentage": 29.28
       },
       {
         "color": [
-          152,
-          140,
-          128
+          219,
+          208,
+          191
         ],
-        "percentage": 33.47
+        "percentage": 37.21
       }
     ]
   },
@@ -751,79 +751,79 @@
     "closeup": [
       {
         "color": [
+          153,
           151,
-          149,
-          149
+          148
         ],
-        "percentage": 43.14
+        "percentage": 45.91
       },
       {
         "color": [
-          92,
-          90,
-          91
+          197,
+          196,
+          192
         ],
-        "percentage": 19.6
+        "percentage": 34.41
       },
       {
         "color": [
-          191,
-          191,
-          190
+          98,
+          96,
+          95
         ],
-        "percentage": 37.26
+        "percentage": 19.67
       }
     ],
     "indoor_light": [
       {
         "color": [
-          200,
-          198,
-          190
-        ],
-        "percentage": 34.95
-      },
-      {
-        "color": [
-          135,
-          132,
+          140,
+          136,
           127
         ],
-        "percentage": 19.77
+        "percentage": 18.82
       },
       {
         "color": [
-          171,
-          168,
-          161
+          198,
+          196,
+          186
         ],
-        "percentage": 45.28
+        "percentage": 34.37
+      },
+      {
+        "color": [
+          172,
+          169,
+          159
+        ],
+        "percentage": 46.81
       }
     ],
     "natural_light": [
       {
         "color": [
-          142,
-          142,
-          138
+          149,
+          148,
+          143
         ],
-        "percentage": 43.28
+        "percentage": 45.31
       },
       {
         "color": [
-          87,
-          87,
-          86
+          195,
+          194,
+          189
         ],
-        "percentage": 26.04
+        "percentage": 34.14
       },
       {
         "color": [
-          190,
-          190,
-          186
+          92,
+          91,
+          90
         ],
-        "percentage": 30.68
+        "percentage": 20.55
       }
     ]
   },
@@ -835,15 +835,7 @@
           172,
           148
         ],
-        "percentage": 39.89
-      },
-      {
-        "color": [
-          221,
-          219,
-          196
-        ],
-        "percentage": 38.01
+        "percentage": 39.63
       },
       {
         "color": [
@@ -851,33 +843,41 @@
           119,
           95
         ],
-        "percentage": 22.1
+        "percentage": 21.54
+      },
+      {
+        "color": [
+          220,
+          218,
+          195
+        ],
+        "percentage": 38.83
       }
     ],
     "natural_light": [
       {
         "color": [
-          179,
-          175,
-          155
+          218,
+          218,
+          199
         ],
-        "percentage": 40.04
+        "percentage": 39.59
       },
       {
         "color": [
-          219,
-          219,
-          200
+          131,
+          122,
+          102
         ],
-        "percentage": 38.74
+        "percentage": 20.52
       },
       {
         "color": [
-          132,
-          123,
-          103
+          178,
+          173,
+          154
         ],
-        "percentage": 21.22
+        "percentage": 39.89
       }
     ]
   },
@@ -885,53 +885,53 @@
     "closeup": [
       {
         "color": [
-          223,
-          191,
-          162
+          220,
+          187,
+          159
         ],
-        "percentage": 28.43
+        "percentage": 26.81
       },
       {
         "color": [
-          66,
-          39,
-          28
+          134,
+          102,
+          83
         ],
-        "percentage": 42.24
+        "percentage": 30.94
       },
       {
         "color": [
-          142,
-          109,
-          89
+          64,
+          37,
+          27
         ],
-        "percentage": 29.34
+        "percentage": 42.25
       }
     ],
     "natural_light": [
       {
         "color": [
-          61,
-          41,
+          210,
+          186,
+          163
+        ],
+        "percentage": 23.57
+      },
+      {
+        "color": [
+          62,
+          42,
           31
         ],
-        "percentage": 42.6
+        "percentage": 43.53
       },
       {
         "color": [
-          208,
-          185,
-          161
+          127,
+          104,
+          88
         ],
-        "percentage": 24.02
-      },
-      {
-        "color": [
-          125,
-          102,
-          86
-        ],
-        "percentage": 33.38
+        "percentage": 32.89
       }
     ]
   },
@@ -943,7 +943,7 @@
           160,
           142
         ],
-        "percentage": 37.43
+        "percentage": 37.66
       },
       {
         "color": [
@@ -951,41 +951,41 @@
           97,
           81
         ],
-        "percentage": 24.43
+        "percentage": 24.34
       },
       {
         "color": [
-          222,
+          221,
           219,
           201
         ],
-        "percentage": 38.14
+        "percentage": 37.99
       }
     ],
     "indoor_light": [
       {
         "color": [
-          209,
+          210,
           199,
-          173
+          174
         ],
-        "percentage": 40.16
+        "percentage": 39.67
       },
       {
         "color": [
           99,
           81,
-          59
+          60
         ],
-        "percentage": 25.08
+        "percentage": 25.43
       },
       {
         "color": [
-          158,
-          143,
-          119
+          159,
+          144,
+          120
         ],
-        "percentage": 34.76
+        "percentage": 34.9
       }
     ],
     "natural_light": [
@@ -1019,45 +1019,37 @@
     "closeup": [
       {
         "color": [
-          40,
-          31,
-          29
+          147,
+          136,
+          133
         ],
-        "percentage": 33.76
+        "percentage": 21.79
       },
       {
         "color": [
-          150,
-          139,
-          135
+          44,
+          36,
+          35
         ],
-        "percentage": 21.87
+        "percentage": 33.9
       },
       {
         "color": [
-          91,
-          82,
-          79
+          93,
+          84,
+          81
         ],
-        "percentage": 44.36
+        "percentage": 44.31
       }
     ],
     "indoor_light": [
       {
         "color": [
-          97,
-          90,
-          86
+          47,
+          42,
+          38
         ],
-        "percentage": 41.34
-      },
-      {
-        "color": [
-          49,
-          43,
-          39
-        ],
-        "percentage": 40.2
+        "percentage": 38.96
       },
       {
         "color": [
@@ -1065,33 +1057,41 @@
           148,
           145
         ],
-        "percentage": 18.47
+        "percentage": 19.68
+      },
+      {
+        "color": [
+          96,
+          89,
+          85
+        ],
+        "percentage": 41.35
       }
     ],
     "natural_light": [
       {
         "color": [
-          83,
-          77,
-          75
+          86,
+          79,
+          77
         ],
-        "percentage": 43.9
+        "percentage": 43.64
       },
       {
         "color": [
-          39,
+          139,
+          131,
+          129
+        ],
+        "percentage": 21.43
+      },
+      {
+        "color": [
+          40,
           34,
           33
         ],
-        "percentage": 35.07
-      },
-      {
-        "color": [
-          133,
-          126,
-          124
-        ],
-        "percentage": 21.02
+        "percentage": 34.93
       }
     ]
   },
@@ -1099,79 +1099,79 @@
     "closeup": [
       {
         "color": [
-          54,
+          53,
           40,
           34
         ],
-        "percentage": 42.91
+        "percentage": 42.69
       },
       {
         "color": [
           180,
-          157,
+          156,
           138
         ],
-        "percentage": 14.12
+        "percentage": 14.08
       },
       {
         "color": [
-          105,
-          87,
+          104,
+          86,
           77
         ],
-        "percentage": 42.97
+        "percentage": 43.24
       }
     ],
     "indoor_light": [
       {
         "color": [
-          117,
-          101,
-          82
-        ],
-        "percentage": 37.75
-      },
-      {
-        "color": [
-          198,
-          176,
-          145
-        ],
-        "percentage": 19.16
-      },
-      {
-        "color": [
-          55,
+          56,
           43,
           31
         ],
-        "percentage": 43.1
+        "percentage": 43.88
+      },
+      {
+        "color": [
+          119,
+          102,
+          83
+        ],
+        "percentage": 37.42
+      },
+      {
+        "color": [
+          200,
+          177,
+          146
+        ],
+        "percentage": 18.71
       }
     ],
     "natural_light": [
-      {
-        "color": [
-          109,
-          93,
-          81
-        ],
-        "percentage": 41.23
-      },
       {
         "color": [
           192,
           170,
           148
         ],
-        "percentage": 15.43
+        "percentage": 15.41
       },
       {
         "color": [
           53,
-          40,
+          41,
           33
         ],
-        "percentage": 43.35
+        "percentage": 43.39
+      },
+      {
+        "color": [
+          109,
+          93,
+          81
+        ],
+        "percentage": 41.2
       }
     ]
   },
@@ -1179,27 +1179,27 @@
     "closeup": [
       {
         "color": [
-          229,
+          228,
           193,
-          163
+          162
         ],
-        "percentage": 31.18
+        "percentage": 30.61
       },
       {
         "color": [
-          109,
-          74,
-          47
+          167,
+          130,
+          100
         ],
-        "percentage": 28.55
+        "percentage": 41.14
       },
       {
         "color": [
-          171,
-          133,
-          103
+          105,
+          70,
+          44
         ],
-        "percentage": 40.27
+        "percentage": 28.25
       }
     ],
     "indoor_light": [
@@ -1259,37 +1259,53 @@
     "closeup": [
       {
         "color": [
-          0,
-          0,
-          0
+          228,
+          228,
+          197
         ],
-        "percentage": 100.0
+        "percentage": 41.93
+      },
+      {
+        "color": [
+          196,
+          193,
+          163
+        ],
+        "percentage": 39.61
+      },
+      {
+        "color": [
+          155,
+          151,
+          123
+        ],
+        "percentage": 18.46
       }
     ],
     "natural_light": [
       {
         "color": [
-          192,
+          225,
+          227,
+          199
+        ],
+        "percentage": 40.26
+      },
+      {
+        "color": [
+          156,
+          154,
+          130
+        ],
+        "percentage": 18.69
+      },
+      {
+        "color": [
           194,
-          169
+          194,
+          168
         ],
-        "percentage": 39.88
-      },
-      {
-        "color": [
-          224,
-          228,
-          202
-        ],
-        "percentage": 43.54
-      },
-      {
-        "color": [
-          149,
-          149,
-          128
-        ],
-        "percentage": 16.59
+        "percentage": 41.05
       }
     ]
   },
@@ -1297,79 +1313,79 @@
     "closeup": [
       {
         "color": [
-          171,
-          145,
-          125
+          224,
+          201,
+          180
         ],
-        "percentage": 27.48
+        "percentage": 43.54
       },
       {
         "color": [
-          69,
-          51,
-          43
+          166,
+          141,
+          121
         ],
-        "percentage": 28.16
+        "percentage": 33.48
       },
       {
         "color": [
-          227,
-          204,
-          185
+          74,
+          56,
+          46
         ],
-        "percentage": 44.36
+        "percentage": 22.98
       }
     ],
     "indoor_light": [
       {
         "color": [
-          215,
-          200,
-          176
+          217,
+          201,
+          178
         ],
-        "percentage": 47.42
+        "percentage": 49.89
       },
       {
         "color": [
-          159,
-          143,
-          122
+          166,
+          150,
+          128
         ],
-        "percentage": 23.1
+        "percentage": 26.21
       },
       {
         "color": [
-          59,
-          51,
-          46
+          61,
+          53,
+          47
         ],
-        "percentage": 29.48
+        "percentage": 23.9
       }
     ],
     "natural_light": [
       {
         "color": [
           218,
-          200,
-          182
+          201,
+          183
         ],
-        "percentage": 44.65
+        "percentage": 45.81
       },
       {
         "color": [
           54,
-          43,
+          44,
           39
         ],
-        "percentage": 26.83
+        "percentage": 24.72
       },
       {
         "color": [
-          162,
-          144,
-          125
+          164,
+          145,
+          127
         ],
-        "percentage": 28.52
+        "percentage": 29.46
       }
     ]
   },
@@ -1377,27 +1393,27 @@
     "closeup": [
       {
         "color": [
-          64,
-          49,
-          40
+          229,
+          208,
+          185
         ],
-        "percentage": 34.04
+        "percentage": 36.81
       },
       {
         "color": [
-          230,
-          209,
-          186
+          62,
+          48,
+          39
         ],
-        "percentage": 37.5
+        "percentage": 36.5
       },
       {
         "color": [
-          153,
-          132,
-          115
+          147,
+          128,
+          112
         ],
-        "percentage": 28.46
+        "percentage": 26.68
       }
     ],
     "indoor_light": [
@@ -1429,19 +1445,19 @@
     "natural_light": [
       {
         "color": [
-          215,
-          200,
-          182
-        ],
-        "percentage": 27.61
-      },
-      {
-        "color": [
           125,
           112,
           100
         ],
-        "percentage": 28.87
+        "percentage": 28.82
+      },
+      {
+        "color": [
+          215,
+          200,
+          182
+        ],
+        "percentage": 27.57
       },
       {
         "color": [
@@ -1449,7 +1465,7 @@
           44,
           37
         ],
-        "percentage": 43.53
+        "percentage": 43.61
       }
     ]
   },
@@ -1457,53 +1473,53 @@
     "closeup": [
       {
         "color": [
-          155,
-          141,
-          119
+          162,
+          147,
+          123
         ],
-        "percentage": 34.92
+        "percentage": 36.41
       },
       {
         "color": [
-          219,
-          208,
-          183
+          220,
+          209,
+          182
         ],
-        "percentage": 35.65
+        "percentage": 41.46
       },
       {
         "color": [
-          76,
-          64,
-          52
+          81,
+          68,
+          55
         ],
-        "percentage": 29.44
+        "percentage": 22.13
       }
     ],
     "natural_light": [
       {
         "color": [
-          158,
-          149,
-          130
-        ],
-        "percentage": 37.54
-      },
-      {
-        "color": [
-          213,
+          214,
           207,
           186
         ],
-        "percentage": 42.08
+        "percentage": 42.6
       },
       {
         "color": [
-          71,
-          63,
-          54
+          158,
+          149,
+          129
         ],
-        "percentage": 20.38
+        "percentage": 38.66
+      },
+      {
+        "color": [
+          73,
+          64,
+          55
+        ],
+        "percentage": 18.74
       }
     ]
   },
@@ -1511,53 +1527,53 @@
     "closeup": [
       {
         "color": [
-          164,
-          157,
-          130
+          194,
+          189,
+          161
         ],
-        "percentage": 28.66
+        "percentage": 41.35
       },
       {
         "color": [
-          195,
-          188,
-          158
+          226,
+          223,
+          196
         ],
-        "percentage": 44.28
+        "percentage": 36.71
       },
       {
         "color": [
-          224,
-          218,
-          189
+          159,
+          151,
+          122
         ],
-        "percentage": 27.05
+        "percentage": 21.94
       }
     ],
     "natural_light": [
       {
         "color": [
-          222,
-          223,
-          200
+          153,
+          149,
+          125
         ],
-        "percentage": 38.6
+        "percentage": 19.47
       },
       {
         "color": [
-          152,
-          149,
-          127
+          223,
+          223,
+          199
         ],
-        "percentage": 17.87
+        "percentage": 37.6
       },
       {
         "color": [
           191,
-          190,
-          167
+          189,
+          164
         ],
-        "percentage": 43.53
+        "percentage": 42.92
       }
     ]
   },
@@ -1565,53 +1581,53 @@
     "closeup": [
       {
         "color": [
-          197,
-          182,
-          137
-        ],
-        "percentage": 41.1
-      },
-      {
-        "color": [
           153,
           135,
           90
         ],
-        "percentage": 19.9
+        "percentage": 20.72
       },
       {
         "color": [
-          231,
+          196,
+          182,
+          136
+        ],
+        "percentage": 40.96
+      },
+      {
+        "color": [
+          232,
           221,
           177
         ],
-        "percentage": 38.99
+        "percentage": 38.32
       }
     ],
     "natural_light": [
       {
         "color": [
-          226,
+          227,
           219,
-          181
+          182
         ],
-        "percentage": 38.11
-      },
-      {
-        "color": [
-          189,
-          179,
-          140
-        ],
-        "percentage": 41.65
+        "percentage": 37.25
       },
       {
         "color": [
           145,
-          132,
+          133,
           96
         ],
-        "percentage": 20.23
+        "percentage": 21.06
+      },
+      {
+        "color": [
+          190,
+          180,
+          141
+        ],
+        "percentage": 41.7
       }
     ]
   },
@@ -1619,71 +1635,63 @@
     "closeup": [
       {
         "color": [
-          126,
-          85,
+          71,
+          37,
+          22
+        ],
+        "percentage": 36.68
+      },
+      {
+        "color": [
+          185,
+          138,
+          107
+        ],
+        "percentage": 20.88
+      },
+      {
+        "color": [
+          124,
+          84,
           61
         ],
-        "percentage": 42.34
-      },
-      {
-        "color": [
-          184,
-          137,
-          105
-        ],
-        "percentage": 22.61
-      },
-      {
-        "color": [
-          74,
-          39,
-          23
-        ],
-        "percentage": 35.04
+        "percentage": 42.43
       }
     ],
     "indoor_light": [
       {
         "color": [
-          118,
-          94,
-          69
+          179,
+          151,
+          118
         ],
-        "percentage": 40.45
+        "percentage": 22.88
       },
       {
         "color": [
-          59,
+          58,
           42,
-          27
+          26
         ],
-        "percentage": 37.35
+        "percentage": 36.53
       },
       {
         "color": [
-          181,
-          152,
-          119
+          116,
+          93,
+          68
         ],
-        "percentage": 22.2
+        "percentage": 40.59
       }
     ],
     "natural_light": [
       {
         "color": [
-          119,
-          87,
-          67
-        ],
-        "percentage": 42.32
-      },
-      {
-        "color": [
           63,
           38,
-          25
+          26
         ],
-        "percentage": 37.42
+        "percentage": 37.47
       },
       {
         "color": [
@@ -1691,7 +1699,15 @@
           145,
           118
         ],
-        "percentage": 20.26
+        "percentage": 20.23
+      },
+      {
+        "color": [
+          119,
+          87,
+          67
+        ],
+        "percentage": 42.3
       }
     ]
   },
@@ -1699,37 +1715,45 @@
     "closeup": [
       {
         "color": [
-          165,
-          129,
-          94
+          167,
+          130,
+          95
         ],
-        "percentage": 42.83
+        "percentage": 41.47
       },
       {
         "color": [
-          108,
-          74,
-          44
+          224,
+          188,
+          150
         ],
-        "percentage": 27.79
+        "percentage": 31.83
       },
       {
         "color": [
-          221,
-          185,
-          147
+          107,
+          73,
+          42
         ],
-        "percentage": 29.38
+        "percentage": 26.71
       }
     ],
     "indoor_light": [
       {
         "color": [
+          216,
+          189,
+          150
+        ],
+        "percentage": 28.66
+      },
+      {
+        "color": [
           113,
           88,
-          52
+          53
         ],
-        "percentage": 29.06
+        "percentage": 29.09
       },
       {
         "color": [
@@ -1738,40 +1762,32 @@
           101
         ],
         "percentage": 42.25
-      },
-      {
-        "color": [
-          216,
-          189,
-          150
-        ],
-        "percentage": 28.69
       }
     ],
     "natural_light": [
       {
         "color": [
-          168,
-          136,
-          101
+          224,
+          190,
+          152
         ],
-        "percentage": 40.71
+        "percentage": 32.56
       },
       {
         "color": [
-          223,
-          191,
-          153
+          166,
+          131,
+          96
         ],
-        "percentage": 32.43
+        "percentage": 40.73
       },
       {
         "color": [
-          108,
-          80,
-          51
+          105,
+          73,
+          43
         ],
-        "percentage": 26.87
+        "percentage": 26.7
       }
     ]
   }
