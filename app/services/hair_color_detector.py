@@ -138,6 +138,7 @@ def vis_parsing_maps(im, origin, parsing_anno, stride):
                 b, g, r = origin[x, y]
                 hair_pixels.append([r, g, b])  # RGB
 
+    print("hair pixel--------------", len(hair_pixels))
     dominant_colors = get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3)
 
     with open("hair_rgb.json", "w") as f:
@@ -207,6 +208,26 @@ def evaluate(cp='model/model.pth', input_path=''):
 
         # Hair color extraction
         vis_parsing_maps(image, origin, parsing, stride=1)
+
+def detect_shade_color(input_path):
+    img = Image.open(input_path).convert("RGB")
+    img_rgb = np.array(img)  # shape (H, W, 3)
+    pixels_array = img_rgb.reshape(-1, 3)  # shape (num_pixels, 3)
+
+    # Convert each pixel's each channel to np.uint8 explicitly (redundant but for safety)
+    pixels= [[np.uint8(ch) for ch in pixel] for pixel in pixels_array]
+    print(len(pixels))
+
+    dominant_colors = get_dominant_colors_from_hair(pixels, n_clusters=3, min_percentage=3)
+
+    with open("shade_rgb.json", "w") as f:
+        json.dump({"dominant_hair_colors": dominant_colors}, f)
+    with open("shade_rgb.json", "r") as f:
+        shade_rgb = json.load(f)
+    os.remove("shade_rgb.json")  # Clean up temp file
+    
+    return shade_rgb["dominant_hair_colors"]
+
         
 
 def detect_hair_color(input_path='files/1.JPG'):
@@ -218,5 +239,6 @@ def detect_hair_color(input_path='files/1.JPG'):
 
 
 if __name__ == "__main__":
-    hair_rgb = detect_hair_color(input_path='image.png')
+    hair_rgb = detect_hair_color(input_path='img2.png')
+    # hair_rgb = detect_shade_color(input_path='img2.png')
     print(json.dumps(hair_rgb))

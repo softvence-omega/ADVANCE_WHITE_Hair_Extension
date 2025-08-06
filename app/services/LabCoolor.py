@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 import json
 from app.config import Settings
-from app.services.hair_color_detector import detect_hair_color
+from app.services.hair_color_detector import detect_hair_color, detect_shade_color
 
 DATA_DIR = Settings.DATA_DIR
 
@@ -42,7 +42,8 @@ def build_reference_shades(data_dir):
         else:
             continue
 
-        shade_info[data_dir.name][key] = detect_hair_color(img_path)
+        # shade_info[data_dir.name][key] = detect_hair_color(img_path)
+        shade_info[data_dir.name][key] = detect_shade_color(img_path)
         print("shade_info:", shade_info)
 
     return shade_info
@@ -56,7 +57,7 @@ def main():
             shade_signatures.update(shades_data)  # dict merge
             
 
-    with open("reference_shades.json", "w") as f:
+    with open("reference_shades1.json", "w") as f:
         json.dump(shade_signatures, f, indent=2)
 
 if __name__ == "__main__":
