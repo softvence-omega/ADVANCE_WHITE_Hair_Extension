@@ -2,7 +2,6 @@ from fastapi import APIRouter, UploadFile, File,HTTPException
 from PIL import Image
 import numpy as np
 import json
-from app.utils.color_matcher import match_shade_rgb
 from app.config import Settings
 from app.services.hair_color_detector import detect_hair_color
 from app.services.best_shade_matcher import find_best_shade
