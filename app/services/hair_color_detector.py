@@ -206,7 +206,7 @@ def evaluate(cp='model/model.pth', input_path=''):
         parsing = out.squeeze(0).cpu().numpy().argmax(0)
 
         # Hair region visualization
-        highlight_hair_region(origin, parsing, stride=1)
+        #highlight_hair_region(origin, parsing, stride=1)
 
         # Hair color extraction
         vis_parsing_maps(image, origin, parsing, stride=1)
