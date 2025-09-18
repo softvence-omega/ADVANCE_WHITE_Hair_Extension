@@ -98,7 +98,33 @@ def vis_parsing_maps(im, origin, parsing_anno, stride):
 
 
 
-def highlight_hair_region(origin, parsing_anno, stride=1):
+# def highlight_hair_region(origin, parsing_anno, stride=1):
+#     # Resize parsing map to original image scale
+#     vis_parsing_anno = parsing_anno.copy().astype(np.uint8)
+#     vis_parsing_anno = cv2.resize(vis_parsing_anno, (origin.shape[1], origin.shape[0]), interpolation=cv2.INTER_NEAREST)
+    
+#     # Create a mask where hair label == 17
+#     hair_mask = (vis_parsing_anno == 17).astype(np.uint8) * 255  # binary mask 0 or 255
+    
+#     # Optional: smooth the mask a bit
+#     kernel = np.ones((5,5), np.uint8)
+#     hair_mask = cv2.morphologyEx(hair_mask, cv2.MORPH_CLOSE, kernel)
+    
+#     # Create an overlay with hair highlighted in color (e.g., green)
+#     overlay = origin.copy()
+#     overlay[hair_mask == 255] = [0, 255, 0]  # green highlight on hair pixels (BGR)
+    
+#     # Blend original and overlay
+#     highlighted = cv2.addWeighted(origin, 0.7, overlay, 0.3, 0)
+    
+#     # Save highlighted hair image
+#     cv2.imwrite("highlighted_hair.png", highlighted)
+    
+#     return highlighted
+import cv2
+import numpy as np
+
+def highlight_hair_region(origin, parsing_anno, stride=1, bottom_fraction=0.5):
     # Resize parsing map to original image scale
     vis_parsing_anno = parsing_anno.copy().astype(np.uint8)
     vis_parsing_anno = cv2.resize(vis_parsing_anno, (origin.shape[1], origin.shape[0]), interpolation=cv2.INTER_NEAREST)
@@ -106,72 +132,44 @@ def highlight_hair_region(origin, parsing_anno, stride=1):
     # Create a mask where hair label == 17
     hair_mask = (vis_parsing_anno == 17).astype(np.uint8) * 255  # binary mask 0 or 255
     
-    # Optional: smooth the mask a bit
+    # Optional: smooth the mask
     kernel = np.ones((5,5), np.uint8)
     hair_mask = cv2.morphologyEx(hair_mask, cv2.MORPH_CLOSE, kernel)
     
-    # Create an overlay with hair highlighted in color (e.g., green)
+    # Find hair bounding box
+    ys, xs = np.where(hair_mask == 255)
+    if len(ys) == 0:  # no hair detected
+        return origin
+    y_min, y_max = ys.min(), ys.max()
+    
+    # Only keep bottom part
+    y_cut = int(y_min + (y_max - y_min) * (1 - bottom_fraction))
+    bottom_mask = np.zeros_like(hair_mask)
+    bottom_mask[y_cut:y_max, :] = hair_mask[y_cut:y_max, :]
+    
+    # Create overlay with bottom hair highlighted in green
     overlay = origin.copy()
-    overlay[hair_mask == 255] = [0, 255, 0]  # green highlight on hair pixels (BGR)
+    overlay[bottom_mask == 255] = [0, 255, 0]  # BGR
     
     # Blend original and overlay
     highlighted = cv2.addWeighted(origin, 0.7, overlay, 0.3, 0)
     
-    # Save highlighted hair image
-    cv2.imwrite("highlighted_hair.png", highlighted)
+    # Save highlighted image
+    cv2.imwrite("highlighted_hair_bottom.png", highlighted)
     
     return highlighted
-
-# def evaluate(cp='model/model.pth', input_path=''):
-#     # n_classes = 19
-#     # net = BiSeNet(n_classes=n_classes)
-#     # net.cpu()
-#     # save_pth = osp.join('', cp)
-#     # net.load_state_dict(torch.load(save_pth, map_location=torch.device('cpu')))
-#     # net.eval()
-#     img = load_image_any_format(input_path)
-
-#     n_classes = 19
-#     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')  # Check for GPU
-#     print(f"Using device------------: {device}")
-#     net = BiSeNet(n_classes=n_classes)
-#     net.to(device)  # Move model to GPU (if available)
-
-#     save_pth = osp.join('', cp)
-#     net.load_state_dict(torch.load(save_pth, map_location=device))  # Load to correct device
-#     net.eval()
-
-#     to_tensor = transforms.Compose([
-#         transforms.ToTensor(),
-#         transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
-#     ])
-#     with torch.no_grad():
-#         img = Image.open(input_path).convert("RGB")
-#         origin = cv2.imread(input_path, cv2.IMREAD_COLOR)  # BGR image
-#         image = img.resize((512,512))
-#         img = to_tensor(image)
-#         img = torch.unsqueeze(img, 0)
-#         img = img.to(device)
-#         out = net(img)[0]
-#         parsing = out.squeeze(0).cpu().numpy().argmax(0)
-
-#         # Hair region visualization
-#         highlight_hair_region(origin, parsing, stride=1)
-
-#         # Hair color extraction
-#         vis_parsing_maps(image, origin, parsing, stride=1)
 
 
 def evaluate(cp='model/model.pth', input_path=''):
     n_classes = 19
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cpu')
     print(f"Using device: {device}")
-
-    # Load model
+    n_classes = 19
     net = BiSeNet(n_classes=n_classes)
-    net.to(device)
+    net.cpu()
     save_pth = osp.join('', cp)
-    net.load_state_dict(torch.load(save_pth, map_location=device))
+    net.load_state_dict(torch.load(save_pth, map_location=torch.device('cpu')))
     net.eval()
 
     # Load image universally
