@@ -48,7 +48,7 @@ def find_best_shade(user_colors, reference_shades):
         total = 0
         for light_type in ["closeup", "indoor_light", "natural_light"]:
             if light_type in light_types:
-                score = match_score(user_colors, light_types[light_type])
+                score = match_score1(user_colors, light_types[light_type])
                 total += score
             scores[shade_name] = round(total / 3, 2)  # average score
 
@@ -56,7 +56,48 @@ def find_best_shade(user_colors, reference_shades):
     best_match = next(iter(sorted_scores))  # First key is the best match
 
     return best_match, sorted_scores
+# ---------------------NEW-------------------
+import numpy as np
+def match_score1(user_colors, shade_colors):
+    """Euclidean distance in RGB, converted into similarity score (0-100)."""
+    scores = []
+    for uc in user_colors:
+        u_color = np.array(uc["color"])
+        for sc in shade_colors:
+            s_color = np.array(sc["color"])
+            dist = np.linalg.norm(u_color - s_color)  # distance
+            score = 100 - min(dist, 100)  # normalize
+            scores.append(score)
+    return np.mean(scores)
 
+
+def find_best_shade_single(user_colors, reference_shades):
+    scores = {}
+    for shade_name, shade_colors in reference_shades.items():
+        score = match_score(user_colors, shade_colors)
+        scores[shade_name] = round(score, 2)
+
+    sorted_scores = dict(sorted(scores.items(), key=lambda x: x[1], reverse=True))
+    best_match = next(iter(sorted_scores)) if sorted_scores else None
+    print("sorted_scores",sorted_scores)
+    return best_match, sorted_scores
+
+
+def find_best_shade4(user_colors, reference_shades):
+    scores = {}
+    for shade_name, light_types in reference_shades.items():
+        # print(f"Processing shade: {shade_name}")
+        total = 0
+        for light_type in ["default","closeup", "indoor_light", "natural_light"]:
+            if light_type in light_types:
+                score = match_score1(user_colors, light_types[light_type])
+                total += score
+            scores[shade_name] = round(total / 4, 2)  # average score
+
+    sorted_scores = dict(sorted(scores.items(), key=lambda x: x[1], reverse=True))
+    best_match = next(iter(sorted_scores))  # First key is the best match
+
+    return best_match, sorted_scores
 
 if __name__ == "__main__":
     # ----------------------------------------

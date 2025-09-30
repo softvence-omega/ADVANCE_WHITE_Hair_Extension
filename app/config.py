@@ -4,9 +4,13 @@ class Settings:
     """Application settings and configuration"""
     BASE_DIR = Path(__file__).resolve().parent.parent
     DATA_DIR = BASE_DIR / "data"
+    NEW_DATA_DIR = BASE_DIR / "new_data"
+    NEW4_DATA_DIR = BASE_DIR / "new4_data"
     MODEL_DIR = BASE_DIR / "model"
     MODEL_PATH = MODEL_DIR / "model.pth"
     SHADE_PATH = BASE_DIR / "app" / "shade" / "reference_shades.json"
+    N_SHADE_PATH = BASE_DIR / "app" / "shade" / "reference_shades_single.json"
+    N4_SHADE_PATH = BASE_DIR / "app" / "shade" / "reference_shades_4dta.json"
     # print(f"SHADE_PATH: {SHADE_PATH}")
     UPLOAD_DIR = BASE_DIR / "uploaded_images"
     RESULT_DIR = BASE_DIR / "result_images"

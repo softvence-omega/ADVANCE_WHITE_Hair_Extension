@@ -30,8 +30,8 @@ def similar(G1, B1, R1, G2, B2, R2):
 
 def get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3):
     # print(f"Extracting dominant colors from hair pixels...{hair_pixels}")
-    if len(hair_pixels) == 0:
-        return [{"color": [0, 0, 0], "percentage": 100.0}]
+    # if len(hair_pixels) == 0:
+    #     return [{"color": [0, 0, 0], "percentage": 100.0}]
     
     data = np.array(hair_pixels)
 
@@ -41,7 +41,8 @@ def get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3):
 
     if actual_clusters == 0:
         print("there is no cluster [{color: [0, 0, 0], percentage: 100.0}]")
-        return [{"color": [0, 0, 0], "percentage": 100.0}]
+        # return [{"color": [0, 0, 0], "percentage": 100.0}]
+        return {"status_code": 400, "error": "No valid clusters could be formed from hair pixels."}
 
     try:
         kmeans = KMeans(n_clusters=actual_clusters, random_state=42, n_init="auto")
@@ -64,14 +65,26 @@ def get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3):
         if not dominant_colors:
             avg_color = data.mean(axis=0).astype(int).tolist()
             print("there is no dominant color: [{color: [0, 0, 0], percentage: 100.0}]" )
-            return [{"color": avg_color, "percentage": 100.0}]
+            return {"status_code": 400, "error": "No dominant color met the minimum percentage threshold."}
 
-        return dominant_colors
+        # return dominant_colors
+        return {
+            "status_code": 200,                 # 200 = success, 400/500 = error
+            "dominant_hair_colors": dominant_colors,      # list of dicts, empty or filled
+            "message": "Hair color matched successfully."  # error/success message
+        }
 
+    # except Exception as e:
+    #     print(f"[ERROR] KMeans failed: {e}")
+    #     avg_color = data.mean(axis=0).astype(int).tolist()
+    #     return [{"color": avg_color, "percentage": 100.0}]
     except Exception as e:
         print(f"[ERROR] KMeans failed: {e}")
-        avg_color = data.mean(axis=0).astype(int).tolist()
-        return [{"color": avg_color, "percentage": 100.0}]
+        return {
+            "status_code": 500,
+            "dominant_hair_colors": [],
+            "message": f"Failed to extract dominant hair colors: {str(e)}"
+        }
 
 def vis_parsing_maps(im, origin, parsing_anno, stride):
 
@@ -90,10 +103,20 @@ def vis_parsing_maps(im, origin, parsing_anno, stride):
                 hair_pixels.append([r, g, b])  # RGB
 
     print("hair pixel--------------", len(hair_pixels))
-    dominant_colors = get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3)
+    if len(hair_pixels) == 0 :
+        return {
+            "status_code": 400,
+            "error": "No hair pixels detected. Please upload a clear image with visible hair for processing."
+        }
+
+    response = get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3)
+    print("get dominant color--------------", response['dominant_hair_colors'])
+    if response['status_code'] == 400:
+        return response
 
     with open("hair_rgb.json", "w") as f:
-        json.dump({"dominant_hair_colors": dominant_colors}, f)
+        json.dump({"dominant_hair_colors": response['dominant_hair_colors']}, f)
+        return {"status_code": 200}
 
 
 
@@ -193,7 +216,8 @@ def evaluate(cp='model/model.pth', input_path=''):
     # Hair region + color
     highlight_hair_region(origin, parsing, stride=1)
     
-    vis_parsing_maps(image_resized, origin, parsing, stride=1)
+    response = vis_parsing_maps(image_resized, origin, parsing, stride=1)
+    return response
 
 def detect_shade_color(input_path):
     img = Image.open(input_path).convert("RGB")
@@ -218,14 +242,13 @@ def detect_shade_color(input_path):
         
 
 def detect_hair_color(input_path='files/1.JPG'):
-    evaluate(input_path=input_path)
-    with open("hair_rgb.json", "r") as f:
-        hair_rgb = json.load(f)
-    os.remove("hair_rgb.json")  # Clean up temp file
-    return hair_rgb["dominant_hair_colors"]
+    response = evaluate(input_path=input_path)
+    print("response----------------", response)
+    return response
 
 
 if __name__ == "__main__":
-    hair_rgb = detect_hair_color(input_path='image.png')
-    # hair_rgb = detect_shade_color(input_path='image.png')
-    print(json.dumps(hair_rgb))
+    # hair_rgb = detect_hair_color(input_path='image.png')
+    # # hair_rgb = detect_shade_color(input_path='image.png')
+    # print(json.dumps(hair_rgb))
+    pass
