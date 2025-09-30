@@ -2,7 +2,7 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from app.config import Settings
 from app.services.hair_color_detector import detect_hair_color
-from app.services.best_shade_matcher import find_best_shade
+from app.services.best_shade_matcher import find_best_shade,find_best_shade_single,find_best_shade4
 from app.services.background_remove import remove_background
 from pathlib import Path
 import json
@@ -39,8 +39,17 @@ async def match_hair_color(file: UploadFile = File(...)):
         print("user_rgb-------------", user_rgb)
 
         # Step 4: load shades & find best match
-        shade_data = load_shades_rgb(Settings.SHADE_PATH)
-        best, all_scores = find_best_shade(user_rgb, shade_data)
+        
+        shade_data = load_shades_rgb(Settings.N_SHADE_PATH)
+        print("shade_data-------------")
+        best, all_scores = find_best_shade_single(user_rgb, shade_data)
+        
+        # shade_data = load_shades_rgb(Settings.SHADE_PATH)
+        # best, all_scores = find_best_shade(user_rgb, shade_data)
+
+        # shade_data = load_shades_rgb(Settings.N4_SHADE_PATH)
+        # best, all_scores = find_best_shade4(user_rgb, shade_data)
+        
         print("best-------------", best)
         print("all_scores-------------", all_scores)
         end_time = time.time()

@@ -1,0 +1,652 @@
+{
+  "Autumn": [
+    {
+      "color": [
+        87,
+        60,
+        38
+      ],
+      "percentage": 46.38
+    },
+    {
+      "color": [
+        67,
+        42,
+        25
+      ],
+      "percentage": 32.29
+    },
+    {
+      "color": [
+        104,
+        80,
+        56
+      ],
+      "percentage": 21.32
+    }
+  ],
+  "Brown Soft Blended": [
+    {
+      "color": [
+        136,
+        118,
+        99
+      ],
+      "percentage": 27.07
+    },
+    {
+      "color": [
+        98,
+        79,
+        64
+      ],
+      "percentage": 35.03
+    },
+    {
+      "color": [
+        71,
+        50,
+        39
+      ],
+      "percentage": 37.89
+    }
+  ],
+  "Champagne Blonde": [
+    {
+      "color": [
+        79,
+        72,
+        66
+      ],
+      "percentage": 14.36
+    },
+    {
+      "color": [
+        127,
+        120,
+        109
+      ],
+      "percentage": 34.08
+    },
+    {
+      "color": [
+        153,
+        150,
+        140
+      ],
+      "percentage": 51.56
+    }
+  ],
+  "Coffee Biscuit": [
+    {
+      "color": [
+        37,
+        24,
+        19
+      ],
+      "percentage": 37.19
+    },
+    {
+      "color": [
+        52,
+        37,
+        28
+      ],
+      "percentage": 44.24
+    },
+    {
+      "color": [
+        68,
+        52,
+        40
+      ],
+      "percentage": 18.57
+    }
+  ],
+  "Cool Brown": [
+    {
+      "color": [
+        26,
+        18,
+        15
+      ],
+      "percentage": 55.61
+    },
+    {
+      "color": [
+        39,
+        29,
+        25
+      ],
+      "percentage": 36.69
+    },
+    {
+      "color": [
+        58,
+        48,
+        43
+      ],
+      "percentage": 7.7
+    }
+  ],
+  "Copper": [
+    {
+      "color": [
+        101,
+        40,
+        20
+      ],
+      "percentage": 25.98
+    },
+    {
+      "color": [
+        150,
+        88,
+        52
+      ],
+      "percentage": 28.05
+    },
+    {
+      "color": [
+        129,
+        63,
+        33
+      ],
+      "percentage": 45.97
+    }
+  ],
+  "Dark Brown": [
+    {
+      "color": [
+        28,
+        19,
+        16
+      ],
+      "percentage": 45.72
+    },
+    {
+      "color": [
+        22,
+        15,
+        13
+      ],
+      "percentage": 43.86
+    },
+    {
+      "color": [
+        36,
+        26,
+        22
+      ],
+      "percentage": 10.42
+    }
+  ],
+  "Dark Caramel Balayage": [
+    {
+      "color": [
+        24,
+        17,
+        14
+      ],
+      "percentage": 64.47
+    },
+    {
+      "color": [
+        112,
+        87,
+        60
+      ],
+      "percentage": 18.07
+    },
+    {
+      "color": [
+        74,
+        52,
+        35
+      ],
+      "percentage": 17.46
+    }
+  ],
+  "Honey Blonde": [
+    {
+      "color": [
+        156,
+        135,
+        104
+      ],
+      "percentage": 47.17
+    },
+    {
+      "color": [
+        127,
+        98,
+        70
+      ],
+      "percentage": 15.14
+    },
+    {
+      "color": [
+        174,
+        163,
+        140
+      ],
+      "percentage": 37.69
+    }
+  ],
+  "Hot toffee": [
+    {
+      "color": [
+        147,
+        144,
+        133
+      ],
+      "percentage": 39.17
+    },
+    {
+      "color": [
+        76,
+        65,
+        57
+      ],
+      "percentage": 29.96
+    },
+    {
+      "color": [
+        112,
+        106,
+        97
+      ],
+      "percentage": 30.87
+    }
+  ],
+  "Luscious Blonde": [
+    {
+      "color": [
+        135,
+        117,
+        96
+      ],
+      "percentage": 26.43
+    },
+    {
+      "color": [
+        158,
+        149,
+        129
+      ],
+      "percentage": 33.22
+    },
+    {
+      "color": [
+        181,
+        176,
+        157
+      ],
+      "percentage": 40.35
+    }
+  ],
+  "lvory": [
+    {
+      "color": [
+        113,
+        101,
+        94
+      ],
+      "percentage": 17.24
+    },
+    {
+      "color": [
+        137,
+        126,
+        114
+      ],
+      "percentage": 37.85
+    },
+    {
+      "color": [
+        153,
+        146,
+        134
+      ],
+      "percentage": 44.91
+    }
+  ],
+  "Medium Brown Balayage": [
+    {
+      "color": [
+        43,
+        27,
+        20
+      ],
+      "percentage": 40.97
+    },
+    {
+      "color": [
+        100,
+        77,
+        58
+      ],
+      "percentage": 22.73
+    },
+    {
+      "color": [
+        133,
+        111,
+        88
+      ],
+      "percentage": 36.3
+    }
+  ],
+  "Mixed Blonde": [
+    {
+      "color": [
+        106,
+        92,
+        79
+      ],
+      "percentage": 24.7
+    },
+    {
+      "color": [
+        136,
+        130,
+        118
+      ],
+      "percentage": 38.47
+    },
+    {
+      "color": [
+        165,
+        166,
+        156
+      ],
+      "percentage": 36.83
+    }
+  ],
+  "Natural Black": [
+    {
+      "color": [
+        11,
+        10,
+        9
+      ],
+      "percentage": 53.51
+    },
+    {
+      "color": [
+        30,
+        28,
+        25
+      ],
+      "percentage": 3.36
+    },
+    {
+      "color": [
+        16,
+        14,
+        13
+      ],
+      "percentage": 43.13
+    }
+  ],
+  "Natural Caramel": [
+    {
+      "color": [
+        51,
+        39,
+        31
+      ],
+      "percentage": 21.28
+    },
+    {
+      "color": [
+        21,
+        15,
+        12
+      ],
+      "percentage": 66.36
+    },
+    {
+      "color": [
+        86,
+        70,
+        55
+      ],
+      "percentage": 12.36
+    }
+  ],
+  "Old Money Blonde": [
+    {
+      "color": [
+        111,
+        85,
+        66
+      ],
+      "percentage": 43.31
+    },
+    {
+      "color": [
+        137,
+        115,
+        97
+      ],
+      "percentage": 24.02
+    },
+    {
+      "color": [
+        84,
+        59,
+        42
+      ],
+      "percentage": 32.67
+    }
+  ],
+  "Platinum Blonde Balayage": [
+    {
+      "color": [
+        187,
+        188,
+        180
+      ],
+      "percentage": 39.84
+    },
+    {
+      "color": [
+        160,
+        154,
+        143
+      ],
+      "percentage": 15.16
+    },
+    {
+      "color": [
+        175,
+        174,
+        164
+      ],
+      "percentage": 45.01
+    }
+  ],
+  "Rooted Golden Brown": [
+    {
+      "color": [
+        163,
+        147,
+        122
+      ],
+      "percentage": 47.56
+    },
+    {
+      "color": [
+        51,
+        35,
+        27
+      ],
+      "percentage": 32.41
+    },
+    {
+      "color": [
+        124,
+        103,
+        81
+      ],
+      "percentage": 20.04
+    }
+  ],
+  "Sandy Chocolate": [
+    {
+      "color": [
+        34,
+        25,
+        20
+      ],
+      "percentage": 61.44
+    },
+    {
+      "color": [
+        129,
+        116,
+        98
+      ],
+      "percentage": 20.79
+    },
+    {
+      "color": [
+        77,
+        66,
+        54
+      ],
+      "percentage": 17.77
+    }
+  ],
+  "Scandinavian Blonde": [
+    {
+      "color": [
+        50,
+        45,
+        41
+      ],
+      "percentage": 25.3
+    },
+    {
+      "color": [
+        146,
+        145,
+        137
+      ],
+      "percentage": 45.76
+    },
+    {
+      "color": [
+        109,
+        105,
+        97
+      ],
+      "percentage": 28.93
+    }
+  ],
+  "Silver Blonde": [
+    {
+      "color": [
+        179,
+        178,
+        168
+      ],
+      "percentage": 36.48
+    },
+    {
+      "color": [
+        152,
+        143,
+        130
+      ],
+      "percentage": 14.46
+    },
+    {
+      "color": [
+        167,
+        163,
+        152
+      ],
+      "percentage": 49.05
+    }
+  ],
+  "Summer Blonde": [
+    {
+      "color": [
+        188,
+        178,
+        155
+      ],
+      "percentage": 25.58
+    },
+    {
+      "color": [
+        173,
+        159,
+        133
+      ],
+      "percentage": 47.23
+    },
+    {
+      "color": [
+        159,
+        141,
+        110
+      ],
+      "percentage": 27.18
+    }
+  ],
+  "Sunkissed Brown": [
+    {
+      "color": [
+        57,
+        34,
+        23
+      ],
+      "percentage": 31.91
+    },
+    {
+      "color": [
+        84,
+        57,
+        40
+      ],
+      "percentage": 15.75
+    },
+    {
+      "color": [
+        29,
+        18,
+        14
+      ],
+      "percentage": 52.34
+    }
+  ],
+  "Teddy Bear Blonde": [
+    {
+      "color": [
+        150,
+        118,
+        74
+      ],
+      "percentage": 39.91
+    },
+    {
+      "color": [
+        176,
+        150,
+        106
+      ],
+      "percentage": 32.28
+    },
+    {
+      "color": [
+        117,
+        86,
+        48
+      ],
+      "percentage": 27.81
+    }
+  ]
+}
