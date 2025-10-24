@@ -28,20 +28,76 @@ def similar(G1, B1, R1, G2, B2, R2):
     return max(ar) / min(ar) < 1.55 and br > 0.7 and br < 1.4
 
 
-def get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3):
-    # print(f"Extracting dominant colors from hair pixels...{hair_pixels}")
+def rgb_to_hsv_simple(rgb):
+    r, g, b = [x / 255.0 for x in rgb]
+    max_c = max(r, g, b)
+    min_c = min(r, g, b)
+    diff = max_c - min_c
+    if diff == 0:
+        h = 0
+    elif max_c == r:
+        h = (60 * ((g - b) / diff) + 360) % 360
+    elif max_c == g:
+        h = (60 * ((b - r) / diff) + 120) % 360
+    else:
+        h = (60 * ((r - g) / diff) + 240) % 360
+    s = 0 if max_c == 0 else (diff / max_c)
+    v = max_c
+    return h, s, v
+
+def rgb_to_lab(rgb):
+    """Convert RGB to Lab"""
+    from colormath.color_objects import LabColor, sRGBColor
+    from colormath.color_conversions import convert_color
+    r, g, b = [x / 255.0 for x in rgb]
+    rgb_color = sRGBColor(r, g, b)
+    lab_color = convert_color(rgb_color, LabColor)
+    return [lab_color.lab_l, lab_color.lab_a, lab_color.lab_b]
+
+def classify_tone(rgb, h, s):
+    r, g, b = rgb
+    if h < 30 and s > 0.3 and r > g + 15:
+        return "warm_orange"
+    elif 30 <= h < 60 and s > 0.2:
+        return "warm_brown"
+    elif h < 40 and s < 0.2:
+        return "neutral_brown"
+    elif 40 <= h < 80 and s > 0.2:
+        return "golden"
+    elif 180 <= h < 270:
+        return "cool"
+    else:
+        return "neutral"
+
+def get_dominant_colors_from_hair(hair_pixels, n_clusters=5, min_percentage=2):
     if len(hair_pixels) == 0:
-        return [{"color": [0, 0, 0], "percentage": 100.0}]
+        return [{"color": [0, 0, 0], "percentage": 0.0, "tone": "neutral"}]
     
     data = np.array(hair_pixels)
-
-    # Remove duplicate rows to avoid KMeans warning
+    
+    # Aggressive filtering for better accuracy
+    filtered_data = []
+    for pixel in data:
+        brightness = (pixel[0] * 0.299 + pixel[1] * 0.587 + pixel[2] * 0.114)
+        max_val = max(pixel)
+        min_val = min(pixel)
+        saturation = (max_val - min_val) / (max_val + 1) if max_val > 0 else 0
+        
+        # Stricter filtering: remove noise, highlights, shadows, grey/white
+        if 15 < brightness < 235:  # Tighter range
+            if not (brightness > 90 and saturation < 0.2):  # Stricter grey/white filter
+                if not (saturation < 0.08):  # Remove very low saturation (grey tones)
+                    filtered_data.append(pixel)
+    
+    if len(filtered_data) < 10:
+        filtered_data = data
+    
+    data = np.array(filtered_data)
     unique_colors = np.unique(data, axis=0)
     actual_clusters = min(len(unique_colors), n_clusters)
 
     if actual_clusters == 0:
-        print("there is no cluster [{color: [0, 0, 0], percentage: 100.0}]")
-        return [{"color": [0, 0, 0], "percentage": 100.0}]
+        return [{"color": [0, 0, 0], "percentage": 0.0}]
 
     try:
         kmeans = KMeans(n_clusters=actual_clusters, random_state=42, n_init="auto")
@@ -55,23 +111,43 @@ def get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3):
         for i in range(actual_clusters):
             percentage = (counts[i] / total) * 100
             if percentage >= min_percentage:
+                color = [max(0, min(255, int(c))) for c in centers[i]]
+                brightness_val = color[0] * 0.299 + color[1] * 0.587 + color[2] * 0.114
+                h, s, v = rgb_to_hsv_simple(color)
+                tone = classify_tone(color, h, s)
+                lab = rgb_to_lab(color)
+                
                 dominant_colors.append({
-                    "color": centers[i].tolist(),
-                    "percentage": round(percentage, 2)
+                    "color": color,
+                    "rgb": color,
+                    "lab": [round(x, 2) for x in lab],
+                    "percentage": round(percentage, 2),
+                    "brightness": round(brightness_val, 2),
+                    "hue": round(h, 2),
+                    "saturation": round(s, 3),
+                    "tone": tone
                 })
 
-        # Ensure at least one color is returned
+        # Sort by percentage
+        dominant_colors.sort(key=lambda x: x["percentage"], reverse=True)
+        
+        # Ensure at least one color
         if not dominant_colors:
-            avg_color = data.mean(axis=0).astype(int).tolist()
-            print("there is no dominant color: [{color: [0, 0, 0], percentage: 100.0}]" )
-            return [{"color": avg_color, "percentage": 100.0}]
+            most_common_idx = np.argmax(counts)
+            color = [max(0, min(255, int(c))) for c in centers[most_common_idx]]
+            brightness_val = color[0] * 0.299 + color[1] * 0.587 + color[2] * 0.114
+            h, s, v = rgb_to_hsv_simple(color)
+            tone = classify_tone(color, h, s)
+            dominant_colors = [{"color": color, "percentage": round((counts[most_common_idx] / total) * 100, 2), "tone": tone}]
 
         return dominant_colors
 
     except Exception as e:
         print(f"[ERROR] KMeans failed: {e}")
-        avg_color = data.mean(axis=0).astype(int).tolist()
-        return [{"color": avg_color, "percentage": 100.0}]
+        avg_color = [max(0, min(255, int(c))) for c in data.mean(axis=0)]
+        h, s, v = rgb_to_hsv_simple(avg_color)
+        tone = classify_tone(avg_color, h, s)
+        return [{"color": avg_color, "percentage": 100.0, "tone": tone}]
 
 def vis_parsing_maps(im, origin, parsing_anno, stride):
 
@@ -81,16 +157,30 @@ def vis_parsing_maps(im, origin, parsing_anno, stride):
 
     hair_pixels = []
 
+    # Extract hair pixels with stricter filtering
     for x in range(origin.shape[0]):
         for y in range(origin.shape[1]):
             _x = int(x * 512 / origin.shape[0])
             _y = int(y * 512 / origin.shape[1])
             if vis_parsing_anno[_x][_y] == 17:  # 17 = hair
                 b, g, r = origin[x, y]
-                hair_pixels.append([r, g, b])  # RGB
+                brightness = r * 0.299 + g * 0.587 + b * 0.114
+                # Stricter artifact removal
+                if 15 < brightness < 240:
+                    if not (r < 15 and g < 15 and b < 15) and not (r > 240 and g > 240 and b > 240):
+                        hair_pixels.append([r, g, b])  # RGB
 
     print("hair pixel--------------", len(hair_pixels))
-    dominant_colors = get_dominant_colors_from_hair(hair_pixels, n_clusters=3, min_percentage=3)
+    # Use 4 clusters to capture highlights/balayage
+    dominant_colors = get_dominant_colors_from_hair(hair_pixels, n_clusters=4, min_percentage=3)
+    
+    # Mark base color (darkest with highest percentage)
+    if dominant_colors:
+        darkest = min(dominant_colors, key=lambda x: x["color"][0] * 0.299 + x["color"][1] * 0.587 + x["color"][2] * 0.114)
+        darkest_brightness = darkest["color"][0] * 0.299 + darkest["color"][1] * 0.587 + darkest["color"][2] * 0.114
+        
+        if darkest_brightness < 80 and darkest["percentage"] > 40:
+            darkest["is_base_color"] = True
 
     with open("hair_rgb.json", "w") as f:
         json.dump({"dominant_hair_colors": dominant_colors}, f)
@@ -98,33 +188,7 @@ def vis_parsing_maps(im, origin, parsing_anno, stride):
 
 
 
-# def highlight_hair_region(origin, parsing_anno, stride=1):
-#     # Resize parsing map to original image scale
-#     vis_parsing_anno = parsing_anno.copy().astype(np.uint8)
-#     vis_parsing_anno = cv2.resize(vis_parsing_anno, (origin.shape[1], origin.shape[0]), interpolation=cv2.INTER_NEAREST)
-    
-#     # Create a mask where hair label == 17
-#     hair_mask = (vis_parsing_anno == 17).astype(np.uint8) * 255  # binary mask 0 or 255
-    
-#     # Optional: smooth the mask a bit
-#     kernel = np.ones((5,5), np.uint8)
-#     hair_mask = cv2.morphologyEx(hair_mask, cv2.MORPH_CLOSE, kernel)
-    
-#     # Create an overlay with hair highlighted in color (e.g., green)
-#     overlay = origin.copy()
-#     overlay[hair_mask == 255] = [0, 255, 0]  # green highlight on hair pixels (BGR)
-    
-#     # Blend original and overlay
-#     highlighted = cv2.addWeighted(origin, 0.7, overlay, 0.3, 0)
-    
-#     # Save highlighted hair image
-#     cv2.imwrite("highlighted_hair.png", highlighted)
-    
-#     return highlighted
-import cv2
-import numpy as np
-
-def highlight_hair_region(origin, parsing_anno, stride=1, bottom_fraction=0.5):
+def highlight_hair_region(origin, parsing_anno, stride=1):
     # Resize parsing map to original image scale
     vis_parsing_anno = parsing_anno.copy().astype(np.uint8)
     vis_parsing_anno = cv2.resize(vis_parsing_anno, (origin.shape[1], origin.shape[0]), interpolation=cv2.INTER_NEAREST)
@@ -132,37 +196,39 @@ def highlight_hair_region(origin, parsing_anno, stride=1, bottom_fraction=0.5):
     # Create a mask where hair label == 17
     hair_mask = (vis_parsing_anno == 17).astype(np.uint8) * 255  # binary mask 0 or 255
     
-    # Optional: smooth the mask
+    # Optional: smooth the mask a bit
     kernel = np.ones((5,5), np.uint8)
     hair_mask = cv2.morphologyEx(hair_mask, cv2.MORPH_CLOSE, kernel)
     
-    # Find hair bounding box
-    ys, xs = np.where(hair_mask == 255)
-    if len(ys) == 0:  # no hair detected
-        return origin
-    y_min, y_max = ys.min(), ys.max()
-    
-    # Only keep bottom part
-    y_cut = int(y_min + (y_max - y_min) * (1 - bottom_fraction))
-    bottom_mask = np.zeros_like(hair_mask)
-    bottom_mask[y_cut:y_max, :] = hair_mask[y_cut:y_max, :]
-    
-    # Create overlay with bottom hair highlighted in green
+    # Create an overlay with hair highlighted in color (e.g., green)
     overlay = origin.copy()
-    overlay[bottom_mask == 255] = [0, 255, 0]  # BGR
+    overlay[hair_mask == 255] = [0, 255, 0]  # green highlight on hair pixels (BGR)
     
     # Blend original and overlay
     highlighted = cv2.addWeighted(origin, 0.7, overlay, 0.3, 0)
     
-    # Save highlighted image
-    cv2.imwrite("highlighted_hair_bottom.png", highlighted)
+    # Save highlighted hair image (for visualization only, NOT used for color extraction)
+    cv2.imwrite("highlighted_hair.png", highlighted)
     
-    return highlighted
+    return hair_mask  # Return mask, not highlighted image
 
+def normalize_lighting(img):
+    """Gray World lighting normalization"""
+    img_float = img.astype(np.float32)
+    avg_b = np.mean(img_float[:, :, 0])
+    avg_g = np.mean(img_float[:, :, 1])
+    avg_r = np.mean(img_float[:, :, 2])
+    gray = (avg_r + avg_g + avg_b) / 3
+    scale_b = gray / (avg_b + 1e-6)
+    scale_g = gray / (avg_g + 1e-6)
+    scale_r = gray / (avg_r + 1e-6)
+    img_float[:, :, 0] = np.clip(img_float[:, :, 0] * scale_b, 0, 255)
+    img_float[:, :, 1] = np.clip(img_float[:, :, 1] * scale_g, 0, 255)
+    img_float[:, :, 2] = np.clip(img_float[:, :, 2] * scale_r, 0, 255)
+    return img_float.astype(np.uint8)
 
-def evaluate(cp='model/model.pth', input_path=''):
+def evaluate(cp='model/model.pth', input_path='', original_path=''):
     n_classes = 19
-    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     device = torch.device('cpu')
     print(f"Using device: {device}")
     n_classes = 19
@@ -172,9 +238,19 @@ def evaluate(cp='model/model.pth', input_path=''):
     net.load_state_dict(torch.load(save_pth, map_location=torch.device('cpu')))
     net.eval()
 
-    # Load image universally
+    # Load ORIGINAL image for color extraction
+    if original_path and os.path.exists(original_path):
+        pil_img_original = load_image_any_format(original_path)
+        origin = np.array(pil_img_original)[:, :, ::-1].copy()  # RGB → BGR
+    else:
+        pil_img_original = load_image_any_format(input_path)
+        origin = np.array(pil_img_original)[:, :, ::-1].copy()
+    
+    # DON'T normalize user hair - keep original colors
+    # origin = normalize_lighting(origin)
+    
+    # Load image for segmentation
     pil_img = load_image_any_format(input_path)  # PIL Image (RGB)
-    origin = np.array(pil_img)[:, :, ::-1].copy()  # Convert RGB → BGR for OpenCV
 
     # Preprocess for model
     to_tensor = transforms.Compose([
@@ -190,9 +266,10 @@ def evaluate(cp='model/model.pth', input_path=''):
         out = net(img_tensor)[0]
         parsing = out.squeeze(0).cpu().numpy().argmax(0)
 
-    # Hair region + color
-    highlight_hair_region(origin, parsing, stride=1)
+    # Get hair mask (for visualization)
+    hair_mask = highlight_hair_region(origin, parsing, stride=1)
     
+    # Extract colors from ORIGINAL image using mask
     vis_parsing_maps(image_resized, origin, parsing, stride=1)
 
 def detect_shade_color(input_path):
@@ -217,8 +294,8 @@ def detect_shade_color(input_path):
 
         
 
-def detect_hair_color(input_path='files/1.JPG'):
-    evaluate(input_path=input_path)
+def detect_hair_color(input_path='files/1.JPG', original_path=''):
+    evaluate(input_path=input_path, original_path=original_path)
     with open("hair_rgb.json", "r") as f:
         hair_rgb = json.load(f)
     os.remove("hair_rgb.json")  # Clean up temp file

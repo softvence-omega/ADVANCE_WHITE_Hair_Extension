@@ -1,0 +1,6627 @@
+{
+  "Autumn": [
+    {
+      "rgb": [
+        47,
+        43,
+        25
+      ],
+      "lab": [
+        17.47,
+        -1.53,
+        12.39
+      ],
+      "percentage": 45.29,
+      "brightness": 42.14,
+      "hue": 49.09,
+      "saturation": 0.468,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        72,
+        75,
+        84
+      ],
+      "lab": [
+        31.92,
+        0.9,
+        -5.74
+      ],
+      "percentage": 38.62,
+      "brightness": 75.13,
+      "hue": 225.0,
+      "saturation": 0.143,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        98,
+        109,
+        146
+      ],
+      "lab": [
+        46.46,
+        5.09,
+        -21.55
+      ],
+      "percentage": 16.09,
+      "brightness": 109.93,
+      "hue": 226.25,
+      "saturation": 0.329,
+      "tone": "cool"
+    }
+  ],
+  "Autumn_CloseUp": [
+    {
+      "rgb": [
+        152,
+        161,
+        178
+      ],
+      "lab": [
+        66.04,
+        0.35,
+        -9.88
+      ],
+      "percentage": 42.86,
+      "brightness": 160.25,
+      "hue": 219.23,
+      "saturation": 0.146,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        111,
+        107,
+        100
+      ],
+      "lab": [
+        45.38,
+        0.2,
+        4.47
+      ],
+      "percentage": 33.28,
+      "brightness": 107.4,
+      "hue": 38.18,
+      "saturation": 0.099,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        81,
+        68,
+        47
+      ],
+      "lab": [
+        29.64,
+        2.09,
+        14.79
+      ],
+      "percentage": 23.86,
+      "brightness": 69.49,
+      "hue": 37.06,
+      "saturation": 0.42,
+      "tone": "warm_brown"
+    }
+  ],
+  "Autumn_IndoorLight": [
+    {
+      "rgb": [
+        74,
+        63,
+        41
+      ],
+      "lab": [
+        27.22,
+        1.09,
+        15.25
+      ],
+      "percentage": 37.12,
+      "brightness": 63.78,
+      "hue": 40.0,
+      "saturation": 0.446,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        107,
+        108,
+        108
+      ],
+      "lab": [
+        45.54,
+        -0.38,
+        -0.14
+      ],
+      "percentage": 34.64,
+      "brightness": 107.7,
+      "hue": 180.0,
+      "saturation": 0.009,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        144,
+        158,
+        186
+      ],
+      "lab": [
+        64.91,
+        1.23,
+        -16.12
+      ],
+      "percentage": 28.24,
+      "brightness": 157.01,
+      "hue": 220.0,
+      "saturation": 0.226,
+      "tone": "cool"
+    }
+  ],
+  "Autumn_light": [
+    {
+      "rgb": [
+        60,
+        59,
+        57
+      ],
+      "lab": [
+        24.9,
+        -0.01,
+        1.39
+      ],
+      "percentage": 39.54,
+      "brightness": 59.07,
+      "hue": 40.0,
+      "saturation": 0.05,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        47,
+        42,
+        38
+      ],
+      "lab": [
+        17.46,
+        1.43,
+        3.44
+      ],
+      "percentage": 32.26,
+      "brightness": 43.04,
+      "hue": 26.67,
+      "saturation": 0.191,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        73,
+        81,
+        87
+      ],
+      "lab": [
+        33.96,
+        -1.75,
+        -4.6
+      ],
+      "percentage": 28.2,
+      "brightness": 79.29,
+      "hue": 205.71,
+      "saturation": 0.161,
+      "tone": "cool"
+    }
+  ],
+  "Autumn_NaturalLight": [
+    {
+      "rgb": [
+        147,
+        156,
+        172
+      ],
+      "lab": [
+        64.13,
+        0.15,
+        -9.42
+      ],
+      "percentage": 37.31,
+      "brightness": 155.13,
+      "hue": 218.4,
+      "saturation": 0.145,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        113,
+        111,
+        108
+      ],
+      "lab": [
+        46.93,
+        0.17,
+        1.94
+      ],
+      "percentage": 34.33,
+      "brightness": 111.26,
+      "hue": 36.0,
+      "saturation": 0.044,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        87,
+        77,
+        61
+      ],
+      "lab": [
+        33.29,
+        1.31,
+        11.03
+      ],
+      "percentage": 28.36,
+      "brightness": 78.17,
+      "hue": 36.92,
+      "saturation": 0.299,
+      "tone": "warm_brown"
+    }
+  ],
+  "Brown Soft Blended": [
+    {
+      "rgb": [
+        59,
+        53,
+        50
+      ],
+      "lab": [
+        22.68,
+        2.02,
+        2.85
+      ],
+      "percentage": 48.29,
+      "brightness": 54.45,
+      "hue": 20.0,
+      "saturation": 0.153,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        84,
+        85,
+        87
+      ],
+      "lab": [
+        36.12,
+        0.03,
+        -1.31
+      ],
+      "percentage": 26.72,
+      "brightness": 84.93,
+      "hue": 220.0,
+      "saturation": 0.034,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        113,
+        123,
+        128
+      ],
+      "lab": [
+        50.96,
+        -2.62,
+        -4.0
+      ],
+      "percentage": 24.99,
+      "brightness": 120.58,
+      "hue": 200.0,
+      "saturation": 0.117,
+      "tone": "cool"
+    }
+  ],
+  "Brown Soft Blended_CloseUp": [
+    {
+      "rgb": [
+        79,
+        70,
+        63
+      ],
+      "lab": [
+        30.4,
+        2.46,
+        5.61
+      ],
+      "percentage": 39.3,
+      "brightness": 71.89,
+      "hue": 26.25,
+      "saturation": 0.203,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        124,
+        121,
+        120
+      ],
+      "lab": [
+        51.05,
+        0.94,
+        0.95
+      ],
+      "percentage": 32.4,
+      "brightness": 121.78,
+      "hue": 15.0,
+      "saturation": 0.032,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        178,
+        188,
+        195
+      ],
+      "lab": [
+        75.68,
+        -2.07,
+        -4.72
+      ],
+      "percentage": 28.3,
+      "brightness": 185.81,
+      "hue": 204.71,
+      "saturation": 0.087,
+      "tone": "cool"
+    }
+  ],
+  "Brown Soft Blended_IndoorLight": [
+    {
+      "rgb": [
+        174,
+        182,
+        191
+      ],
+      "lab": [
+        73.69,
+        -1.0,
+        -5.53
+      ],
+      "percentage": 35.8,
+      "brightness": 180.63,
+      "hue": 211.76,
+      "saturation": 0.089,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        110,
+        108,
+        104
+      ],
+      "lab": [
+        45.69,
+        -0.02,
+        2.5
+      ],
+      "percentage": 32.85,
+      "brightness": 108.14,
+      "hue": 40.0,
+      "saturation": 0.055,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        72,
+        64,
+        55
+      ],
+      "lab": [
+        27.63,
+        1.7,
+        6.76
+      ],
+      "percentage": 31.35,
+      "brightness": 65.37,
+      "hue": 31.76,
+      "saturation": 0.236,
+      "tone": "warm_brown"
+    }
+  ],
+  "Brown Soft Blended_light": [
+    {
+      "rgb": [
+        58,
+        51,
+        49
+      ],
+      "lab": [
+        21.9,
+        2.7,
+        2.4
+      ],
+      "percentage": 46.86,
+      "brightness": 52.86,
+      "hue": 13.33,
+      "saturation": 0.155,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        82,
+        83,
+        84
+      ],
+      "lab": [
+        35.24,
+        -0.19,
+        -0.73
+      ],
+      "percentage": 28.45,
+      "brightness": 82.81,
+      "hue": 210.0,
+      "saturation": 0.024,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        112,
+        123,
+        128
+      ],
+      "lab": [
+        50.88,
+        -2.98,
+        -4.12
+      ],
+      "percentage": 24.69,
+      "brightness": 120.28,
+      "hue": 198.75,
+      "saturation": 0.125,
+      "tone": "cool"
+    }
+  ],
+  "Brown Soft Blended_NaturalLight": [
+    {
+      "rgb": [
+        85,
+        76,
+        69
+      ],
+      "lab": [
+        32.98,
+        2.41,
+        5.52
+      ],
+      "percentage": 35.61,
+      "brightness": 77.89,
+      "hue": 26.25,
+      "saturation": 0.188,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        127,
+        124,
+        122
+      ],
+      "lab": [
+        52.21,
+        0.74,
+        1.49
+      ],
+      "percentage": 34.04,
+      "brightness": 124.67,
+      "hue": 24.0,
+      "saturation": 0.039,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        181,
+        190,
+        198
+      ],
+      "lab": [
+        76.51,
+        -1.53,
+        -5.1
+      ],
+      "percentage": 30.35,
+      "brightness": 188.22,
+      "hue": 208.24,
+      "saturation": 0.086,
+      "tone": "cool"
+    }
+  ],
+  "Champagne Blonde": [
+    {
+      "rgb": [
+        122,
+        119,
+        116
+      ],
+      "lab": [
+        50.21,
+        0.56,
+        2.05
+      ],
+      "percentage": 45.64,
+      "brightness": 119.55,
+      "hue": 30.0,
+      "saturation": 0.049,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        148,
+        154,
+        159
+      ],
+      "lab": [
+        63.27,
+        -1.15,
+        -3.37
+      ],
+      "percentage": 34.25,
+      "brightness": 152.78,
+      "hue": 207.27,
+      "saturation": 0.069,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        73,
+        68,
+        67
+      ],
+      "lab": [
+        29.3,
+        1.9,
+        1.36
+      ],
+      "percentage": 20.11,
+      "brightness": 69.38,
+      "hue": 10.0,
+      "saturation": 0.082,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Champagne Blonde_CloseUp": [
+    {
+      "rgb": [
+        135,
+        133,
+        131
+      ],
+      "lab": [
+        55.65,
+        0.36,
+        1.33
+      ],
+      "percentage": 52.0,
+      "brightness": 133.37,
+      "hue": 30.0,
+      "saturation": 0.03,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        175,
+        180,
+        185
+      ],
+      "lab": [
+        73.06,
+        -0.78,
+        -3.15
+      ],
+      "percentage": 25.75,
+      "brightness": 179.07,
+      "hue": 210.0,
+      "saturation": 0.054,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        82,
+        80,
+        80
+      ],
+      "lab": [
+        34.21,
+        0.81,
+        0.29
+      ],
+      "percentage": 22.25,
+      "brightness": 80.6,
+      "hue": 0.0,
+      "saturation": 0.024,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Champagne Blonde_IndoorLight": [
+    {
+      "rgb": [
+        128,
+        126,
+        124
+      ],
+      "lab": [
+        52.91,
+        0.36,
+        1.35
+      ],
+      "percentage": 54.42,
+      "brightness": 126.37,
+      "hue": 30.0,
+      "saturation": 0.031,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        169,
+        173,
+        177
+      ],
+      "lab": [
+        70.52,
+        -0.63,
+        -2.55
+      ],
+      "percentage": 23.64,
+      "brightness": 172.26,
+      "hue": 210.0,
+      "saturation": 0.045,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        68,
+        68,
+        70
+      ],
+      "lab": [
+        28.92,
+        0.45,
+        -1.21
+      ],
+      "percentage": 21.94,
+      "brightness": 68.23,
+      "hue": 240.0,
+      "saturation": 0.029,
+      "tone": "cool"
+    }
+  ],
+  "Champagne Blonde_light": [
+    {
+      "rgb": [
+        122,
+        119,
+        116
+      ],
+      "lab": [
+        50.21,
+        0.56,
+        2.05
+      ],
+      "percentage": 44.74,
+      "brightness": 119.55,
+      "hue": 30.0,
+      "saturation": 0.049,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        148,
+        153,
+        158
+      ],
+      "lab": [
+        62.97,
+        -0.8,
+        -3.25
+      ],
+      "percentage": 34.65,
+      "brightness": 152.07,
+      "hue": 210.0,
+      "saturation": 0.063,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        73,
+        68,
+        67
+      ],
+      "lab": [
+        29.3,
+        1.9,
+        1.36
+      ],
+      "percentage": 20.61,
+      "brightness": 69.38,
+      "hue": 10.0,
+      "saturation": 0.082,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Champagne Blonde_NaturalLight": [
+    {
+      "rgb": [
+        117,
+        116,
+        115
+      ],
+      "lab": [
+        48.9,
+        0.18,
+        0.68
+      ],
+      "percentage": 40.66,
+      "brightness": 116.18,
+      "hue": 30.0,
+      "saturation": 0.017,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        161,
+        162,
+        162
+      ],
+      "lab": [
+        66.54,
+        -0.36,
+        -0.13
+      ],
+      "percentage": 36.36,
+      "brightness": 161.7,
+      "hue": 180.0,
+      "saturation": 0.006,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        60,
+        60,
+        63
+      ],
+      "lab": [
+        25.42,
+        0.69,
+        -1.85
+      ],
+      "percentage": 22.98,
+      "brightness": 60.34,
+      "hue": 240.0,
+      "saturation": 0.048,
+      "tone": "cool"
+    }
+  ],
+  "Coffee biscuit": [
+    {
+      "rgb": [
+        46,
+        43,
+        38
+      ],
+      "lab": [
+        17.68,
+        0.27,
+        3.74
+      ],
+      "percentage": 61.68,
+      "brightness": 43.33,
+      "hue": 37.5,
+      "saturation": 0.174,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        80,
+        84,
+        90
+      ],
+      "lab": [
+        35.57,
+        -0.23,
+        -4.04
+      ],
+      "percentage": 24.64,
+      "brightness": 83.49,
+      "hue": 216.0,
+      "saturation": 0.111,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        117,
+        132,
+        151
+      ],
+      "lab": [
+        54.57,
+        -1.1,
+        -11.99
+      ],
+      "percentage": 13.69,
+      "brightness": 129.68,
+      "hue": 213.53,
+      "saturation": 0.225,
+      "tone": "cool"
+    }
+  ],
+  "Coffee Biscuit_CloseUp": [
+    {
+      "rgb": [
+        64,
+        54,
+        46
+      ],
+      "lab": [
+        23.42,
+        2.92,
+        6.67
+      ],
+      "percentage": 41.49,
+      "brightness": 56.08,
+      "hue": 26.67,
+      "saturation": 0.281,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        104,
+        107,
+        108
+      ],
+      "lab": [
+        45.0,
+        -0.94,
+        -0.97
+      ],
+      "percentage": 31.35,
+      "brightness": 106.22,
+      "hue": 195.0,
+      "saturation": 0.037,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        148,
+        163,
+        175
+      ],
+      "lab": [
+        66.2,
+        -2.73,
+        -8.0
+      ],
+      "percentage": 27.16,
+      "brightness": 159.88,
+      "hue": 206.67,
+      "saturation": 0.154,
+      "tone": "cool"
+    }
+  ],
+  "Coffee Biscuit_IndoorLight": [
+    {
+      "rgb": [
+        60,
+        53,
+        44
+      ],
+      "lab": [
+        22.61,
+        1.34,
+        6.81
+      ],
+      "percentage": 35.79,
+      "brightness": 54.07,
+      "hue": 33.75,
+      "saturation": 0.267,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        95,
+        96,
+        95
+      ],
+      "lab": [
+        40.61,
+        -0.6,
+        0.43
+      ],
+      "percentage": 34.41,
+      "brightness": 95.59,
+      "hue": 120.0,
+      "saturation": 0.01,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        139,
+        147,
+        161
+      ],
+      "lab": [
+        60.72,
+        0.07,
+        -8.35
+      ],
+      "percentage": 29.8,
+      "brightness": 146.2,
+      "hue": 218.18,
+      "saturation": 0.137,
+      "tone": "cool"
+    }
+  ],
+  "Coffee Biscuit_light": [
+    {
+      "rgb": [
+        32,
+        31,
+        30
+      ],
+      "lab": [
+        11.83,
+        0.23,
+        0.85
+      ],
+      "percentage": 54.01,
+      "brightness": 31.19,
+      "hue": 30.0,
+      "saturation": 0.062,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        42,
+        44,
+        43
+      ],
+      "lab": [
+        17.77,
+        -1.13,
+        0.34
+      ],
+      "percentage": 34.5,
+      "brightness": 43.29,
+      "hue": 150.0,
+      "saturation": 0.045,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        53,
+        60,
+        62
+      ],
+      "lab": [
+        24.75,
+        -2.42,
+        -2.23
+      ],
+      "percentage": 11.49,
+      "brightness": 58.13,
+      "hue": 193.33,
+      "saturation": 0.145,
+      "tone": "cool"
+    }
+  ],
+  "Coffee Biscuit_NaturalLight": [
+    {
+      "rgb": [
+        62,
+        54,
+        47
+      ],
+      "lab": [
+        23.23,
+        2.16,
+        5.7
+      ],
+      "percentage": 41.71,
+      "brightness": 55.59,
+      "hue": 28.0,
+      "saturation": 0.242,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        98,
+        100,
+        101
+      ],
+      "lab": [
+        42.23,
+        -0.57,
+        -0.84
+      ],
+      "percentage": 32.5,
+      "brightness": 99.52,
+      "hue": 200.0,
+      "saturation": 0.03,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        140,
+        153,
+        164
+      ],
+      "lab": [
+        62.54,
+        -2.29,
+        -7.33
+      ],
+      "percentage": 25.79,
+      "brightness": 150.37,
+      "hue": 207.5,
+      "saturation": 0.146,
+      "tone": "cool"
+    }
+  ],
+  "Cool Brown": [
+    {
+      "rgb": [
+        41,
+        37,
+        32
+      ],
+      "lab": [
+        14.95,
+        0.78,
+        4.0
+      ],
+      "percentage": 50.35,
+      "brightness": 37.63,
+      "hue": 33.33,
+      "saturation": 0.22,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        61,
+        69,
+        74
+      ],
+      "lab": [
+        28.75,
+        -2.02,
+        -4.12
+      ],
+      "percentage": 35.59,
+      "brightness": 67.18,
+      "hue": 203.08,
+      "saturation": 0.176,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        87,
+        114,
+        129
+      ],
+      "lab": [
+        46.51,
+        -5.93,
+        -11.44
+      ],
+      "percentage": 14.06,
+      "brightness": 107.64,
+      "hue": 201.43,
+      "saturation": 0.326,
+      "tone": "cool"
+    }
+  ],
+  "Cool Brown_CloseUp": [
+    {
+      "rgb": [
+        59,
+        52,
+        48
+      ],
+      "lab": [
+        22.3,
+        2.29,
+        3.66
+      ],
+      "percentage": 45.41,
+      "brightness": 53.64,
+      "hue": 21.82,
+      "saturation": 0.186,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        102,
+        105,
+        107
+      ],
+      "lab": [
+        44.22,
+        -0.73,
+        -1.53
+      ],
+      "percentage": 33.38,
+      "brightness": 104.33,
+      "hue": 204.0,
+      "saturation": 0.047,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        146,
+        161,
+        168
+      ],
+      "lab": [
+        65.3,
+        -3.81,
+        -5.44
+      ],
+      "percentage": 21.21,
+      "brightness": 157.31,
+      "hue": 199.09,
+      "saturation": 0.131,
+      "tone": "cool"
+    }
+  ],
+  "Cool Brown_IndoorLight": [
+    {
+      "rgb": [
+        54,
+        49,
+        45
+      ],
+      "lab": [
+        20.71,
+        1.39,
+        3.36
+      ],
+      "percentage": 44.81,
+      "brightness": 50.04,
+      "hue": 26.67,
+      "saturation": 0.167,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        90,
+        92,
+        94
+      ],
+      "lab": [
+        38.96,
+        -0.36,
+        -1.43
+      ],
+      "percentage": 34.59,
+      "brightness": 91.63,
+      "hue": 210.0,
+      "saturation": 0.043,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        134,
+        144,
+        154
+      ],
+      "lab": [
+        59.29,
+        -1.49,
+        -6.53
+      ],
+      "percentage": 20.6,
+      "brightness": 142.15,
+      "hue": 210.0,
+      "saturation": 0.13,
+      "tone": "cool"
+    }
+  ],
+  "Cool Brown_light": [
+    {
+      "rgb": [
+        29,
+        29,
+        29
+      ],
+      "lab": [
+        10.77,
+        -0.0,
+        -0.0
+      ],
+      "percentage": 66.06,
+      "brightness": 29.0,
+      "hue": 0,
+      "saturation": 0.0,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        38,
+        41,
+        41
+      ],
+      "lab": [
+        16.3,
+        -1.34,
+        -0.47
+      ],
+      "percentage": 26.82,
+      "brightness": 40.1,
+      "hue": 180.0,
+      "saturation": 0.073,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        51,
+        61,
+        66
+      ],
+      "lab": [
+        25.06,
+        -2.81,
+        -4.45
+      ],
+      "percentage": 7.11,
+      "brightness": 58.58,
+      "hue": 200.0,
+      "saturation": 0.227,
+      "tone": "cool"
+    }
+  ],
+  "Cool Brown_NaturalLight": [
+    {
+      "rgb": [
+        56,
+        50,
+        47
+      ],
+      "lab": [
+        21.31,
+        2.04,
+        2.88
+      ],
+      "percentage": 42.08,
+      "brightness": 51.45,
+      "hue": 20.0,
+      "saturation": 0.161,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        93,
+        94,
+        95
+      ],
+      "lab": [
+        39.85,
+        -0.18,
+        -0.71
+      ],
+      "percentage": 36.5,
+      "brightness": 93.81,
+      "hue": 210.0,
+      "saturation": 0.021,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        136,
+        148,
+        154
+      ],
+      "lab": [
+        60.56,
+        -3.04,
+        -4.64
+      ],
+      "percentage": 21.42,
+      "brightness": 145.1,
+      "hue": 200.0,
+      "saturation": 0.117,
+      "tone": "cool"
+    }
+  ],
+  "Copper": [
+    {
+      "rgb": [
+        77,
+        78,
+        75
+      ],
+      "lab": [
+        32.99,
+        -1.05,
+        1.63
+      ],
+      "percentage": 41.24,
+      "brightness": 77.36,
+      "hue": 80.0,
+      "saturation": 0.038,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        63,
+        51,
+        46
+      ],
+      "lab": [
+        22.38,
+        4.44,
+        5.18
+      ],
+      "percentage": 34.74,
+      "brightness": 54.02,
+      "hue": 17.65,
+      "saturation": 0.27,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        88,
+        105,
+        117
+      ],
+      "lab": [
+        43.45,
+        -3.44,
+        -8.83
+      ],
+      "percentage": 24.02,
+      "brightness": 101.28,
+      "hue": 204.83,
+      "saturation": 0.248,
+      "tone": "cool"
+    }
+  ],
+  "Copper_CloseUp": [
+    {
+      "rgb": [
+        79,
+        59,
+        33
+      ],
+      "lab": [
+        26.45,
+        5.16,
+        19.4
+      ],
+      "percentage": 38.81,
+      "brightness": 62.02,
+      "hue": 33.91,
+      "saturation": 0.582,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        111,
+        114,
+        113
+      ],
+      "lab": [
+        47.76,
+        -1.35,
+        0.15
+      ],
+      "percentage": 35.96,
+      "brightness": 112.99,
+      "hue": 160.0,
+      "saturation": 0.026,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        140,
+        170,
+        209
+      ],
+      "lab": [
+        68.7,
+        -1.0,
+        -23.14
+      ],
+      "percentage": 25.22,
+      "brightness": 165.48,
+      "hue": 213.91,
+      "saturation": 0.33,
+      "tone": "cool"
+    }
+  ],
+  "Copper_IndoorLight": [
+    {
+      "rgb": [
+        136,
+        148,
+        167
+      ],
+      "lab": [
+        60.96,
+        -0.16,
+        -11.42
+      ],
+      "percentage": 39.75,
+      "brightness": 146.58,
+      "hue": 216.77,
+      "saturation": 0.186,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        108,
+        104,
+        99
+      ],
+      "lab": [
+        44.22,
+        0.58,
+        3.37
+      ],
+      "percentage": 34.16,
+      "brightness": 104.63,
+      "hue": 33.33,
+      "saturation": 0.083,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        84,
+        70,
+        46
+      ],
+      "lab": [
+        30.55,
+        2.12,
+        16.68
+      ],
+      "percentage": 26.09,
+      "brightness": 71.45,
+      "hue": 37.89,
+      "saturation": 0.452,
+      "tone": "warm_brown"
+    }
+  ],
+  "Copper_light": [
+    {
+      "rgb": [
+        78,
+        79,
+        76
+      ],
+      "lab": [
+        33.42,
+        -1.05,
+        1.62
+      ],
+      "percentage": 41.45,
+      "brightness": 78.36,
+      "hue": 80.0,
+      "saturation": 0.038,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        63,
+        51,
+        46
+      ],
+      "lab": [
+        22.38,
+        4.44,
+        5.18
+      ],
+      "percentage": 35.8,
+      "brightness": 54.02,
+      "hue": 17.65,
+      "saturation": 0.27,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        89,
+        106,
+        118
+      ],
+      "lab": [
+        43.86,
+        -3.44,
+        -8.81
+      ],
+      "percentage": 22.75,
+      "brightness": 102.28,
+      "hue": 204.83,
+      "saturation": 0.246,
+      "tone": "cool"
+    }
+  ],
+  "Copper__NaturalLight": [
+    {
+      "rgb": [
+        75,
+        58,
+        33
+      ],
+      "lab": [
+        25.66,
+        3.82,
+        18.31
+      ],
+      "percentage": 43.49,
+      "brightness": 60.23,
+      "hue": 35.71,
+      "saturation": 0.56,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        103,
+        107,
+        110
+      ],
+      "lab": [
+        44.98,
+        -0.89,
+        -2.21
+      ],
+      "percentage": 35.4,
+      "brightness": 106.15,
+      "hue": 205.71,
+      "saturation": 0.064,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        133,
+        164,
+        206
+      ],
+      "lab": [
+        66.51,
+        -0.43,
+        -24.87
+      ],
+      "percentage": 21.11,
+      "brightness": 159.52,
+      "hue": 214.52,
+      "saturation": 0.354,
+      "tone": "cool"
+    }
+  ],
+  "Dark Brown": [
+    {
+      "rgb": [
+        30,
+        33,
+        33
+      ],
+      "lab": [
+        12.44,
+        -1.38,
+        -0.48
+      ],
+      "percentage": 68.45,
+      "brightness": 32.1,
+      "hue": 180.0,
+      "saturation": 0.091,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        46,
+        56,
+        63
+      ],
+      "lab": [
+        22.89,
+        -2.27,
+        -5.74
+      ],
+      "percentage": 22.15,
+      "brightness": 53.81,
+      "hue": 204.71,
+      "saturation": 0.27,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        70,
+        91,
+        106
+      ],
+      "lab": [
+        37.53,
+        -3.94,
+        -11.15
+      ],
+      "percentage": 9.4,
+      "brightness": 86.43,
+      "hue": 205.0,
+      "saturation": 0.34,
+      "tone": "cool"
+    }
+  ],
+  "Dark Brown_CloseUp": [
+    {
+      "rgb": [
+        55,
+        48,
+        46
+      ],
+      "lab": [
+        20.53,
+        2.73,
+        2.43
+      ],
+      "percentage": 42.4,
+      "brightness": 49.86,
+      "hue": 13.33,
+      "saturation": 0.164,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        93,
+        96,
+        97
+      ],
+      "lab": [
+        40.5,
+        -0.96,
+        -0.98
+      ],
+      "percentage": 35.22,
+      "brightness": 95.22,
+      "hue": 195.0,
+      "saturation": 0.041,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        136,
+        150,
+        154
+      ],
+      "lab": [
+        61.12,
+        -4.15,
+        -3.82
+      ],
+      "percentage": 22.38,
+      "brightness": 146.27,
+      "hue": 193.33,
+      "saturation": 0.117,
+      "tone": "cool"
+    }
+  ],
+  "Dark Brown_IndoorLight": [
+    {
+      "rgb": [
+        50,
+        46,
+        43
+      ],
+      "lab": [
+        19.25,
+        1.15,
+        2.58
+      ],
+      "percentage": 43.78,
+      "brightness": 46.85,
+      "hue": 25.71,
+      "saturation": 0.14,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        81,
+        82,
+        83
+      ],
+      "lab": [
+        34.82,
+        -0.19,
+        -0.73
+      ],
+      "percentage": 35.85,
+      "brightness": 81.81,
+      "hue": 210.0,
+      "saturation": 0.024,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        122,
+        133,
+        139
+      ],
+      "lab": [
+        54.84,
+        -2.73,
+        -4.6
+      ],
+      "percentage": 20.38,
+      "brightness": 130.4,
+      "hue": 201.18,
+      "saturation": 0.122,
+      "tone": "cool"
+    }
+  ],
+  "Dark Brown_light": [
+    {
+      "rgb": [
+        25,
+        26,
+        26
+      ],
+      "lab": [
+        9.16,
+        -0.48,
+        -0.17
+      ],
+      "percentage": 69.91,
+      "brightness": 25.7,
+      "hue": 180.0,
+      "saturation": 0.038,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        29,
+        31,
+        33
+      ],
+      "lab": [
+        11.63,
+        -0.4,
+        -1.68
+      ],
+      "percentage": 24.29,
+      "brightness": 30.63,
+      "hue": 210.0,
+      "saturation": 0.121,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        35,
+        41,
+        42
+      ],
+      "lab": [
+        16.06,
+        -2.38,
+        -1.56
+      ],
+      "percentage": 5.8,
+      "brightness": 39.32,
+      "hue": 188.57,
+      "saturation": 0.167,
+      "tone": "cool"
+    }
+  ],
+  "Dark Brown_NaturalLight": [
+    {
+      "rgb": [
+        87,
+        88,
+        88
+      ],
+      "lab": [
+        37.32,
+        -0.4,
+        -0.14
+      ],
+      "percentage": 39.96,
+      "brightness": 87.7,
+      "hue": 180.0,
+      "saturation": 0.011,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        52,
+        46,
+        45
+      ],
+      "lab": [
+        19.53,
+        2.49,
+        1.63
+      ],
+      "percentage": 38.32,
+      "brightness": 47.68,
+      "hue": 8.57,
+      "saturation": 0.135,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        130,
+        139,
+        143
+      ],
+      "lab": [
+        57.26,
+        -2.44,
+        -3.27
+      ],
+      "percentage": 21.71,
+      "brightness": 136.76,
+      "hue": 198.46,
+      "saturation": 0.091,
+      "tone": "cool"
+    }
+  ],
+  "Dark Caramel Balayage": [
+    {
+      "rgb": [
+        43,
+        40,
+        36
+      ],
+      "lab": [
+        16.3,
+        0.49,
+        3.13
+      ],
+      "percentage": 58.1,
+      "brightness": 40.44,
+      "hue": 34.29,
+      "saturation": 0.163,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        77,
+        83,
+        88
+      ],
+      "lab": [
+        34.94,
+        -1.23,
+        -3.74
+      ],
+      "percentage": 30.16,
+      "brightness": 81.78,
+      "hue": 207.27,
+      "saturation": 0.125,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        122,
+        143,
+        161
+      ],
+      "lab": [
+        58.37,
+        -3.32,
+        -11.99
+      ],
+      "percentage": 11.74,
+      "brightness": 138.77,
+      "hue": 207.69,
+      "saturation": 0.242,
+      "tone": "cool"
+    }
+  ],
+  "Dark Caramel Balayage_CloseUp": [
+    {
+      "rgb": [
+        53,
+        50,
+        52
+      ],
+      "lab": [
+        21.15,
+        1.78,
+        -0.8
+      ],
+      "percentage": 46.52,
+      "brightness": 51.12,
+      "hue": 320.0,
+      "saturation": 0.057,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        98,
+        99,
+        100
+      ],
+      "lab": [
+        41.91,
+        -0.18,
+        -0.71
+      ],
+      "percentage": 36.18,
+      "brightness": 98.81,
+      "hue": 210.0,
+      "saturation": 0.02,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        164,
+        170,
+        163
+      ],
+      "lab": [
+        68.96,
+        -3.45,
+        2.86
+      ],
+      "percentage": 17.3,
+      "brightness": 167.41,
+      "hue": 111.43,
+      "saturation": 0.041,
+      "tone": "neutral"
+    }
+  ],
+  "Dark Caramel Balayage_IndoorLight": [
+    {
+      "rgb": [
+        52,
+        51,
+        48
+      ],
+      "lab": [
+        21.25,
+        -0.23,
+        2.05
+      ],
+      "percentage": 43.08,
+      "brightness": 50.96,
+      "hue": 45.0,
+      "saturation": 0.077,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        99,
+        99,
+        99
+      ],
+      "lab": [
+        41.96,
+        -0.0,
+        -0.0
+      ],
+      "percentage": 35.83,
+      "brightness": 99.0,
+      "hue": 0,
+      "saturation": 0.0,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        154,
+        157,
+        162
+      ],
+      "lab": [
+        64.64,
+        -0.09,
+        -2.99
+      ],
+      "percentage": 21.1,
+      "brightness": 156.67,
+      "hue": 217.5,
+      "saturation": 0.049,
+      "tone": "cool"
+    }
+  ],
+  "Dark Caramel Balayage_light": [
+    {
+      "rgb": [
+        68,
+        66,
+        59
+      ],
+      "lab": [
+        27.96,
+        -0.62,
+        4.56
+      ],
+      "percentage": 37.48,
+      "brightness": 65.8,
+      "hue": 46.67,
+      "saturation": 0.132,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        37,
+        35,
+        35
+      ],
+      "lab": [
+        13.92,
+        0.93,
+        0.33
+      ],
+      "percentage": 37.04,
+      "brightness": 35.6,
+      "hue": 0.0,
+      "saturation": 0.054,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        89,
+        95,
+        93
+      ],
+      "lab": [
+        39.75,
+        -2.78,
+        0.33
+      ],
+      "percentage": 25.49,
+      "brightness": 92.98,
+      "hue": 160.0,
+      "saturation": 0.063,
+      "tone": "neutral"
+    }
+  ],
+  "Dark Caramel Balayage_NaturalLight": [
+    {
+      "rgb": [
+        55,
+        51,
+        52
+      ],
+      "lab": [
+        21.68,
+        1.99,
+        0.0
+      ],
+      "percentage": 47.62,
+      "brightness": 52.31,
+      "hue": 345.0,
+      "saturation": 0.073,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        98,
+        100,
+        102
+      ],
+      "lab": [
+        42.26,
+        -0.35,
+        -1.41
+      ],
+      "percentage": 35.86,
+      "brightness": 99.63,
+      "hue": 210.0,
+      "saturation": 0.039,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        160,
+        169,
+        166
+      ],
+      "lab": [
+        68.46,
+        -3.76,
+        0.44
+      ],
+      "percentage": 16.51,
+      "brightness": 165.97,
+      "hue": 160.0,
+      "saturation": 0.053,
+      "tone": "neutral"
+    }
+  ],
+  "Honey Blonde": [
+    {
+      "rgb": [
+        173,
+        184,
+        199
+      ],
+      "lab": [
+        74.37,
+        -0.77,
+        -8.88
+      ],
+      "percentage": 42.52,
+      "brightness": 182.42,
+      "hue": 214.62,
+      "saturation": 0.131,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        148,
+        142,
+        133
+      ],
+      "lab": [
+        59.28,
+        0.57,
+        5.58
+      ],
+      "percentage": 37.11,
+      "brightness": 142.77,
+      "hue": 36.0,
+      "saturation": 0.101,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        119,
+        106,
+        90
+      ],
+      "lab": [
+        45.59,
+        2.34,
+        10.86
+      ],
+      "percentage": 20.36,
+      "brightness": 108.06,
+      "hue": 33.1,
+      "saturation": 0.244,
+      "tone": "warm_brown"
+    }
+  ],
+  "Honey Blonde_CloseUp": [
+    {
+      "rgb": [
+        193,
+        202,
+        210
+      ],
+      "lab": [
+        80.87,
+        -1.52,
+        -5.04
+      ],
+      "percentage": 40.31,
+      "brightness": 200.22,
+      "hue": 208.24,
+      "saturation": 0.081,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        156,
+        148,
+        138
+      ],
+      "lab": [
+        61.73,
+        1.14,
+        6.33
+      ],
+      "percentage": 39.57,
+      "brightness": 149.25,
+      "hue": 33.33,
+      "saturation": 0.115,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        108,
+        92,
+        74
+      ],
+      "lab": [
+        40.14,
+        3.48,
+        12.77
+      ],
+      "percentage": 20.11,
+      "brightness": 94.73,
+      "hue": 31.76,
+      "saturation": 0.315,
+      "tone": "warm_brown"
+    }
+  ],
+  "Honey Blonde_IndoorLight": [
+    {
+      "rgb": [
+        186,
+        198,
+        213
+      ],
+      "lab": [
+        79.4,
+        -1.1,
+        -8.88
+      ],
+      "percentage": 41.98,
+      "brightness": 196.12,
+      "hue": 213.33,
+      "saturation": 0.127,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        154,
+        147,
+        138
+      ],
+      "lab": [
+        61.28,
+        0.94,
+        5.68
+      ],
+      "percentage": 35.79,
+      "brightness": 148.07,
+      "hue": 33.75,
+      "saturation": 0.104,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        115,
+        101,
+        82
+      ],
+      "lab": [
+        43.6,
+        2.35,
+        12.81
+      ],
+      "percentage": 22.24,
+      "brightness": 103.02,
+      "hue": 34.55,
+      "saturation": 0.287,
+      "tone": "warm_brown"
+    }
+  ],
+  "Honey Blonde_light": [
+    {
+      "rgb": [
+        150,
+        159,
+        171
+      ],
+      "lab": [
+        65.14,
+        -0.72,
+        -7.33
+      ],
+      "percentage": 44.2,
+      "brightness": 157.68,
+      "hue": 214.29,
+      "saturation": 0.123,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        131,
+        125,
+        116
+      ],
+      "lab": [
+        52.68,
+        0.6,
+        5.71
+      ],
+      "percentage": 42.66,
+      "brightness": 125.77,
+      "hue": 36.0,
+      "saturation": 0.115,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        104,
+        89,
+        78
+      ],
+      "lab": [
+        38.96,
+        4.18,
+        8.63
+      ],
+      "percentage": 13.14,
+      "brightness": 92.23,
+      "hue": 25.38,
+      "saturation": 0.25,
+      "tone": "neutral"
+    }
+  ],
+  "Honey Blonde_NaturalLight": [
+    {
+      "rgb": [
+        157,
+        150,
+        142
+      ],
+      "lab": [
+        62.45,
+        1.11,
+        5.13
+      ],
+      "percentage": 39.72,
+      "brightness": 151.18,
+      "hue": 32.0,
+      "saturation": 0.096,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        194,
+        202,
+        210
+      ],
+      "lab": [
+        80.94,
+        -1.19,
+        -4.93
+      ],
+      "percentage": 38.41,
+      "brightness": 200.52,
+      "hue": 210.0,
+      "saturation": 0.076,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        107,
+        94,
+        78
+      ],
+      "lab": [
+        40.71,
+        2.46,
+        11.1
+      ],
+      "percentage": 21.86,
+      "brightness": 96.06,
+      "hue": 33.1,
+      "saturation": 0.271,
+      "tone": "warm_brown"
+    }
+  ],
+  "Hot Toffee": [
+    {
+      "rgb": [
+        84,
+        75,
+        67
+      ],
+      "lab": [
+        32.53,
+        2.24,
+        6.13
+      ],
+      "percentage": 35.76,
+      "brightness": 76.78,
+      "hue": 28.24,
+      "saturation": 0.202,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        124,
+        122,
+        119
+      ],
+      "lab": [
+        51.31,
+        0.17,
+        1.9
+      ],
+      "percentage": 32.86,
+      "brightness": 122.26,
+      "hue": 36.0,
+      "saturation": 0.04,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        164,
+        176,
+        187
+      ],
+      "lab": [
+        71.24,
+        -1.94,
+        -7.04
+      ],
+      "percentage": 31.37,
+      "brightness": 173.67,
+      "hue": 208.7,
+      "saturation": 0.123,
+      "tone": "cool"
+    }
+  ],
+  "Hot toffee_CloseUp": [
+    {
+      "rgb": [
+        64,
+        60,
+        58
+      ],
+      "lab": [
+        25.65,
+        1.29,
+        1.85
+      ],
+      "percentage": 40.11,
+      "brightness": 60.97,
+      "hue": 20.0,
+      "saturation": 0.094,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        117,
+        115,
+        115
+      ],
+      "lab": [
+        48.61,
+        0.76,
+        0.27
+      ],
+      "percentage": 34.89,
+      "brightness": 115.6,
+      "hue": 0.0,
+      "saturation": 0.017,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        179,
+        182,
+        182
+      ],
+      "lab": [
+        73.82,
+        -1.05,
+        -0.37
+      ],
+      "percentage": 25.0,
+      "brightness": 181.1,
+      "hue": 180.0,
+      "saturation": 0.016,
+      "tone": "cool"
+    }
+  ],
+  "Hot Toffee_IndoorLight": [
+    {
+      "rgb": [
+        65,
+        61,
+        56
+      ],
+      "lab": [
+        26.0,
+        0.67,
+        3.69
+      ],
+      "percentage": 36.96,
+      "brightness": 61.63,
+      "hue": 33.33,
+      "saturation": 0.138,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        182,
+        185,
+        190
+      ],
+      "lab": [
+        75.05,
+        -0.09,
+        -2.9
+      ],
+      "percentage": 31.85,
+      "brightness": 184.67,
+      "hue": 217.5,
+      "saturation": 0.042,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        121,
+        119,
+        119
+      ],
+      "lab": [
+        50.2,
+        0.76,
+        0.26
+      ],
+      "percentage": 31.19,
+      "brightness": 119.6,
+      "hue": 0.0,
+      "saturation": 0.017,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Hot toffee_light": [
+    {
+      "rgb": [
+        69,
+        62,
+        59
+      ],
+      "lab": [
+        26.81,
+        2.4,
+        2.93
+      ],
+      "percentage": 36.68,
+      "brightness": 63.75,
+      "hue": 18.0,
+      "saturation": 0.145,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        137,
+        143,
+        147
+      ],
+      "lab": [
+        59.04,
+        -1.37,
+        -2.88
+      ],
+      "percentage": 32.4,
+      "brightness": 141.66,
+      "hue": 204.0,
+      "saturation": 0.068,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        103,
+        102,
+        103
+      ],
+      "lab": [
+        43.31,
+        0.6,
+        -0.43
+      ],
+      "percentage": 30.93,
+      "brightness": 102.41,
+      "hue": 300.0,
+      "saturation": 0.01,
+      "tone": "neutral"
+    }
+  ],
+  "Hot toffee_NaturalLight": [
+    {
+      "rgb": [
+        121,
+        118,
+        117
+      ],
+      "lab": [
+        49.87,
+        0.95,
+        0.95
+      ],
+      "percentage": 34.61,
+      "brightness": 118.78,
+      "hue": 15.0,
+      "saturation": 0.033,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        70,
+        64,
+        62
+      ],
+      "lab": [
+        27.62,
+        2.15,
+        2.14
+      ],
+      "percentage": 34.02,
+      "brightness": 65.57,
+      "hue": 15.0,
+      "saturation": 0.114,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        181,
+        183,
+        184
+      ],
+      "lab": [
+        74.29,
+        -0.51,
+        -0.76
+      ],
+      "percentage": 31.36,
+      "brightness": 182.52,
+      "hue": 200.0,
+      "saturation": 0.016,
+      "tone": "cool"
+    }
+  ],
+  "Ivory_CloseUp": [
+    {
+      "rgb": [
+        120,
+        118,
+        119
+      ],
+      "lab": [
+        49.84,
+        0.96,
+        -0.28
+      ],
+      "percentage": 42.04,
+      "brightness": 118.71,
+      "hue": 330.0,
+      "saturation": 0.017,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        75,
+        74,
+        78
+      ],
+      "lab": [
+        31.68,
+        1.3,
+        -2.23
+      ],
+      "percentage": 30.28,
+      "brightness": 74.75,
+      "hue": 255.0,
+      "saturation": 0.051,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        163,
+        163,
+        164
+      ],
+      "lab": [
+        67.02,
+        0.19,
+        -0.52
+      ],
+      "percentage": 27.69,
+      "brightness": 163.11,
+      "hue": 240.0,
+      "saturation": 0.006,
+      "tone": "cool"
+    }
+  ],
+  "Ivory_IndoorLight": [
+    {
+      "rgb": [
+        151,
+        150,
+        153
+      ],
+      "lab": [
+        62.25,
+        0.94,
+        -1.45
+      ],
+      "percentage": 41.64,
+      "brightness": 150.64,
+      "hue": 260.0,
+      "saturation": 0.02,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        123,
+        121,
+        119
+      ],
+      "lab": [
+        50.94,
+        0.36,
+        1.36
+      ],
+      "percentage": 33.29,
+      "brightness": 121.37,
+      "hue": 30.0,
+      "saturation": 0.033,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        179,
+        182,
+        190
+      ],
+      "lab": [
+        74.03,
+        0.49,
+        -4.42
+      ],
+      "percentage": 25.07,
+      "brightness": 182.01,
+      "hue": 223.64,
+      "saturation": 0.058,
+      "tone": "cool"
+    }
+  ],
+  "Ivory_NaturalLight": [
+    {
+      "rgb": [
+        114,
+        114,
+        115
+      ],
+      "lab": [
+        48.07,
+        0.2,
+        -0.56
+      ],
+      "percentage": 41.78,
+      "brightness": 114.11,
+      "hue": 240.0,
+      "saturation": 0.009,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        155,
+        155,
+        157
+      ],
+      "lab": [
+        64.04,
+        0.39,
+        -1.05
+      ],
+      "percentage": 29.16,
+      "brightness": 155.23,
+      "hue": 240.0,
+      "saturation": 0.013,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        70,
+        71,
+        73
+      ],
+      "lab": [
+        30.13,
+        0.04,
+        -1.35
+      ],
+      "percentage": 29.06,
+      "brightness": 70.93,
+      "hue": 220.0,
+      "saturation": 0.041,
+      "tone": "cool"
+    }
+  ],
+  "Luscious Blonde": [
+    {
+      "rgb": [
+        164,
+        171,
+        178
+      ],
+      "lab": [
+        69.63,
+        -1.07,
+        -4.45
+      ],
+      "percentage": 49.04,
+      "brightness": 169.71,
+      "hue": 210.0,
+      "saturation": 0.079,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        135,
+        130,
+        124
+      ],
+      "lab": [
+        54.63,
+        0.75,
+        3.91
+      ],
+      "percentage": 28.98,
+      "brightness": 130.81,
+      "hue": 32.73,
+      "saturation": 0.081,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        117,
+        105,
+        96
+      ],
+      "lab": [
+        45.26,
+        3.1,
+        6.78
+      ],
+      "percentage": 21.99,
+      "brightness": 107.56,
+      "hue": 25.71,
+      "saturation": 0.179,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Luscious Blonde_CloseUp": [
+    {
+      "rgb": [
+        195,
+        202,
+        209
+      ],
+      "lab": [
+        80.99,
+        -1.05,
+        -4.32
+      ],
+      "percentage": 38.42,
+      "brightness": 200.7,
+      "hue": 210.0,
+      "saturation": 0.067,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        157,
+        151,
+        145
+      ],
+      "lab": [
+        62.8,
+        1.09,
+        3.93
+      ],
+      "percentage": 35.89,
+      "brightness": 152.11,
+      "hue": 30.0,
+      "saturation": 0.076,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        117,
+        106,
+        96
+      ],
+      "lab": [
+        45.54,
+        2.51,
+        7.18
+      ],
+      "percentage": 25.69,
+      "brightness": 108.15,
+      "hue": 28.57,
+      "saturation": 0.179,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Luscious Blonde_IndoorLight": [
+    {
+      "rgb": [
+        151,
+        146,
+        142
+      ],
+      "lab": [
+        60.86,
+        1.09,
+        2.76
+      ],
+      "percentage": 40.75,
+      "brightness": 147.04,
+      "hue": 26.67,
+      "saturation": 0.06,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        192,
+        199,
+        207
+      ],
+      "lab": [
+        79.93,
+        -0.86,
+        -4.83
+      ],
+      "percentage": 30.14,
+      "brightness": 197.82,
+      "hue": 212.0,
+      "saturation": 0.072,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        115,
+        107,
+        100
+      ],
+      "lab": [
+        45.74,
+        1.81,
+        5.04
+      ],
+      "percentage": 29.11,
+      "brightness": 108.59,
+      "hue": 28.0,
+      "saturation": 0.13,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Luscious Blonde_light": [
+    {
+      "rgb": [
+        164,
+        171,
+        178
+      ],
+      "lab": [
+        69.63,
+        -1.07,
+        -4.45
+      ],
+      "percentage": 49.74,
+      "brightness": 169.71,
+      "hue": 210.0,
+      "saturation": 0.079,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        135,
+        129,
+        124
+      ],
+      "lab": [
+        54.35,
+        1.32,
+        3.51
+      ],
+      "percentage": 28.71,
+      "brightness": 130.22,
+      "hue": 27.27,
+      "saturation": 0.081,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        118,
+        105,
+        97
+      ],
+      "lab": [
+        45.38,
+        3.68,
+        6.36
+      ],
+      "percentage": 21.55,
+      "brightness": 107.97,
+      "hue": 22.86,
+      "saturation": 0.178,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Luscious Blonde_NaturalLight": [
+    {
+      "rgb": [
+        158,
+        153,
+        149
+      ],
+      "lab": [
+        63.53,
+        1.08,
+        2.74
+      ],
+      "percentage": 40.25,
+      "brightness": 154.04,
+      "hue": 26.67,
+      "saturation": 0.057,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        195,
+        200,
+        207
+      ],
+      "lab": [
+        80.41,
+        -0.38,
+        -4.09
+      ],
+      "percentage": 32.12,
+      "brightness": 199.3,
+      "hue": 215.0,
+      "saturation": 0.058,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        118,
+        110,
+        102
+      ],
+      "lab": [
+        46.93,
+        1.62,
+        5.57
+      ],
+      "percentage": 27.62,
+      "brightness": 111.48,
+      "hue": 30.0,
+      "saturation": 0.136,
+      "tone": "neutral_brown"
+    }
+  ],
+  "lvory": [
+    {
+      "rgb": [
+        127,
+        124,
+        120
+      ],
+      "lab": [
+        52.16,
+        0.36,
+        2.58
+      ],
+      "percentage": 49.01,
+      "brightness": 124.44,
+      "hue": 34.29,
+      "saturation": 0.055,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        145,
+        152,
+        154
+      ],
+      "lab": [
+        62.35,
+        -2.11,
+        -1.93
+      ],
+      "percentage": 26.15,
+      "brightness": 150.13,
+      "hue": 193.33,
+      "saturation": 0.058,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        101,
+        96,
+        98
+      ],
+      "lab": [
+        41.24,
+        2.39,
+        -0.43
+      ],
+      "percentage": 24.84,
+      "brightness": 97.72,
+      "hue": 336.0,
+      "saturation": 0.05,
+      "tone": "neutral"
+    }
+  ],
+  "lvory_light": [
+    {
+      "rgb": [
+        127,
+        124,
+        121
+      ],
+      "lab": [
+        52.18,
+        0.55,
+        2.03
+      ],
+      "percentage": 49.26,
+      "brightness": 124.55,
+      "hue": 30.0,
+      "saturation": 0.047,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        102,
+        97,
+        99
+      ],
+      "lab": [
+        41.65,
+        2.38,
+        -0.43
+      ],
+      "percentage": 25.41,
+      "brightness": 98.72,
+      "hue": 336.0,
+      "saturation": 0.049,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        145,
+        152,
+        155
+      ],
+      "lab": [
+        62.37,
+        -1.91,
+        -2.45
+      ],
+      "percentage": 25.32,
+      "brightness": 150.25,
+      "hue": 198.0,
+      "saturation": 0.065,
+      "tone": "cool"
+    }
+  ],
+  "Medium Brown Balayage": [
+    {
+      "rgb": [
+        49,
+        44,
+        37
+      ],
+      "lab": [
+        18.31,
+        0.83,
+        5.37
+      ],
+      "percentage": 50.6,
+      "brightness": 44.7,
+      "hue": 35.0,
+      "saturation": 0.245,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        88,
+        92,
+        98
+      ],
+      "lab": [
+        38.92,
+        -0.23,
+        -3.98
+      ],
+      "percentage": 34.36,
+      "brightness": 91.49,
+      "hue": 216.0,
+      "saturation": 0.102,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        141,
+        159,
+        178
+      ],
+      "lab": [
+        64.7,
+        -2.14,
+        -11.97
+      ],
+      "percentage": 15.04,
+      "brightness": 155.78,
+      "hue": 210.81,
+      "saturation": 0.208,
+      "tone": "cool"
+    }
+  ],
+  "Medium Brown Balayage_CloseUp": [
+    {
+      "rgb": [
+        60,
+        49,
+        45
+      ],
+      "lab": [
+        21.38,
+        4.18,
+        4.4
+      ],
+      "percentage": 46.58,
+      "brightness": 51.83,
+      "hue": 16.0,
+      "saturation": 0.25,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        170,
+        188,
+        194
+      ],
+      "lab": [
+        75.08,
+        -4.93,
+        -5.13
+      ],
+      "percentage": 28.65,
+      "brightness": 183.3,
+      "hue": 195.0,
+      "saturation": 0.124,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        108,
+        108,
+        109
+      ],
+      "lab": [
+        45.66,
+        0.21,
+        -0.56
+      ],
+      "percentage": 24.78,
+      "brightness": 108.11,
+      "hue": 240.0,
+      "saturation": 0.009,
+      "tone": "cool"
+    }
+  ],
+  "Medium Brown Balayage_IndoorLight": [
+    {
+      "rgb": [
+        53,
+        48,
+        44
+      ],
+      "lab": [
+        20.25,
+        1.39,
+        3.37
+      ],
+      "percentage": 52.48,
+      "brightness": 49.04,
+      "hue": 26.67,
+      "saturation": 0.17,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        105,
+        108,
+        112
+      ],
+      "lab": [
+        45.49,
+        -0.3,
+        -2.63
+      ],
+      "percentage": 24.91,
+      "brightness": 107.56,
+      "hue": 214.29,
+      "saturation": 0.063,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        170,
+        182,
+        191
+      ],
+      "lab": [
+        73.39,
+        -2.34,
+        -5.99
+      ],
+      "percentage": 22.61,
+      "brightness": 179.44,
+      "hue": 205.71,
+      "saturation": 0.11,
+      "tone": "cool"
+    }
+  ],
+  "Medium Brown Balayage_light": [
+    {
+      "rgb": [
+        105,
+        116,
+        120
+      ],
+      "lab": [
+        48.07,
+        -3.23,
+        -3.61
+      ],
+      "percentage": 37.1,
+      "brightness": 113.17,
+      "hue": 196.0,
+      "saturation": 0.125,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        41,
+        34,
+        32
+      ],
+      "lab": [
+        13.94,
+        2.9,
+        2.57
+      ],
+      "percentage": 36.84,
+      "brightness": 35.87,
+      "hue": 13.33,
+      "saturation": 0.22,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        82,
+        81,
+        79
+      ],
+      "lab": [
+        34.48,
+        -0.02,
+        1.31
+      ],
+      "percentage": 26.06,
+      "brightness": 81.07,
+      "hue": 40.0,
+      "saturation": 0.037,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Medium Brown Balayage_NaturalLight": [
+    {
+      "rgb": [
+        60,
+        52,
+        48
+      ],
+      "lab": [
+        22.41,
+        2.75,
+        3.83
+      ],
+      "percentage": 51.9,
+      "brightness": 53.94,
+      "hue": 20.0,
+      "saturation": 0.2,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        110,
+        113,
+        114
+      ],
+      "lab": [
+        47.42,
+        -0.93,
+        -0.96
+      ],
+      "percentage": 25.09,
+      "brightness": 112.22,
+      "hue": 195.0,
+      "saturation": 0.035,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        172,
+        187,
+        195
+      ],
+      "lab": [
+        74.98,
+        -3.54,
+        -5.81
+      ],
+      "percentage": 23.01,
+      "brightness": 183.43,
+      "hue": 200.87,
+      "saturation": 0.118,
+      "tone": "cool"
+    }
+  ],
+  "Mixed Blonde": [
+    {
+      "rgb": [
+        174,
+        187,
+        199
+      ],
+      "lab": [
+        75.24,
+        -2.05,
+        -7.58
+      ],
+      "percentage": 38.0,
+      "brightness": 184.48,
+      "hue": 208.8,
+      "saturation": 0.126,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        136,
+        131,
+        127
+      ],
+      "lab": [
+        55.07,
+        1.12,
+        2.82
+      ],
+      "percentage": 32.51,
+      "brightness": 132.04,
+      "hue": 26.67,
+      "saturation": 0.066,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        95,
+        83,
+        72
+      ],
+      "lab": [
+        36.15,
+        2.95,
+        8.26
+      ],
+      "percentage": 29.49,
+      "brightness": 85.33,
+      "hue": 28.7,
+      "saturation": 0.242,
+      "tone": "neutral"
+    }
+  ],
+  "Mixed Blonde_CloseUp": [
+    {
+      "rgb": [
+        141,
+        136,
+        131
+      ],
+      "lab": [
+        56.99,
+        0.92,
+        3.34
+      ],
+      "percentage": 39.36,
+      "brightness": 136.92,
+      "hue": 30.0,
+      "saturation": 0.071,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        192,
+        199,
+        205
+      ],
+      "lab": [
+        79.88,
+        -1.25,
+        -3.83
+      ],
+      "percentage": 30.49,
+      "brightness": 197.59,
+      "hue": 207.69,
+      "saturation": 0.063,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        94,
+        85,
+        78
+      ],
+      "lab": [
+        36.79,
+        2.34,
+        5.41
+      ],
+      "percentage": 30.15,
+      "brightness": 86.89,
+      "hue": 26.25,
+      "saturation": 0.17,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Mixed Blonde_IndoorLight": [
+    {
+      "rgb": [
+        184,
+        192,
+        202
+      ],
+      "lab": [
+        77.37,
+        -0.8,
+        -5.97
+      ],
+      "percentage": 39.85,
+      "brightness": 190.75,
+      "hue": 213.33,
+      "saturation": 0.089,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        128,
+        124,
+        120
+      ],
+      "lab": [
+        52.24,
+        0.74,
+        2.71
+      ],
+      "percentage": 31.52,
+      "brightness": 124.74,
+      "hue": 30.0,
+      "saturation": 0.062,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        83,
+        73,
+        62
+      ],
+      "lab": [
+        31.7,
+        2.17,
+        8.13
+      ],
+      "percentage": 28.62,
+      "brightness": 74.74,
+      "hue": 31.43,
+      "saturation": 0.253,
+      "tone": "warm_brown"
+    }
+  ],
+  "Mixed Blonde_light": [
+    {
+      "rgb": [
+        156,
+        164,
+        170
+      ],
+      "lab": [
+        66.92,
+        -1.63,
+        -4.09
+      ],
+      "percentage": 42.46,
+      "brightness": 162.29,
+      "hue": 205.71,
+      "saturation": 0.082,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        124,
+        121,
+        118
+      ],
+      "lab": [
+        51.0,
+        0.55,
+        2.04
+      ],
+      "percentage": 29.16,
+      "brightness": 121.56,
+      "hue": 30.0,
+      "saturation": 0.048,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        97,
+        86,
+        80
+      ],
+      "lab": [
+        37.44,
+        3.37,
+        5.13
+      ],
+      "percentage": 28.38,
+      "brightness": 88.61,
+      "hue": 21.18,
+      "saturation": 0.175,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Mixed Blonde_NaturalLight": [
+    {
+      "rgb": [
+        141,
+        137,
+        135
+      ],
+      "lab": [
+        57.37,
+        1.1,
+        1.59
+      ],
+      "percentage": 40.36,
+      "brightness": 137.97,
+      "hue": 20.0,
+      "saturation": 0.043,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        91,
+        85,
+        81
+      ],
+      "lab": [
+        36.58,
+        1.64,
+        3.2
+      ],
+      "percentage": 32.39,
+      "brightness": 86.34,
+      "hue": 24.0,
+      "saturation": 0.11,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        187,
+        192,
+        197
+      ],
+      "lab": [
+        77.46,
+        -0.77,
+        -3.12
+      ],
+      "percentage": 27.25,
+      "brightness": 191.07,
+      "hue": 210.0,
+      "saturation": 0.051,
+      "tone": "cool"
+    }
+  ],
+  "Natural Black": [
+    {
+      "rgb": [
+        32,
+        31,
+        31
+      ],
+      "lab": [
+        11.86,
+        0.47,
+        0.17
+      ],
+      "percentage": 59.84,
+      "brightness": 31.3,
+      "hue": 0.0,
+      "saturation": 0.031,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        49,
+        51,
+        51
+      ],
+      "lab": [
+        21.06,
+        -0.87,
+        -0.31
+      ],
+      "percentage": 31.78,
+      "brightness": 50.4,
+      "hue": 180.0,
+      "saturation": 0.039,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        79,
+        84,
+        85
+      ],
+      "lab": [
+        35.32,
+        -1.77,
+        -1.28
+      ],
+      "percentage": 8.39,
+      "brightness": 82.62,
+      "hue": 190.0,
+      "saturation": 0.071,
+      "tone": "cool"
+    }
+  ],
+  "Natural Black_CloseUp": [
+    {
+      "rgb": [
+        49,
+        46,
+        45
+      ],
+      "lab": [
+        19.21,
+        1.12,
+        1.12
+      ],
+      "percentage": 47.39,
+      "brightness": 46.78,
+      "hue": 15.0,
+      "saturation": 0.082,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        86,
+        87,
+        87
+      ],
+      "lab": [
+        36.9,
+        -0.4,
+        -0.14
+      ],
+      "percentage": 35.71,
+      "brightness": 86.7,
+      "hue": 180.0,
+      "saturation": 0.011,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        134,
+        141,
+        142
+      ],
+      "lab": [
+        58.1,
+        -2.34,
+        -1.42
+      ],
+      "percentage": 16.9,
+      "brightness": 139.02,
+      "hue": 187.5,
+      "saturation": 0.056,
+      "tone": "cool"
+    }
+  ],
+  "Natural Black_IndoorLight": [
+    {
+      "rgb": [
+        49,
+        46,
+        44
+      ],
+      "lab": [
+        19.18,
+        0.9,
+        1.77
+      ],
+      "percentage": 53.15,
+      "brightness": 46.67,
+      "hue": 24.0,
+      "saturation": 0.102,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        89,
+        89,
+        89
+      ],
+      "lab": [
+        37.82,
+        -0.0,
+        -0.0
+      ],
+      "percentage": 27.36,
+      "brightness": 89.0,
+      "hue": 0,
+      "saturation": 0.0,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        148,
+        155,
+        162
+      ],
+      "lab": [
+        63.63,
+        -1.08,
+        -4.53
+      ],
+      "percentage": 19.49,
+      "brightness": 153.7,
+      "hue": 210.0,
+      "saturation": 0.086,
+      "tone": "cool"
+    }
+  ],
+  "Natural Black_light": [
+    {
+      "rgb": [
+        28,
+        28,
+        29
+      ],
+      "lab": [
+        10.3,
+        0.26,
+        -0.69
+      ],
+      "percentage": 70.74,
+      "brightness": 28.11,
+      "hue": 240.0,
+      "saturation": 0.034,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        38,
+        39,
+        41
+      ],
+      "lab": [
+        15.61,
+        0.05,
+        -1.48
+      ],
+      "percentage": 23.01,
+      "brightness": 38.93,
+      "hue": 220.0,
+      "saturation": 0.073,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        55,
+        60,
+        67
+      ],
+      "lab": [
+        25.1,
+        -0.34,
+        -5.01
+      ],
+      "percentage": 6.25,
+      "brightness": 59.3,
+      "hue": 215.0,
+      "saturation": 0.179,
+      "tone": "cool"
+    }
+  ],
+  "Natural Black_NaturalLight": [
+    {
+      "rgb": [
+        45,
+        43,
+        42
+      ],
+      "lab": [
+        17.7,
+        0.67,
+        0.97
+      ],
+      "percentage": 48.09,
+      "brightness": 43.48,
+      "hue": 20.0,
+      "saturation": 0.067,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        79,
+        79,
+        80
+      ],
+      "lab": [
+        33.63,
+        0.22,
+        -0.59
+      ],
+      "percentage": 35.9,
+      "brightness": 79.11,
+      "hue": 240.0,
+      "saturation": 0.012,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        126,
+        132,
+        134
+      ],
+      "lab": [
+        54.72,
+        -1.8,
+        -1.85
+      ],
+      "percentage": 16.01,
+      "brightness": 130.43,
+      "hue": 195.0,
+      "saturation": 0.06,
+      "tone": "cool"
+    }
+  ],
+  "Natural Caramel": [
+    {
+      "rgb": [
+        46,
+        42,
+        37
+      ],
+      "lab": [
+        17.32,
+        0.75,
+        3.93
+      ],
+      "percentage": 50.05,
+      "brightness": 42.63,
+      "hue": 33.33,
+      "saturation": 0.196,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        79,
+        84,
+        88
+      ],
+      "lab": [
+        35.41,
+        -1.08,
+        -3.02
+      ],
+      "percentage": 32.74,
+      "brightness": 82.96,
+      "hue": 206.67,
+      "saturation": 0.102,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        122,
+        138,
+        152
+      ],
+      "lab": [
+        56.66,
+        -2.63,
+        -9.39
+      ],
+      "percentage": 17.21,
+      "brightness": 134.81,
+      "hue": 208.0,
+      "saturation": 0.197,
+      "tone": "cool"
+    }
+  ],
+  "Natural Caramel_CloseUp": [
+    {
+      "rgb": [
+        52,
+        49,
+        48
+      ],
+      "lab": [
+        20.6,
+        1.11,
+        1.11
+      ],
+      "percentage": 49.28,
+      "brightness": 49.78,
+      "hue": 15.0,
+      "saturation": 0.077,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        91,
+        93,
+        95
+      ],
+      "lab": [
+        39.38,
+        -0.36,
+        -1.42
+      ],
+      "percentage": 37.48,
+      "brightness": 92.63,
+      "hue": 210.0,
+      "saturation": 0.042,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        148,
+        157,
+        158
+      ],
+      "lab": [
+        64.06,
+        -3.01,
+        -1.64
+      ],
+      "percentage": 13.25,
+      "brightness": 154.42,
+      "hue": 186.0,
+      "saturation": 0.063,
+      "tone": "cool"
+    }
+  ],
+  "Natural Caramel_IndoorLight": [
+    {
+      "rgb": [
+        55,
+        51,
+        48
+      ],
+      "lab": [
+        21.55,
+        1.12,
+        2.53
+      ],
+      "percentage": 48.96,
+      "brightness": 51.85,
+      "hue": 25.71,
+      "saturation": 0.127,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        101,
+        103,
+        106
+      ],
+      "lab": [
+        43.52,
+        -0.14,
+        -1.96
+      ],
+      "percentage": 34.59,
+      "brightness": 102.74,
+      "hue": 216.0,
+      "saturation": 0.047,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        161,
+        169,
+        177
+      ],
+      "lab": [
+        68.84,
+        -1.21,
+        -5.09
+      ],
+      "percentage": 16.45,
+      "brightness": 167.52,
+      "hue": 210.0,
+      "saturation": 0.09,
+      "tone": "cool"
+    }
+  ],
+  "Natural Caramel_light": [
+    {
+      "rgb": [
+        34,
+        34,
+        34
+      ],
+      "lab": [
+        13.23,
+        -0.0,
+        -0.0
+      ],
+      "percentage": 51.99,
+      "brightness": 34.0,
+      "hue": 0,
+      "saturation": 0.0,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        57,
+        59,
+        57
+      ],
+      "lab": [
+        24.62,
+        -1.31,
+        0.94
+      ],
+      "percentage": 38.36,
+      "brightness": 58.17,
+      "hue": 120.0,
+      "saturation": 0.034,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        81,
+        92,
+        94
+      ],
+      "lab": [
+        38.22,
+        -3.8,
+        -2.6
+      ],
+      "percentage": 9.65,
+      "brightness": 88.94,
+      "hue": 189.23,
+      "saturation": 0.138,
+      "tone": "cool"
+    }
+  ],
+  "Natural Caramel_NaturalLight": [
+    {
+      "rgb": [
+        52,
+        48,
+        46
+      ],
+      "lab": [
+        20.21,
+        1.35,
+        1.92
+      ],
+      "percentage": 48.15,
+      "brightness": 48.97,
+      "hue": 20.0,
+      "saturation": 0.115,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        95,
+        97,
+        98
+      ],
+      "lab": [
+        41.0,
+        -0.57,
+        -0.85
+      ],
+      "percentage": 36.52,
+      "brightness": 96.52,
+      "hue": 200.0,
+      "saturation": 0.031,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        154,
+        163,
+        166
+      ],
+      "lab": [
+        66.38,
+        -2.58,
+        -2.66
+      ],
+      "percentage": 15.32,
+      "brightness": 160.65,
+      "hue": 195.0,
+      "saturation": 0.072,
+      "tone": "cool"
+    }
+  ],
+  "Old Money Blonde_CloseUp": [
+    {
+      "rgb": [
+        176,
+        187,
+        201
+      ],
+      "lab": [
+        75.44,
+        -0.98,
+        -8.35
+      ],
+      "percentage": 38.42,
+      "brightness": 185.31,
+      "hue": 213.6,
+      "saturation": 0.124,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        122,
+        117,
+        111
+      ],
+      "lab": [
+        49.51,
+        0.77,
+        3.98
+      ],
+      "percentage": 35.02,
+      "brightness": 117.81,
+      "hue": 32.73,
+      "saturation": 0.09,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        81,
+        68,
+        54
+      ],
+      "lab": [
+        29.79,
+        3.11,
+        10.55
+      ],
+      "percentage": 26.55,
+      "brightness": 70.29,
+      "hue": 31.11,
+      "saturation": 0.333,
+      "tone": "warm_brown"
+    }
+  ],
+  "Old Money Blonde_IndoorLight": [
+    {
+      "rgb": [
+        184,
+        192,
+        204
+      ],
+      "lab": [
+        77.43,
+        -0.4,
+        -6.97
+      ],
+      "percentage": 36.51,
+      "brightness": 190.98,
+      "hue": 216.0,
+      "saturation": 0.098,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        88,
+        81,
+        68
+      ],
+      "lab": [
+        34.76,
+        0.44,
+        8.7
+      ],
+      "percentage": 33.09,
+      "brightness": 81.61,
+      "hue": 39.0,
+      "saturation": 0.227,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        127,
+        123,
+        118
+      ],
+      "lab": [
+        51.82,
+        0.56,
+        3.26
+      ],
+      "percentage": 30.4,
+      "brightness": 123.63,
+      "hue": 33.33,
+      "saturation": 0.071,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Old Money Blonde_light": [
+    {
+      "rgb": [
+        86,
+        85,
+        83
+      ],
+      "lab": [
+        36.18,
+        -0.02,
+        1.3
+      ],
+      "percentage": 39.21,
+      "brightness": 85.07,
+      "hue": 40.0,
+      "saturation": 0.035,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        66,
+        59,
+        53
+      ],
+      "lab": [
+        25.39,
+        1.84,
+        4.82
+      ],
+      "percentage": 34.96,
+      "brightness": 60.41,
+      "hue": 27.69,
+      "saturation": 0.197,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        108,
+        118,
+        129
+      ],
+      "lab": [
+        49.17,
+        -1.27,
+        -7.29
+      ],
+      "percentage": 25.82,
+      "brightness": 116.26,
+      "hue": 211.43,
+      "saturation": 0.163,
+      "tone": "cool"
+    }
+  ],
+  "Old Money Blonde_NaturalLight": [
+    {
+      "rgb": [
+        179,
+        190,
+        203
+      ],
+      "lab": [
+        76.51,
+        -1.18,
+        -7.83
+      ],
+      "percentage": 34.62,
+      "brightness": 188.19,
+      "hue": 212.5,
+      "saturation": 0.118,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        126,
+        121,
+        116
+      ],
+      "lab": [
+        51.12,
+        0.95,
+        3.41
+      ],
+      "percentage": 33.84,
+      "brightness": 121.92,
+      "hue": 30.0,
+      "saturation": 0.079,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        84,
+        72,
+        59
+      ],
+      "lab": [
+        31.43,
+        2.75,
+        9.68
+      ],
+      "percentage": 31.54,
+      "brightness": 74.11,
+      "hue": 31.2,
+      "saturation": 0.298,
+      "tone": "warm_brown"
+    }
+  ],
+  "Platinum Blonde Balayage _CloseUp": [
+    {
+      "rgb": [
+        168,
+        166,
+        158
+      ],
+      "lab": [
+        68.07,
+        -0.75,
+        4.38
+      ],
+      "percentage": 47.89,
+      "brightness": 165.69,
+      "hue": 48.0,
+      "saturation": 0.06,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        199,
+        201,
+        207
+      ],
+      "lab": [
+        80.97,
+        0.43,
+        -3.23
+      ],
+      "percentage": 26.76,
+      "brightness": 201.09,
+      "hue": 225.0,
+      "saturation": 0.039,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        135,
+        131,
+        121
+      ],
+      "lab": [
+        54.83,
+        -0.37,
+        5.93
+      ],
+      "percentage": 25.35,
+      "brightness": 131.06,
+      "hue": 42.86,
+      "saturation": 0.104,
+      "tone": "neutral"
+    }
+  ],
+  "Platinum Blonde Balayage": [
+    {
+      "rgb": [
+        159,
+        157,
+        152
+      ],
+      "lab": [
+        64.77,
+        -0.21,
+        2.86
+      ],
+      "percentage": 41.1,
+      "brightness": 157.03,
+      "hue": 42.86,
+      "saturation": 0.044,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        178,
+        182,
+        192
+      ],
+      "lab": [
+        74.01,
+        0.55,
+        -5.55
+      ],
+      "percentage": 38.78,
+      "brightness": 181.94,
+      "hue": 222.86,
+      "saturation": 0.073,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        138,
+        131,
+        123
+      ],
+      "lab": [
+        55.14,
+        1.15,
+        5.26
+      ],
+      "percentage": 20.12,
+      "brightness": 132.18,
+      "hue": 32.0,
+      "saturation": 0.109,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Platinum Blonde Balayage_IndoorLight": [
+    {
+      "rgb": [
+        167,
+        165,
+        159
+      ],
+      "lab": [
+        67.75,
+        -0.39,
+        3.35
+      ],
+      "percentage": 43.74,
+      "brightness": 164.91,
+      "hue": 45.0,
+      "saturation": 0.048,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        197,
+        201,
+        209
+      ],
+      "lab": [
+        80.88,
+        0.14,
+        -4.46
+      ],
+      "percentage": 30.83,
+      "brightness": 200.72,
+      "hue": 220.0,
+      "saturation": 0.057,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        132,
+        126,
+        121
+      ],
+      "lab": [
+        53.18,
+        1.32,
+        3.52
+      ],
+      "percentage": 25.44,
+      "brightness": 127.22,
+      "hue": 27.27,
+      "saturation": 0.083,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Platinum Blonde Balayage_light": [
+    {
+      "rgb": [
+        163,
+        158,
+        152
+      ],
+      "lab": [
+        65.36,
+        0.71,
+        3.77
+      ],
+      "percentage": 56.42,
+      "brightness": 158.81,
+      "hue": 32.73,
+      "saturation": 0.067,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        147,
+        138,
+        132
+      ],
+      "lab": [
+        58.08,
+        2.26,
+        4.41
+      ],
+      "percentage": 32.21,
+      "brightness": 140.01,
+      "hue": 24.0,
+      "saturation": 0.102,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        185,
+        188,
+        194
+      ],
+      "lab": [
+        76.18,
+        0.1,
+        -3.39
+      ],
+      "percentage": 11.36,
+      "brightness": 187.79,
+      "hue": 220.0,
+      "saturation": 0.046,
+      "tone": "cool"
+    }
+  ],
+  "Platinum Blonde Balayage_NaturalLight": [
+    {
+      "rgb": [
+        168,
+        166,
+        160
+      ],
+      "lab": [
+        68.12,
+        -0.39,
+        3.35
+      ],
+      "percentage": 47.41,
+      "brightness": 165.91,
+      "hue": 45.0,
+      "saturation": 0.048,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        197,
+        200,
+        205
+      ],
+      "lab": [
+        80.51,
+        -0.09,
+        -2.86
+      ],
+      "percentage": 30.39,
+      "brightness": 199.67,
+      "hue": 217.5,
+      "saturation": 0.039,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        132,
+        129,
+        122
+      ],
+      "lab": [
+        54.04,
+        -0.21,
+        4.19
+      ],
+      "percentage": 22.2,
+      "brightness": 129.1,
+      "hue": 42.0,
+      "saturation": 0.076,
+      "tone": "neutral"
+    }
+  ],
+  "Rooted Golden Brown": [
+    {
+      "rgb": [
+        141,
+        151,
+        156
+      ],
+      "lab": [
+        61.82,
+        -2.55,
+        -3.86
+      ],
+      "percentage": 42.6,
+      "brightness": 148.58,
+      "hue": 200.0,
+      "saturation": 0.096,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        51,
+        41,
+        39
+      ],
+      "lab": [
+        17.63,
+        4.23,
+        3.04
+      ],
+      "percentage": 35.76,
+      "brightness": 43.76,
+      "hue": 10.0,
+      "saturation": 0.235,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        108,
+        105,
+        100
+      ],
+      "lab": [
+        44.53,
+        0.18,
+        3.22
+      ],
+      "percentage": 21.64,
+      "brightness": 105.33,
+      "hue": 37.5,
+      "saturation": 0.074,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Rooted Golden Brown_CloseUp": [
+    {
+      "rgb": [
+        67,
+        59,
+        55
+      ],
+      "lab": [
+        25.55,
+        2.68,
+        3.74
+      ],
+      "percentage": 35.25,
+      "brightness": 60.94,
+      "hue": 20.0,
+      "saturation": 0.179,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        137,
+        132,
+        126
+      ],
+      "lab": [
+        55.41,
+        0.74,
+        3.9
+      ],
+      "percentage": 32.56,
+      "brightness": 132.81,
+      "hue": 32.73,
+      "saturation": 0.08,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        192,
+        200,
+        207
+      ],
+      "lab": [
+        80.19,
+        -1.39,
+        -4.44
+      ],
+      "percentage": 32.19,
+      "brightness": 198.41,
+      "hue": 208.0,
+      "saturation": 0.072,
+      "tone": "cool"
+    }
+  ],
+  "Rooted Golden Brown_IndoorLight": [
+    {
+      "rgb": [
+        60,
+        58,
+        60
+      ],
+      "lab": [
+        24.68,
+        1.31,
+        -0.93
+      ],
+      "percentage": 45.45,
+      "brightness": 58.83,
+      "hue": 300.0,
+      "saturation": 0.033,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        147,
+        143,
+        137
+      ],
+      "lab": [
+        59.58,
+        0.35,
+        3.71
+      ],
+      "percentage": 35.81,
+      "brightness": 143.51,
+      "hue": 36.0,
+      "saturation": 0.068,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        191,
+        197,
+        202
+      ],
+      "lab": [
+        79.2,
+        -1.11,
+        -3.22
+      ],
+      "percentage": 18.74,
+      "brightness": 195.78,
+      "hue": 207.27,
+      "saturation": 0.054,
+      "tone": "cool"
+    }
+  ],
+  "Rooted Golden Brown_light": [
+    {
+      "rgb": [
+        141,
+        151,
+        156
+      ],
+      "lab": [
+        61.82,
+        -2.55,
+        -3.86
+      ],
+      "percentage": 43.54,
+      "brightness": 148.58,
+      "hue": 200.0,
+      "saturation": 0.096,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        50,
+        41,
+        39
+      ],
+      "lab": [
+        17.51,
+        3.75,
+        2.86
+      ],
+      "percentage": 34.44,
+      "brightness": 43.46,
+      "hue": 10.91,
+      "saturation": 0.22,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        109,
+        106,
+        101
+      ],
+      "lab": [
+        44.94,
+        0.18,
+        3.21
+      ],
+      "percentage": 22.02,
+      "brightness": 106.33,
+      "hue": 37.5,
+      "saturation": 0.073,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Rooted Golden Brown_NaturalLight": [
+    {
+      "rgb": [
+        56,
+        52,
+        51
+      ],
+      "lab": [
+        22.07,
+        1.54,
+        1.26
+      ],
+      "percentage": 40.92,
+      "brightness": 53.08,
+      "hue": 12.0,
+      "saturation": 0.089,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        142,
+        138,
+        132
+      ],
+      "lab": [
+        57.65,
+        0.36,
+        3.73
+      ],
+      "percentage": 34.54,
+      "brightness": 138.51,
+      "hue": 36.0,
+      "saturation": 0.07,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        191,
+        199,
+        204
+      ],
+      "lab": [
+        79.77,
+        -1.78,
+        -3.45
+      ],
+      "percentage": 24.54,
+      "brightness": 197.18,
+      "hue": 203.08,
+      "saturation": 0.064,
+      "tone": "cool"
+    }
+  ],
+  "Sandy Chocolate": [
+    {
+      "rgb": [
+        52,
+        47,
+        44
+      ],
+      "lab": [
+        19.82,
+        1.6,
+        2.74
+      ],
+      "percentage": 47.82,
+      "brightness": 48.15,
+      "hue": 22.5,
+      "saturation": 0.154,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        100,
+        102,
+        103
+      ],
+      "lab": [
+        43.05,
+        -0.57,
+        -0.84
+      ],
+      "percentage": 33.58,
+      "brightness": 101.52,
+      "hue": 200.0,
+      "saturation": 0.029,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        151,
+        166,
+        178
+      ],
+      "lab": [
+        67.33,
+        -2.73,
+        -7.97
+      ],
+      "percentage": 18.6,
+      "brightness": 162.88,
+      "hue": 206.67,
+      "saturation": 0.152,
+      "tone": "cool"
+    }
+  ],
+  "Sandy Chocolate_CloseUp": [
+    {
+      "rgb": [
+        56,
+        50,
+        46
+      ],
+      "lab": [
+        21.28,
+        1.84,
+        3.51
+      ],
+      "percentage": 44.65,
+      "brightness": 51.34,
+      "hue": 24.0,
+      "saturation": 0.179,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        181,
+        186,
+        191
+      ],
+      "lab": [
+        75.27,
+        -0.78,
+        -3.14
+      ],
+      "percentage": 27.86,
+      "brightness": 185.07,
+      "hue": 210.0,
+      "saturation": 0.052,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        115,
+        113,
+        112
+      ],
+      "lab": [
+        47.78,
+        0.57,
+        0.82
+      ],
+      "percentage": 27.49,
+      "brightness": 113.48,
+      "hue": 20.0,
+      "saturation": 0.026,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Sandy Chocolate_IndoorLight": [
+    {
+      "rgb": [
+        52,
+        51,
+        49
+      ],
+      "lab": [
+        21.28,
+        -0.01,
+        1.42
+      ],
+      "percentage": 43.88,
+      "brightness": 51.07,
+      "hue": 40.0,
+      "saturation": 0.058,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        106,
+        106,
+        106
+      ],
+      "lab": [
+        44.82,
+        -0.0,
+        -0.0
+      ],
+      "percentage": 29.49,
+      "brightness": 106.0,
+      "hue": 0,
+      "saturation": 0.0,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        174,
+        175,
+        178
+      ],
+      "lab": [
+        71.47,
+        0.22,
+        -1.66
+      ],
+      "percentage": 26.64,
+      "brightness": 175.04,
+      "hue": 225.0,
+      "saturation": 0.022,
+      "tone": "cool"
+    }
+  ],
+  "Sandy Chocolate_light": [
+    {
+      "rgb": [
+        36,
+        34,
+        33
+      ],
+      "lab": [
+        13.41,
+        0.7,
+        1.0
+      ],
+      "percentage": 54.11,
+      "brightness": 34.48,
+      "hue": 20.0,
+      "saturation": 0.083,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        110,
+        119,
+        122
+      ],
+      "lab": [
+        49.39,
+        -2.71,
+        -2.81
+      ],
+      "percentage": 25.21,
+      "brightness": 116.65,
+      "hue": 195.0,
+      "saturation": 0.098,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        72,
+        75,
+        75
+      ],
+      "lab": [
+        31.62,
+        -1.22,
+        -0.43
+      ],
+      "percentage": 20.67,
+      "brightness": 74.1,
+      "hue": 180.0,
+      "saturation": 0.04,
+      "tone": "cool"
+    }
+  ],
+  "Sandy Chocolate_NaturalLight": [
+    {
+      "rgb": [
+        54,
+        50,
+        47
+      ],
+      "lab": [
+        21.1,
+        1.13,
+        2.54
+      ],
+      "percentage": 54.16,
+      "brightness": 50.85,
+      "hue": 25.71,
+      "saturation": 0.13,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        108,
+        107,
+        107
+      ],
+      "lab": [
+        45.31,
+        0.39,
+        0.13
+      ],
+      "percentage": 24.65,
+      "brightness": 107.3,
+      "hue": 0.0,
+      "saturation": 0.009,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        178,
+        186,
+        192
+      ],
+      "lab": [
+        75.07,
+        -1.6,
+        -4.0
+      ],
+      "percentage": 21.19,
+      "brightness": 184.29,
+      "hue": 205.71,
+      "saturation": 0.073,
+      "tone": "cool"
+    }
+  ],
+  "Scandinavian Blonde": [
+    {
+      "rgb": [
+        50,
+        45,
+        43
+      ],
+      "lab": [
+        18.93,
+        1.83,
+        2.11
+      ],
+      "percentage": 37.76,
+      "brightness": 46.27,
+      "hue": 17.14,
+      "saturation": 0.14,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        144,
+        149,
+        153
+      ],
+      "lab": [
+        61.42,
+        -1.0,
+        -2.74
+      ],
+      "percentage": 32.39,
+      "brightness": 147.96,
+      "hue": 206.67,
+      "saturation": 0.059,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        106,
+        102,
+        100
+      ],
+      "lab": [
+        43.49,
+        1.17,
+        1.68
+      ],
+      "percentage": 29.85,
+      "brightness": 102.97,
+      "hue": 20.0,
+      "saturation": 0.057,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Scandinavian Blonde_CloseUp": [
+    {
+      "rgb": [
+        133,
+        128,
+        122
+      ],
+      "lab": [
+        53.85,
+        0.75,
+        3.92
+      ],
+      "percentage": 38.56,
+      "brightness": 128.81,
+      "hue": 32.73,
+      "saturation": 0.083,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        69,
+        62,
+        58
+      ],
+      "lab": [
+        26.78,
+        2.2,
+        3.55
+      ],
+      "percentage": 33.52,
+      "brightness": 63.64,
+      "hue": 21.82,
+      "saturation": 0.159,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        194,
+        201,
+        207
+      ],
+      "lab": [
+        80.6,
+        -1.25,
+        -3.82
+      ],
+      "percentage": 27.91,
+      "brightness": 199.59,
+      "hue": 207.69,
+      "saturation": 0.063,
+      "tone": "cool"
+    }
+  ],
+  "Scandinavian Blonde_IndoorLight": [
+    {
+      "rgb": [
+        135,
+        132,
+        128
+      ],
+      "lab": [
+        55.29,
+        0.35,
+        2.55
+      ],
+      "percentage": 41.34,
+      "brightness": 132.44,
+      "hue": 34.29,
+      "saturation": 0.052,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        186,
+        192,
+        197
+      ],
+      "lab": [
+        77.38,
+        -1.11,
+        -3.24
+      ],
+      "percentage": 31.51,
+      "brightness": 190.78,
+      "hue": 207.27,
+      "saturation": 0.056,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        66,
+        63,
+        60
+      ],
+      "lab": [
+        26.85,
+        0.64,
+        2.29
+      ],
+      "percentage": 27.15,
+      "brightness": 63.55,
+      "hue": 30.0,
+      "saturation": 0.091,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Scandinavian Blonde_light": [
+    {
+      "rgb": [
+        49,
+        45,
+        43
+      ],
+      "lab": [
+        18.82,
+        1.36,
+        1.94
+      ],
+      "percentage": 37.51,
+      "brightness": 45.97,
+      "hue": 20.0,
+      "saturation": 0.122,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        144,
+        149,
+        153
+      ],
+      "lab": [
+        61.42,
+        -1.0,
+        -2.74
+      ],
+      "percentage": 33.25,
+      "brightness": 147.96,
+      "hue": 206.67,
+      "saturation": 0.059,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        105,
+        102,
+        100
+      ],
+      "lab": [
+        43.4,
+        0.77,
+        1.54
+      ],
+      "percentage": 29.24,
+      "brightness": 102.67,
+      "hue": 24.0,
+      "saturation": 0.048,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Scandinavian Blonde_NaturalLight": [
+    {
+      "rgb": [
+        133,
+        129,
+        125
+      ],
+      "lab": [
+        54.2,
+        0.74,
+        2.69
+      ],
+      "percentage": 40.08,
+      "brightness": 129.74,
+      "hue": 30.0,
+      "saturation": 0.06,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        64,
+        59,
+        57
+      ],
+      "lab": [
+        25.3,
+        1.74,
+        2.01
+      ],
+      "percentage": 30.75,
+      "brightness": 60.27,
+      "hue": 17.14,
+      "saturation": 0.109,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        185,
+        191,
+        196
+      ],
+      "lab": [
+        77.02,
+        -1.11,
+        -3.24
+      ],
+      "percentage": 29.18,
+      "brightness": 189.78,
+      "hue": 207.27,
+      "saturation": 0.056,
+      "tone": "cool"
+    }
+  ],
+  "Silver blonde": [
+    {
+      "rgb": [
+        193,
+        201,
+        212
+      ],
+      "lab": [
+        80.66,
+        -0.6,
+        -6.42
+      ],
+      "percentage": 39.95,
+      "brightness": 199.86,
+      "hue": 214.74,
+      "saturation": 0.09,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        164,
+        159,
+        151
+      ],
+      "lab": [
+        65.69,
+        0.35,
+        4.81
+      ],
+      "percentage": 37.04,
+      "brightness": 159.58,
+      "hue": 36.92,
+      "saturation": 0.079,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        144,
+        135,
+        125
+      ],
+      "lab": [
+        56.82,
+        1.57,
+        6.58
+      ],
+      "percentage": 23.01,
+      "brightness": 136.55,
+      "hue": 31.58,
+      "saturation": 0.132,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Silver Blonde_CloseUp": [
+    {
+      "rgb": [
+        166,
+        161,
+        154
+      ],
+      "lab": [
+        66.47,
+        0.53,
+        4.27
+      ],
+      "percentage": 39.7,
+      "brightness": 161.7,
+      "hue": 35.0,
+      "saturation": 0.072,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        200,
+        205,
+        214
+      ],
+      "lab": [
+        82.27,
+        0.0,
+        -5.06
+      ],
+      "percentage": 33.14,
+      "brightness": 204.53,
+      "hue": 218.57,
+      "saturation": 0.065,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        138,
+        132,
+        122
+      ],
+      "lab": [
+        55.39,
+        0.41,
+        6.2
+      ],
+      "percentage": 27.16,
+      "brightness": 132.65,
+      "hue": 37.5,
+      "saturation": 0.116,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Silver Blonde_IndoorLight": [
+    {
+      "rgb": [
+        165,
+        161,
+        156
+      ],
+      "lab": [
+        66.44,
+        0.52,
+        3.1
+      ],
+      "percentage": 39.41,
+      "brightness": 161.63,
+      "hue": 33.33,
+      "saturation": 0.055,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        199,
+        205,
+        213
+      ],
+      "lab": [
+        82.17,
+        -0.52,
+        -4.68
+      ],
+      "percentage": 34.1,
+      "brightness": 204.12,
+      "hue": 214.29,
+      "saturation": 0.066,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        138,
+        131,
+        124
+      ],
+      "lab": [
+        55.17,
+        1.33,
+        4.72
+      ],
+      "percentage": 26.49,
+      "brightness": 132.29,
+      "hue": 30.0,
+      "saturation": 0.101,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Silver Blonde_light": [
+    {
+      "rgb": [
+        154,
+        149,
+        144
+      ],
+      "lab": [
+        61.98,
+        0.9,
+        3.28
+      ],
+      "percentage": 44.26,
+      "brightness": 149.92,
+      "hue": 30.0,
+      "saturation": 0.065,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        171,
+        175,
+        181
+      ],
+      "lab": [
+        71.32,
+        -0.24,
+        -3.56
+      ],
+      "percentage": 35.52,
+      "brightness": 174.49,
+      "hue": 216.0,
+      "saturation": 0.055,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        138,
+        129,
+        122
+      ],
+      "lab": [
+        54.56,
+        2.12,
+        5.01
+      ],
+      "percentage": 20.21,
+      "brightness": 130.89,
+      "hue": 26.25,
+      "saturation": 0.116,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Silver Blonde_NaturalLight": [
+    {
+      "rgb": [
+        166,
+        163,
+        158
+      ],
+      "lab": [
+        67.1,
+        0.15,
+        2.97
+      ],
+      "percentage": 48.24,
+      "brightness": 163.33,
+      "hue": 37.5,
+      "saturation": 0.048,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        197,
+        202,
+        210
+      ],
+      "lab": [
+        81.16,
+        -0.19,
+        -4.58
+      ],
+      "percentage": 30.64,
+      "brightness": 201.42,
+      "hue": 216.92,
+      "saturation": 0.062,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        132,
+        127,
+        119
+      ],
+      "lab": [
+        53.4,
+        0.39,
+        5.01
+      ],
+      "percentage": 21.12,
+      "brightness": 127.58,
+      "hue": 36.92,
+      "saturation": 0.098,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Soft Blonde 'Old Money'": [
+    {
+      "rgb": [
+        103,
+        103,
+        104
+      ],
+      "lab": [
+        43.63,
+        0.21,
+        -0.57
+      ],
+      "percentage": 36.34,
+      "brightness": 103.11,
+      "hue": 240.0,
+      "saturation": 0.01,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        79,
+        71,
+        56
+      ],
+      "lab": [
+        30.53,
+        0.62,
+        10.26
+      ],
+      "percentage": 35.36,
+      "brightness": 71.68,
+      "hue": 39.13,
+      "saturation": 0.291,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        128,
+        139,
+        155
+      ],
+      "lab": [
+        57.48,
+        -0.49,
+        -9.85
+      ],
+      "percentage": 28.3,
+      "brightness": 137.53,
+      "hue": 215.56,
+      "saturation": 0.174,
+      "tone": "cool"
+    }
+  ],
+  "Summer Blonde": [
+    {
+      "rgb": [
+        175,
+        185,
+        201
+      ],
+      "lab": [
+        74.84,
+        -0.23,
+        -9.26
+      ],
+      "percentage": 42.44,
+      "brightness": 183.83,
+      "hue": 216.92,
+      "saturation": 0.129,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        152,
+        146,
+        137
+      ],
+      "lab": [
+        60.82,
+        0.56,
+        5.55
+      ],
+      "percentage": 41.36,
+      "brightness": 146.77,
+      "hue": 36.0,
+      "saturation": 0.099,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        128,
+        114,
+        98
+      ],
+      "lab": [
+        48.89,
+        2.69,
+        10.86
+      ],
+      "percentage": 16.2,
+      "brightness": 116.36,
+      "hue": 32.0,
+      "saturation": 0.234,
+      "tone": "warm_brown"
+    }
+  ],
+  "Summer Blonde_CloseUp": [
+    {
+      "rgb": [
+        198,
+        204,
+        215
+      ],
+      "lab": [
+        81.89,
+        0.06,
+        -6.17
+      ],
+      "percentage": 41.6,
+      "brightness": 203.46,
+      "hue": 218.82,
+      "saturation": 0.079,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        160,
+        156,
+        146
+      ],
+      "lab": [
+        64.42,
+        -0.37,
+        5.74
+      ],
+      "percentage": 36.39,
+      "brightness": 156.06,
+      "hue": 42.86,
+      "saturation": 0.088,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        127,
+        119,
+        101
+      ],
+      "lab": [
+        50.27,
+        -0.13,
+        11.02
+      ],
+      "percentage": 22.01,
+      "brightness": 119.34,
+      "hue": 41.54,
+      "saturation": 0.205,
+      "tone": "warm_brown"
+    }
+  ],
+  "Summer Blonde_IndoorLight": [
+    {
+      "rgb": [
+        154,
+        150,
+        144
+      ],
+      "lab": [
+        62.25,
+        0.35,
+        3.67
+      ],
+      "percentage": 41.28,
+      "brightness": 150.51,
+      "hue": 36.0,
+      "saturation": 0.065,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        192,
+        199,
+        210
+      ],
+      "lab": [
+        80.01,
+        -0.27,
+        -6.31
+      ],
+      "percentage": 37.28,
+      "brightness": 198.16,
+      "hue": 216.67,
+      "saturation": 0.086,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        122,
+        115,
+        103
+      ],
+      "lab": [
+        48.73,
+        0.49,
+        7.61
+      ],
+      "percentage": 21.45,
+      "brightness": 115.73,
+      "hue": 37.89,
+      "saturation": 0.156,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Summer Blonde_light": [
+    {
+      "rgb": [
+        166,
+        172,
+        181
+      ],
+      "lab": [
+        70.14,
+        -0.33,
+        -5.34
+      ],
+      "percentage": 45.5,
+      "brightness": 171.23,
+      "hue": 216.0,
+      "saturation": 0.083,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        148,
+        145,
+        137
+      ],
+      "lab": [
+        60.21,
+        -0.39,
+        4.63
+      ],
+      "percentage": 32.96,
+      "brightness": 144.98,
+      "hue": 43.64,
+      "saturation": 0.074,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        137,
+        129,
+        117
+      ],
+      "lab": [
+        54.35,
+        0.85,
+        7.59
+      ],
+      "percentage": 21.54,
+      "brightness": 130.02,
+      "hue": 36.0,
+      "saturation": 0.146,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Summer Blonde_NaturalLight": [
+    {
+      "rgb": [
+        160,
+        156,
+        148
+      ],
+      "lab": [
+        64.47,
+        -0.02,
+        4.69
+      ],
+      "percentage": 39.09,
+      "brightness": 156.28,
+      "hue": 40.0,
+      "saturation": 0.075,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        197,
+        203,
+        214
+      ],
+      "lab": [
+        81.53,
+        0.06,
+        -6.17
+      ],
+      "percentage": 36.06,
+      "brightness": 202.46,
+      "hue": 218.82,
+      "saturation": 0.079,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        124,
+        117,
+        104
+      ],
+      "lab": [
+        49.5,
+        0.31,
+        8.14
+      ],
+      "percentage": 24.85,
+      "brightness": 117.61,
+      "hue": 39.0,
+      "saturation": 0.161,
+      "tone": "neutral_brown"
+    }
+  ],
+  "Sunkissed Brown": [
+    {
+      "rgb": [
+        35,
+        33,
+        28
+      ],
+      "lab": [
+        12.79,
+        -0.19,
+        3.72
+      ],
+      "percentage": 59.15,
+      "brightness": 33.03,
+      "hue": 42.86,
+      "saturation": 0.2,
+      "tone": "warm_brown"
+    },
+    {
+      "rgb": [
+        50,
+        55,
+        62
+      ],
+      "lab": [
+        22.86,
+        -0.33,
+        -5.08
+      ],
+      "percentage": 29.98,
+      "brightness": 54.3,
+      "hue": 215.0,
+      "saturation": 0.194,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        68,
+        84,
+        115
+      ],
+      "lab": [
+        35.61,
+        2.43,
+        -19.68
+      ],
+      "percentage": 10.88,
+      "brightness": 82.75,
+      "hue": 219.57,
+      "saturation": 0.409,
+      "tone": "cool"
+    }
+  ],
+  "Sunkissed Brown_CloseUp": [
+    {
+      "rgb": [
+        58,
+        50,
+        43
+      ],
+      "lab": [
+        21.41,
+        2.2,
+        5.77
+      ],
+      "percentage": 41.22,
+      "brightness": 51.59,
+      "hue": 28.0,
+      "saturation": 0.259,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        92,
+        95,
+        97
+      ],
+      "lab": [
+        40.12,
+        -0.74,
+        -1.55
+      ],
+      "percentage": 38.71,
+      "brightness": 94.33,
+      "hue": 204.0,
+      "saturation": 0.052,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        132,
+        149,
+        161
+      ],
+      "lab": [
+        60.76,
+        -3.41,
+        -8.35
+      ],
+      "percentage": 20.06,
+      "brightness": 145.28,
+      "hue": 204.83,
+      "saturation": 0.18,
+      "tone": "cool"
+    }
+  ],
+  "Sunkissed Brown_IndoorLight": [
+    {
+      "rgb": [
+        55,
+        51,
+        45
+      ],
+      "lab": [
+        21.47,
+        0.51,
+        4.44
+      ],
+      "percentage": 40.9,
+      "brightness": 51.51,
+      "hue": 36.0,
+      "saturation": 0.182,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        96,
+        97,
+        98
+      ],
+      "lab": [
+        41.09,
+        -0.18,
+        -0.71
+      ],
+      "percentage": 39.62,
+      "brightness": 96.81,
+      "hue": 210.0,
+      "saturation": 0.02,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        141,
+        151,
+        163
+      ],
+      "lab": [
+        62.03,
+        -1.06,
+        -7.51
+      ],
+      "percentage": 19.48,
+      "brightness": 149.38,
+      "hue": 212.73,
+      "saturation": 0.135,
+      "tone": "cool"
+    }
+  ],
+  "Sunkissed Brown_light": [
+    {
+      "rgb": [
+        33,
+        31,
+        31
+      ],
+      "lab": [
+        11.97,
+        0.95,
+        0.34
+      ],
+      "percentage": 52.7,
+      "brightness": 31.6,
+      "hue": 0.0,
+      "saturation": 0.061,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        49,
+        50,
+        46
+      ],
+      "lab": [
+        20.56,
+        -1.35,
+        2.39
+      ],
+      "percentage": 35.6,
+      "brightness": 49.24,
+      "hue": 75.0,
+      "saturation": 0.08,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        63,
+        73,
+        75
+      ],
+      "lab": [
+        30.23,
+        -3.53,
+        -2.56
+      ],
+      "percentage": 11.7,
+      "brightness": 70.24,
+      "hue": 190.0,
+      "saturation": 0.16,
+      "tone": "cool"
+    }
+  ],
+  "Sunkissed Brown_NaturalLight": [
+    {
+      "rgb": [
+        57,
+        50,
+        46
+      ],
+      "lab": [
+        21.39,
+        2.3,
+        3.68
+      ],
+      "percentage": 43.4,
+      "brightness": 51.64,
+      "hue": 21.82,
+      "saturation": 0.193,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        95,
+        97,
+        99
+      ],
+      "lab": [
+        41.03,
+        -0.35,
+        -1.41
+      ],
+      "percentage": 38.59,
+      "brightness": 96.63,
+      "hue": 210.0,
+      "saturation": 0.04,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        139,
+        154,
+        163
+      ],
+      "lab": [
+        62.71,
+        -3.4,
+        -6.52
+      ],
+      "percentage": 18.01,
+      "brightness": 150.54,
+      "hue": 202.5,
+      "saturation": 0.147,
+      "tone": "cool"
+    }
+  ],
+  "Teddy Bear Blonde": [
+    {
+      "rgb": [
+        115,
+        113,
+        108
+      ],
+      "lab": [
+        47.67,
+        -0.22,
+        3.04
+      ],
+      "percentage": 35.45,
+      "brightness": 113.03,
+      "hue": 42.86,
+      "saturation": 0.061,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        135,
+        146,
+        163
+      ],
+      "lab": [
+        60.21,
+        -0.28,
+        -10.29
+      ],
+      "percentage": 33.58,
+      "brightness": 144.65,
+      "hue": 216.43,
+      "saturation": 0.172,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        90,
+        82,
+        70
+      ],
+      "lab": [
+        35.3,
+        1.04,
+        8.24
+      ],
+      "percentage": 30.98,
+      "brightness": 83.02,
+      "hue": 36.0,
+      "saturation": 0.222,
+      "tone": "warm_brown"
+    }
+  ],
+  "Teddy Bear Blonde_CloseUp": [
+    {
+      "rgb": [
+        171,
+        181,
+        196
+      ],
+      "lab": [
+        73.34,
+        -0.44,
+        -8.79
+      ],
+      "percentage": 39.42,
+      "brightness": 179.72,
+      "hue": 216.0,
+      "saturation": 0.128,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        121,
+        117,
+        111
+      ],
+      "lab": [
+        49.42,
+        0.38,
+        3.85
+      ],
+      "percentage": 34.52,
+      "brightness": 117.51,
+      "hue": 36.0,
+      "saturation": 0.083,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        82,
+        70,
+        53
+      ],
+      "lab": [
+        30.48,
+        2.16,
+        12.14
+      ],
+      "percentage": 26.05,
+      "brightness": 71.65,
+      "hue": 35.17,
+      "saturation": 0.354,
+      "tone": "warm_brown"
+    }
+  ],
+  "Teddy Bear Blonde_IndoorLight": [
+    {
+      "rgb": [
+        171,
+        178,
+        194
+      ],
+      "lab": [
+        72.49,
+        0.77,
+        -8.97
+      ],
+      "percentage": 37.69,
+      "brightness": 177.73,
+      "hue": 221.74,
+      "saturation": 0.119,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        123,
+        121,
+        116
+      ],
+      "lab": [
+        50.86,
+        -0.22,
+        3.0
+      ],
+      "percentage": 33.55,
+      "brightness": 121.03,
+      "hue": 42.86,
+      "saturation": 0.057,
+      "tone": "neutral"
+    },
+    {
+      "rgb": [
+        88,
+        80,
+        63
+      ],
+      "lab": [
+        34.34,
+        0.22,
+        11.24
+      ],
+      "percentage": 28.76,
+      "brightness": 80.45,
+      "hue": 40.8,
+      "saturation": 0.284,
+      "tone": "warm_brown"
+    }
+  ],
+  "Teddy Bear Blonde_light": [
+    {
+      "rgb": [
+        115,
+        112,
+        107
+      ],
+      "lab": [
+        47.36,
+        0.18,
+        3.18
+      ],
+      "percentage": 35.61,
+      "brightness": 112.33,
+      "hue": 37.5,
+      "saturation": 0.07,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        135,
+        146,
+        162
+      ],
+      "lab": [
+        60.17,
+        -0.5,
+        -9.77
+      ],
+      "percentage": 33.21,
+      "brightness": 144.53,
+      "hue": 215.56,
+      "saturation": 0.167,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        89,
+        81,
+        69
+      ],
+      "lab": [
+        34.88,
+        1.05,
+        8.26
+      ],
+      "percentage": 31.18,
+      "brightness": 82.02,
+      "hue": 36.0,
+      "saturation": 0.225,
+      "tone": "warm_brown"
+    }
+  ],
+  "Teddy Bear Blonde_NaturalLight": [
+    {
+      "rgb": [
+        125,
+        122,
+        118
+      ],
+      "lab": [
+        51.37,
+        0.36,
+        2.58
+      ],
+      "percentage": 35.66,
+      "brightness": 122.44,
+      "hue": 34.29,
+      "saturation": 0.056,
+      "tone": "neutral_brown"
+    },
+    {
+      "rgb": [
+        174,
+        184,
+        200
+      ],
+      "lab": [
+        74.48,
+        -0.23,
+        -9.26
+      ],
+      "percentage": 35.06,
+      "brightness": 182.83,
+      "hue": 216.92,
+      "saturation": 0.13,
+      "tone": "cool"
+    },
+    {
+      "rgb": [
+        84,
+        73,
+        57
+      ],
+      "lab": [
+        31.68,
+        1.81,
+        11.29
+      ],
+      "percentage": 29.28,
+      "brightness": 74.47,
+      "hue": 35.56,
+      "saturation": 0.321,
+      "tone": "warm_brown"
+    }
+  ]
+}
