@@ -1,27 +1,21 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
 from app.config import Settings
-from app.services.hair_color_detector import detect_shade_color
+from app.services.hair_color_detector import detect_hair_color
 from app.services.exact_shade_matcher import ExactShadeMatcher
-from app.services.shade_code_mapper import get_color_code, get_tone_type, get_description
 import os
 
 router = APIRouter()
 
-def load_shades_rgb(path):
-    path = Path(path)
-    if not path.exists():
-        raise FileNotFoundError(f"Shade data file not found at: {path}")
-    with path.open("r") as f:
-        return json.load(f)
-
-@router.post("/match-hair-color")
-async def match_hair_color(file: UploadFile = File(...)):
+@router.post("/match-improved")
+async def match_hair_color_improved(file: UploadFile = File(...)):
     try:
         Settings.ensure_directories()
         upload_path = f"temp_upload_{file.filename}"
         with open(upload_path, "wb") as f:
             f.write(await file.read())
 
+        # Use same method as shade processing - full image
+        from app.services.hair_color_detector import detect_shade_color
         user_colors = detect_shade_color(upload_path)
         
         matcher = ExactShadeMatcher()
@@ -33,14 +27,9 @@ async def match_hair_color(file: UploadFile = File(...)):
             "user_colors": user_colors[:3],
             "matched_file": result['matched_file'],
             "matched_shade": result['matched_shade'],
-            "color_code": get_color_code(result['matched_shade']),
-            "tone_type": get_tone_type(result['matched_shade']),
-            "description": get_description(result['matched_shade']),
             "distance": result['distance'],
             "top_5_matches": result['top_5']
         }
 
-    except FileNotFoundError as e:
-        raise HTTPException(status_code=500, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error: {str(e)}")

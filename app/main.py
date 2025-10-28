@@ -3,6 +3,8 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.httpsredirect import HTTPSRedirectMiddleware
 from app.routes.hair_extension import router as hair_router
+from app.routes.kmeans_route import router as kmeans_router
+from app.routes.improved_kmeans_route import router as improved_router
 import time
 
 app = FastAPI()
@@ -20,6 +22,8 @@ app.add_middleware(
 
 # Include routers
 app.include_router(hair_router, prefix="/hair")
+app.include_router(kmeans_router, prefix="/kmeans")
+app.include_router(improved_router, prefix="/exact")
 # app.include_router(product_upload_router, prefix="/product")
 
 @app.get("/")

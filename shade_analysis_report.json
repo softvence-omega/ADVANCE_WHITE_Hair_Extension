@@ -1,0 +1,258 @@
+{
+  "Autumn": {
+    "category": "Dark Brown",
+    "name_accurate": false,
+    "explanation": "Dark Brown shade, warm orange undertone",
+    "avg_brightness": 70.1,
+    "dominant_tone": "warm_orange",
+    "dominant_undertone": "orange"
+  },
+  "Brown Soft Blended": {
+    "category": "Medium Brown",
+    "name_accurate": true,
+    "explanation": "Medium Brown shade, warm orange undertone",
+    "avg_brightness": 84.0,
+    "dominant_tone": "warm_orange",
+    "dominant_undertone": "orange"
+  },
+  "Champagne Blonde": {
+    "category": "Medium Brown",
+    "name_accurate": false,
+    "explanation": "Medium Brown shade, neutral undertone",
+    "avg_brightness": 108.6,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Coffee Biscuit": {
+    "category": "Dark Brown",
+    "name_accurate": true,
+    "explanation": "Dark Brown shade, neutral undertone",
+    "avg_brightness": 46.8,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Coffee biscuit": {
+    "category": "Dark Brown",
+    "name_accurate": true,
+    "explanation": "Dark Brown shade, neutral undertone",
+    "avg_brightness": 46.8,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Cool Brown": {
+    "category": "Dark Brown",
+    "name_accurate": true,
+    "explanation": "Dark Brown shade, neutral undertone",
+    "avg_brightness": 41.7,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Copper": {
+    "category": "Dark Brown",
+    "name_accurate": false,
+    "explanation": "Dark Brown shade, warm orange undertone",
+    "avg_brightness": 48.5,
+    "dominant_tone": "warm_orange",
+    "dominant_undertone": "orange"
+  },
+  "Copper_": {
+    "category": "Dark Brown",
+    "name_accurate": false,
+    "explanation": "Dark Brown shade, warm orange undertone",
+    "avg_brightness": 48.8,
+    "dominant_tone": "warm_orange",
+    "dominant_undertone": "orange"
+  },
+  "Dark Brown": {
+    "category": "Black",
+    "name_accurate": false,
+    "explanation": "Black shade, neutral undertone",
+    "avg_brightness": 34.8,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Dark Caramel Balayage": {
+    "category": "Dark Brown",
+    "name_accurate": false,
+    "explanation": "Dark Brown shade with dimension (roots to ends), warm orange undertone",
+    "avg_brightness": 43.7,
+    "dominant_tone": "warm_orange",
+    "dominant_undertone": "orange"
+  },
+  "Honey Blonde": {
+    "category": "Medium Brown",
+    "name_accurate": false,
+    "explanation": "Medium Brown shade, neutral undertone",
+    "avg_brightness": 119.8,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Hot Toffee": {
+    "category": "Medium Brown",
+    "name_accurate": true,
+    "explanation": "Medium Brown shade, warm golden undertone",
+    "avg_brightness": 99.2,
+    "dominant_tone": "warm_brown",
+    "dominant_undertone": "golden"
+  },
+  "Hot toffee": {
+    "category": "Medium Brown",
+    "name_accurate": true,
+    "explanation": "Medium Brown shade, warm golden undertone",
+    "avg_brightness": 99.2,
+    "dominant_tone": "warm_brown",
+    "dominant_undertone": "golden"
+  },
+  "Ivory": {
+    "category": "Light Brown / Dark Blonde",
+    "name_accurate": false,
+    "explanation": "Light Brown / Dark Blonde shade, neutral undertone",
+    "avg_brightness": 137.5,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Luscious Blonde": {
+    "category": "Light Brown / Dark Blonde",
+    "name_accurate": false,
+    "explanation": "Light Brown / Dark Blonde shade, neutral undertone",
+    "avg_brightness": 146.3,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Medium Brown Balayage": {
+    "category": "Dark Brown",
+    "name_accurate": false,
+    "explanation": "Dark Brown shade with dimension (roots to ends), warm orange undertone",
+    "avg_brightness": 46.4,
+    "dominant_tone": "warm_orange",
+    "dominant_undertone": "orange"
+  },
+  "Mixed Blonde": {
+    "category": "Medium Brown",
+    "name_accurate": false,
+    "explanation": "Medium Brown shade, neutral undertone",
+    "avg_brightness": 85.3,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Natural Black": {
+    "category": "Black",
+    "name_accurate": true,
+    "explanation": "Black shade, neutral undertone",
+    "avg_brightness": 30.3,
+    "dominant_tone": "neutral_brown",
+    "dominant_undertone": "neutral"
+  },
+  "Natural Caramel": {
+    "category": "Dark Brown",
+    "name_accurate": false,
+    "explanation": "Dark Brown shade, neutral undertone",
+    "avg_brightness": 41.7,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Old Money Blonde": {
+    "category": "Medium Brown",
+    "name_accurate": false,
+    "explanation": "Medium Brown shade, neutral undertone",
+    "avg_brightness": 92.1,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Platinum Blonde Balayage": {
+    "category": "Light Brown / Dark Blonde",
+    "name_accurate": false,
+    "explanation": "Light Brown / Dark Blonde shade with dimension (roots to ends), neutral undertone",
+    "avg_brightness": 135.8,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Platinum Blonde Balayage ": {
+    "category": "Light Blonde / Platinum",
+    "name_accurate": true,
+    "explanation": "Light Blonde / Platinum shade with dimension (roots to ends), neutral undertone",
+    "avg_brightness": 196.4,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Rooted Golden Brown": {
+    "category": "Light Brown / Dark Blonde",
+    "name_accurate": true,
+    "explanation": "Light Brown / Dark Blonde shade with dimension (roots to ends), warm golden undertone",
+    "avg_brightness": 120.5,
+    "dominant_tone": "warm_brown",
+    "dominant_undertone": "golden"
+  },
+  "Sandy Chocolate": {
+    "category": "Dark Brown",
+    "name_accurate": false,
+    "explanation": "Dark Brown shade, neutral undertone",
+    "avg_brightness": 56.9,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Scandinavian Blonde": {
+    "category": "Medium Brown",
+    "name_accurate": false,
+    "explanation": "Medium Brown shade, neutral undertone",
+    "avg_brightness": 109.3,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Silver Blonde": {
+    "category": "Blonde",
+    "name_accurate": false,
+    "explanation": "Blonde shade, neutral undertone",
+    "avg_brightness": 152.6,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Silver blonde": {
+    "category": "Blonde",
+    "name_accurate": false,
+    "explanation": "Blonde shade, neutral undertone",
+    "avg_brightness": 152.6,
+    "dominant_tone": "neutral",
+    "dominant_undertone": "neutral"
+  },
+  "Soft Blonde 'Old Money'": {
+    "category": "Medium Brown",
+    "name_accurate": false,
+    "explanation": "Medium Brown shade, warm orange undertone",
+    "avg_brightness": 110.1,
+    "dominant_tone": "warm_orange",
+    "dominant_undertone": "orange"
+  },
+  "Summer Blonde": {
+    "category": "Medium Brown",
+    "name_accurate": false,
+    "explanation": "Medium Brown shade, warm golden undertone",
+    "avg_brightness": 108.7,
+    "dominant_tone": "warm_brown",
+    "dominant_undertone": "golden"
+  },
+  "Sunkissed Brown": {
+    "category": "Dark Brown",
+    "name_accurate": true,
+    "explanation": "Dark Brown shade, warm orange undertone",
+    "avg_brightness": 44.6,
+    "dominant_tone": "warm_orange",
+    "dominant_undertone": "orange"
+  },
+  "Teddy Bear Blonde": {
+    "category": "Medium Brown",
+    "name_accurate": false,
+    "explanation": "Medium Brown shade, warm golden undertone",
+    "avg_brightness": 101.8,
+    "dominant_tone": "warm_brown",
+    "dominant_undertone": "golden"
+  },
+  "lvory": {
+    "category": "Light Brown / Dark Blonde",
+    "name_accurate": false,
+    "explanation": "Light Brown / Dark Blonde shade, neutral undertone",
+    "avg_brightness": 132.2,
+    "dominant_tone": "neutral_brown",
+    "dominant_undertone": "neutral"
+  }
+}
